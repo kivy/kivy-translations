@@ -1,0 +1,90 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2010, The Kivy Authors
+# This file is distributed under the same license as the Kivy package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0.5-dev\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-09-28 17:19\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../sources/api-kivy.core.spelling.rst:3
+# 5ddcad0dc1ac43549508017c6c21bc53
+msgid "Spelling"
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling:2
+# 23f6fd4e91534a7999e19d2aabe3da2f
+msgid "Provide abstracted access to a range of spellchecking backends.  Also provides word suggestions. The API is inspired by enchant, but other backends can be added that implement the same API."
+msgstr ""
+
+#: ../../<autodoc>:1
+# 246a5cf92e134d0a951cf670a61961bb
+msgid "Bases: :class:`object`"
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase:1
+# 73184cba246146d19bf0215d501e66bc
+msgid "Base class for all spelling providers. Supports some abstract methods for checking words and getting suggestions."
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.check:1
+# 77e38b01d4574139949749330a86e263
+msgid "If `word` is a valid word in `self._language`, return True."
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.check:5
+# 9c39fede32cd4a5f969b857ff5b253d4
+msgid "The word to check. If the word is a valid word in the currently active language, True is returned. If the word shouldn't be checked, return None (e.g. for '')."
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.list_languages:1
+# 7d5ae67cea4c49768637125f8189fd4f
+msgid "Return a list of all languages supported by the registered languages. E.g.: ['en', 'en_GB', 'en_US', 'de', ...]"
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.select_language:1
+# 53abbbd073cc486481923b0dd6b54875
+msgid "From the set of registered languages, select the first language for `language`."
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.select_language:6
+# 06fd800b84394101a88cca79823a3d39
+msgid "Language identifier. Needs to be one of the options returned by list_languages(). Sets the language used for spell checking and word suggestions."
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.suggest:1
+# 172e895c12ae46b99128cb714333f945
+msgid "For a given `fragment` (i.e., part of a word or a word by itself), provide corrections (`fragment` may be misspelled) or completions as a list of strings."
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.suggest:7
+# 2070b8f7675344b497cc40055dc306f5
+msgid "The word fragment to get suggestions/corrections for. E.g.: 'foo' might become 'of', 'food' or 'foot'."
+msgstr ""
+
+#: ../../<autodoc>:1
+#: ../../<autodoc>:1
+# 5b3140ac02c840e5986bf3568b4de1c3
+# 93fa5832ad874c3ca96c21ef3c50dea8
+msgid "Bases: :class:`exceptions.Exception`"
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.NoSuchLangError:1
+# 4c8d6374acbc40a49648e5081fa489d8
+msgid "Exception to be raised when a specific language could not be found."
+msgstr ""
+
+#: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.NoLanguageSelectedError:1
+# e8d0a0e023a24c3aab3561166ad8f9d1
+msgid "Exception to be raised when a language-using method is called but no language was selected prior to the call."
+msgstr ""
+
