@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0.5-dev\n"
+"Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-28 17:19\n"
+"POT-Creation-Date: 2011-10-04 16:26\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,62 +17,172 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.base.rst:3
-# 76b016cfe054483c8f2ed10d3239c482
+# d8afa29327c740ca8ae2f02a04b9f8b2
 msgid "Event loop management"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.EventLoop:1
-# cddee0b416a64f9f86f74d0692f30f89
+# 6f13890247b244b59fe7890b966efe40
 msgid "EventLoop instance"
 msgstr ""
 
+#: ../../<autodoc>:1
+# e8a46f935dfd4d9baf9087586889cca8
+msgid "Bases: :class:`kivy.event.EventDispatcher`"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase:1
+# 1e1fac8ed1364516862654d66955eb58
+msgid "Main event loop. This loop handle update of input + dispatch event"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.add_event_listener:1
+# 2124c7dca7d543d79139ca72c80bc9ed
+msgid "Add a new event listener for getting touch event"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.add_input_provider:1
+# 65984cd810954638b1e86925b630a588
+msgid "Add a new input provider to listen for touch event"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.add_postproc_module:1
+# da0b36781060404587236853a4d40cd4
+msgid "Add a postproc input module (DoubleTap, RetainTouch are default)"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.close:1
+# 6ce979b3ecf1412f9c698115db5c77c2
+msgid "Exit from the main loop, and stop all configured input providers."
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.dispatch_input:1
+# 70a6d92514c0435fbc8da981f61cffcf
+msgid "Called by idle() to read events from input providers, pass event to postproc, and dispatch final events."
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.ensure_window:1
+# 7bb010547e614864acbf18bed24600ba
+msgid "Ensure that we have an window"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.exit:1
+# 7bc0a2331dc64fd8b41251086438b6d1
+msgid "Close the main loop, and close the window"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.idle:1
+# 55f5861fbae140f2a7882d32be0d9709
+msgid "This function is called every frames. By default : * it \"tick\" the clock to the next frame * read all input and dispatch event * dispatch on_update + on_draw + on_flip on window"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.on_pause:1
+# 42046fdc4512403593ac40446c6e1cc9
+msgid "Event handler for on_pause, will be fired when the event loop is paused."
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.on_start:1
+# 69f184c0b51047f8bbfeb004c893def0
+msgid "Event handler for on_start, will be fired right after all input providers have been started."
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.on_stop:1
+# b21056717c574ca2b30e3bd8e642ef04
+msgid "Event handler for on_stop, will be fired right after all input providers have been stopped."
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.post_dispatch_input:1
+# 22211a3967724e02aac899f4f9598276
+msgid "This function is called by dispatch_input() when we want to dispatch a input event. The event is dispatched into all listeners, and if grabbed, it's dispatched through grabbed widgets"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.remove_event_listener:1
+# 721f67592db64eccbab67fa1525307c6
+msgid "Remove a event listener from the list"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.remove_input_provider:1
+# 8965f7ef3d8643fab9993dada54a974b
+msgid "Remove an input provider"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.remove_postproc_module:1
+# 939c98d794fb4425b8cb7cf3758b1153
+msgid "Remove a postproc module"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.run:1
+# eb0467413263467ea4391dcdcf97b97b
+msgid "Main loop"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.set_window:1
+# fd12c676c05f4c4b8aa714b9969cad3d
+msgid "Set the window used for event loop"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.start:1
+# d70212f5ddd64e4581d175df0f5a83bb
+msgid "Must be call only one time before run(). This start all configured input providers."
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.stop:1
+# 7a7a2ed3349047fa95faafe9760a926f
+msgid "Stop all input providers and call callbacks registered using EventLoop.add_stop_callback()"
+msgstr ""
+
+#: ../../../kivy/base.py:docstring of kivy.base.EventLoopBase.touches:1
+# 34acb37ce2c049b385a4e4eb67cb1479
+msgid "Return the list of all touches currently in down or move state"
+msgstr ""
+
 #: ../../../kivy/base.py:docstring of kivy.base.ExceptionManager:1
-# fc5388d9e9534b7fb25e8c845223c1b1
+# d0dbbdc682ef443cbbac623671cec137
 msgid "Kivy Exception Manager instance"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.ExceptionHandler:1
-# 3048c71680dd44028193195a54b36529
+# c9591695abec45f8a0144d49a1afbe0f
 msgid "Base handler that catch exception in runTouchApp(). You can derivate and use it like this ::"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.ExceptionHandler:11
-# eb7613f3b1e74b4e8e142f72d92b1171
+# 6f98ec3131f746b3a59fadc7e50c96b2
 msgid "All exceptions will be set to PASS, and logged to console !"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.ExceptionHandler.handle_exception:1
-# feab4d88175f4626afe041aacc17f462
+# 9f5f3bdacc674320b5ad34a5bb4eaf37
 msgid "Handle one exception, default return ExceptionManager.STOP"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.runTouchApp:1
-# 430762f6e91742658b5df3a9e27f5706
+# ead3024e79b34cbeabd9a1112e5ddedb
 msgid "Static main function that starts the application loop. You got some magic things, if you are using argument like this :"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.runTouchApp:6
-# a90bb0d594f84104b1a8201c052697da
+# 3e43f9d16061469188a2693065210e5b
 msgid "To make dispatching work, you need at least one input listener. If not, application will leave. (MTWindow act as an input listener)"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.runTouchApp:11
-# 45d45fefed434ccf916213b65539f55f
+# d72f775c273c4333b564eb9a6a538c7e
 msgid "If you pass only a widget, a MTWindow will be created, and your widget will be added on the window as the root widget."
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.runTouchApp:16
-# 2e2d9495e7444153bd89d3efd20a1dfc
+# 359e050fc9df4f159826ca28aceaf254
 msgid "No event dispatching are done. This will be your job."
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.runTouchApp:19
-# c1f9437dcd6c4c0c8d5c4f054d65fa71
+# 860ea0b666f144f5b1b05e3d0025e5f7
 msgid "No event dispatching are done. This will be your job, but we are trying to get the window (must be created by you before), and add the widget on it. Very usefull for embedding Kivy in another toolkit. (like Qt, check kivy-designed)"
 msgstr ""
 
 #: ../../../kivy/base.py:docstring of kivy.base.stopTouchApp:1
-# 83bc334e19a24856b673156b9a946671
+# 1f62c641a8c94ba19465ccfca56923ae
 msgid "Stop the current application by leaving the main loop"
 msgstr ""
 
