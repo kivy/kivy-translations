@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-28 17:19\n"
+"POT-Creation-Date: 2011-10-04 16:26\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,122 +16,172 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.9.0\n"
 
-# 02a85f5684dc4ee1a44cfa363878e540
+# 7beeba871b4a4975b3067df9bff483c5
 #: ../../sources/api-kivy.uix.image.rst:3
 msgid "Image"
 msgstr ""
 
-# 50fe01138126403699e24ad4ab29c6b0
+# e92e2700508f4fac9bfc3a15f7dd8f83
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image:2
-msgid "Use an image as a Widget. ::"
+msgid "The :class:`Image` widget is used to display an image. ::"
 msgstr ""
 
-# 83784398566d4247a831444fe7e64088
+# 3e72b438278041269ac69247b84200f9
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image:7
 msgid "Asynchronous loading"
 msgstr ""
 
-# 548c0575dc064fc4a81dba8158b5158f
+# f62780fdff5b4ba69273839fe8ca7feb
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image:9
-msgid "If you want to load your image in an asynchronous way, you may use the :class:`AsyncImage` class. You can use it for loading external images on the web. ::"
+msgid "To load an image asynchronously (for example from an external webserver), use  the :class:`AsyncImage` subclass ::"
 msgstr ""
 
-# 9e7ad9462b0b476dbe92246dd23cf22c
-#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:16
+# 6392606d34134103ad0029c9d4fffe05
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:15
 msgid "Alignement"
 msgstr ""
 
-# bae67979be2841b690633304f0ccf645
-#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:18
-msgid "By default, the image is centered and fitted inside the widget bounding box. If you don't want that, we suggest you to inherit from :class:`Image`, and create your own style."
+# 818ebe5d24ff41b2966105dc8eefc920
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:17
+msgid "By default, the image is centered and fitted inside the widget bounding box. If you don't want that, you can inherit from Image and create your own style."
 msgstr ""
 
-# d0318a6471b04af18785ee1b4b5868f9
-#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:22
+# 90df7fe952044e95aa3b461c22e80c6f
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:20
 msgid "For example, if you want your image to take the same size of your widget, you can do ::"
 msgstr ""
 
-# a2fd0a7178e0484ea72da550a40d2b6c
-#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:28
+# 8ba3495304034f57920b70095e189ba7
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image:26
 msgid "And in your kivy language file, you can do ::"
 msgstr ""
 
-# a01b36a715234031a5c467498f390634
+# 570ca938dc3c4cfb947b191998856836
 #: ../../<autodoc>:1
 msgid "Bases: :class:`kivy.uix.widget.Widget`"
 msgstr ""
 
-# e77ae5c720d148dcac3187f1b8c45178
+# 049c158df89447009ee9619937f26c70
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image:1
 msgid "Image class, see module documentation for more information."
 msgstr ""
 
-# 7947a62f91154674b12f5ae71846a20c
+# 4ef60bee787949fd8de7778cfe8b8ac9
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.allow_stretch:1
+msgid "If True, the normalized image size will be maximized to fit in the image box. Otherwise, if the box is too tall, the image will not be streched more than 1:1 pixels"
+msgstr ""
+
+# 533b7aef6e57445f91ade810fd97a311
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.allow_stretch:7
+msgid ":data:`allow_stretch` is a :class:`~kivy.properties.BooleanProperty`, default to False"
+msgstr ""
+
+# 94cd3cbcf781433ab48ea65b7b140056
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.anim_delay:1
+msgid "Delay of animation if the image is sequenced (like animated gif). If the anim_delay is set to -1, the animation will be stopped."
+msgstr ""
+
+# c4e94c125c894e0197af5442ddba6147
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.anim_delay:6
+msgid ":data:`anim_delay` is a :class:`~kivy.properties.NumericProperty`, default to .25 (4 FPS)"
+msgstr ""
+
+# fe5de91f51ee43c483118dd5aeb41826
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.color:1
+msgid "Image color, in the format (r, g, b, a). This attribute can be used for 'tint' an image. Be careful, if the source image is not gray/white, the color will not really work as expected."
+msgstr ""
+
+# 61b5061568924d58a7f53e40c9b49105
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.color:7
+msgid ":data:`color` is a :class:`~kivy.properties.ListProperty`, default to [1, 1, 1, 1]."
+msgstr ""
+
+# ce6f0d6fed9b46aba28dc5ead10b6ab7
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.image_ratio:1
 msgid "Ratio of the image (width / float(height)"
 msgstr ""
 
-# 55e316c95763473eb6ffa5e7016214e0
+# 0b5aaf53d3714b94a4ad04f54606dff0
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.image_ratio:3
 msgid ":data:`image_ratio` is a :class:`~kivy.properties.AliasProperty`, and is read-only."
 msgstr ""
 
-# 19b9bc3004224e88a31ffba1f863bfec
+# fd00fca47cd14a59bbdbfc2858a24a89
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.keep_ratio:1
+msgid "If False along with allow_stretch being True, the normalized image size will be maximized to fit in the image box disregarding the aspect ratio of the image. Otherwise, if the box is too tall, the image will not be streched more than 1:1 pixels"
+msgstr ""
+
+# 58eebcc45d8949ed8c17a7a3ace94315
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.keep_ratio:9
+msgid ":data:`keep_ratio` is a :class:`~kivy.properties.BooleanProperty`, default to True"
+msgstr ""
+
+# 4f1183da0f6a411db1cc629cbfc2a5d6
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.mipmap:1
+msgid "Indicate if you want OpenGL mipmapping to be apply on the texture or not. Read :ref:`mipmap` for more information."
+msgstr ""
+
+# 09768ed8e379478297b0d6ca2ca8c403
+#: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.mipmap:6
+msgid ":data:`mipmap` is a :class:`~kivy.properties.BooleanProperty`, default to False."
+msgstr ""
+
+# 519bfc97eee14528b8fa40cc757902d7
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.norm_image_size:1
 msgid "Normalized image size withing the widget box."
 msgstr ""
 
-# 1b50848435f84ff9abda52231704ac45
+# d26999d8e1d448c891cffa0e8e767fe7
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.norm_image_size:3
 msgid "This size will be always fitted to the widget size, and preserve the image ratio."
 msgstr ""
 
-# c334998474bc4629b8fdfe34898bcc8c
+# 2d13cdddde614c62af23eea257feb9f6
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.norm_image_size:6
 msgid ":data:`norm_image_size` is a :class:`~kivy.properties.AliasProperty`, and is read-only."
 msgstr ""
 
-# 7404ee33ee0843ad8daccf60cad431b4
+# deb2a6d7b3184d7ba2ff8743ed9698e5
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.source:1
 msgid "Filename / source of your image."
 msgstr ""
 
-# b6fb1c2fa8ba423ab77f339450874a3c
+# 9d4ea8706219427e94e01a033b2e2b0a
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.source:3
 msgid ":data:`source` a :class:`~kivy.properties.StringProperty`, default to None."
 msgstr ""
 
-# 53f278cb6ce04328acabc244ddcbde3e
+# fe65acb353f245a2862c01ed8bf6300e
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.texture:1
 msgid "Texture object of the image."
 msgstr ""
 
-# ed1d08b446f44a999f284d4d5e732b81
+# a431a54209a54a9ca8a648579775a68c
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.texture:3
 msgid "Depending of the texture creation, the value will be a :class:`~kivy.graphics.texture.Texture` or :class:`~kivy.graphics.texture.TextureRegion` object."
 msgstr ""
 
-# 831e68e909654a3296aa5858b6e7c8f1
+# 692356034cb74a72829f7b41cfcb1e04
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.texture:7
 msgid ":data:`texture` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
-# 7351a37a12c5443098e954c77150fdf7
+# 02f0a5b769b6450d88b93823d6eb9827
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.texture_size:1
 msgid "Texture size of the image."
 msgstr ""
 
-# caca7ab1d6b54212ae81d5d284be5021
+# f1a1bad4b97b4ab0b419a31d0b2c53d8
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.Image.texture_size:5
 msgid "The texture size is set after the texture property. So if you listen on the change to :data:`texture`, the property texture_size will be not yet updated. Use self.texture.size instead."
 msgstr ""
 
-# 0c82814363724c548af17bf238f70a7f
+# 5b846e7842494d4cbfd5523250878751
 #: ../../<autodoc>:1
 msgid "Bases: :class:`kivy.uix.image.Image`"
 msgstr ""
 
-# fafdf6ff603d4b6e946bd8c65c7753be
+# 4f83af7a96b24d338b07b093c4d1ec14
 #: ../../../kivy/uix/image.py:docstring of kivy.uix.image.AsyncImage:1
 msgid "Asynchronous Image class, see module documentation for more information."
 msgstr ""

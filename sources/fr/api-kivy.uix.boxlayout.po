@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-09-28 17:19\n"
+"POT-Creation-Date: 2011-10-04 16:26\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,92 +16,87 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Translate Toolkit 1.9.0\n"
 
-# c708a798829d45c7a82f99aa53d0b659
+# 7494b9447d684a9586266fca08df968b
 #: ../../sources/api-kivy.uix.boxlayout.rst:3
 msgid "Box Layout"
 msgstr ""
 
-# 4071a3ba0dea48f487bde085ac86ed19
+# 238e72d8af6d4aef90d24448b2abdcbd
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:2
-msgid "Arrange widgets in a vertical or an horizontal box."
+msgid ":class:`BoxLayout` arranges children in a vertical or horizontal box."
 msgstr ""
 
-# d81fc42040854a7c86ed9f749d77837a
+# a0ef2c46a6ed4c1b96221adea696c284
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:4
-msgid "Example of a vertical layout: ::"
+msgid "To position widgets above/below each other, use a vertical BoxLayout::"
 msgstr ""
 
-# d5424de8744b498981e1215931dd9cee
+# a7ab83bcbed642968bc59b85a7393ff7
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:12
-msgid "Example of a horizontal layout, with a border of 10 pixels between the layout and all the childrens, and the first button should be 70% of the layout, and the second should be 30%. ::"
+msgid "To position widgets next to each other, use a horizontal BoxLayout. In this  example, we use 10 pixel spacing between children; the first button covers  70% of the horizontal space, the second covers 30%::"
 msgstr ""
 
-# e0e988bca6034dea9820e5a653a82b35
+# 222b726e97044c24b9d7a79f2ee5b404
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:24
-msgid "The `size_hint` represent the size available after substracting all the fixed size. For example, if you have 3 widgets (width is 200px, 50%, 50%), and if the layout have a width of 600px :"
+msgid "The `size_hint` uses the available space after subtracting all the  fixed-size widgets. For example, if you have a layout that is 800px wide, and add three buttons like this:"
 msgstr ""
 
-# dc79bbd2bc4d408a93f5c7de5883c77e
+# 79a860d82dd747029a991af0c31cb2b9
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:28
-msgid "the first widget width will be 200px"
+msgid "btn1 = Button(text='Hello', size=(200, 100), size_hint=(None, None)) btn2 = Button(text='Kivy', size_hint=(.5, 1)) btn3 = Button(text='World', size_hint=(.5, 1))"
 msgstr ""
 
-# 822cbd09d5f641ddb5cb071d93c1f456
-#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:29
-msgid "the second widget width will be 300px"
+# e6adc88d1f49496cb1380d1cf1c90d5d
+#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:32
+msgid "The first button will be 200px wide as specified, the second and third  will be 300px each, ie (800-200)*0.5"
 msgstr ""
 
-# 518aa8d7bdc048bcba853a2f9d6d3c41
-#: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout:30
-msgid "the third widget width will be 300px"
-msgstr ""
-
-# 79574011762b4c46a8af506ed2cefc5c
+# c4e7ff45223e4d99bef98f3672399764
 #: ../../<autodoc>:1
 msgid "Bases: :class:`kivy.uix.layout.Layout`"
 msgstr ""
 
-# 0a38abe795cf467eae1a7fd395542d18
+# 0d8e9a75ed194666896c9a08373508bf
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout:1
-msgid "Box layout class. See module documentation for more informations."
+msgid "Box layout class. See module documentation for more information."
 msgstr ""
 
-# ef9d3b62a591451fa83212130354fbb0
+# d84867902c7d451eb4023224d4d8442a
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.orientation:1
 msgid "Orientation of the layout."
 msgstr ""
 
-# e35ed75e446e4d71be45417a5e61d510
+# 4db95e7313094ea4b36e849cc88cdac7
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.orientation:3
-msgid ":data:`orientation` is an :class:`~kivy.properties.OptionProperty`, default to 'horizontal'. Can take a value of 'vertical' or 'horizontal'."
+msgid ":data:`orientation` is an :class:`~kivy.properties.OptionProperty`, default to 'horizontal'. Can be 'vertical' or 'horizontal'."
 msgstr ""
 
-# 1d8141977c5e40538eb619f935c29152
+# b2ef09f5953e4d6499fbb92aa08ac778
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.padding:1
-msgid "Padding between widget box and children, in pixels."
+msgid "Padding between layout box and children, in pixels."
 msgstr ""
 
-# 2002abea12fe4efdab866ee925f2892b
+# 1a26c9f9a2994856bd5f60a91dca49e0
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.padding:3
 msgid ":data:`padding` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
-# 77df03a82fd04842aca27578a5fac22a
+# f778dae3d14a4980bb969098df607d07
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.spacing:1
-msgid "Spacing is the space between each children, in pixels."
+msgid "Spacing between children, in pixels."
 msgstr ""
 
-# 183d94649329485483a3e06c78c8ad0a
+# 013fb2a4d82b4dc58a917178c5583112
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.spacing:3
 msgid ":data:`spacing` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
-# 22106cda71904d8486412a80cccc488e
+# 40f83ae97c704a18880949d69c0cf2c4
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.update_minimum_size:1
 msgid "Calculates the minimum size of the layout."
 msgstr ""
 
-# 5e4ab093ca894edd95524bd08ff580a5
+# f649ac730a96406c8897494f7771515b
 #: ../../../kivy/uix/boxlayout.py:docstring of kivy.uix.boxlayout.BoxLayout.update_minimum_size:3
 msgid "In calculation, there must be a space for child widgets that have fixed size (size_hint == (None, None)). There must also be at least enough space for every child layout's minimum size (cant be too small even if size_hint is set)."
 msgstr ""
