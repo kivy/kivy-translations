@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-08 21:25\n"
+"POT-Creation-Date: 2011-10-14 16:22\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,121 +17,121 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.graphics.stencil_instructions.rst:3
-# 21d208e7e21949078495fa96d84c8705
+# 2ddc37a5f0794bab9ff8744a0c839434
 msgid "Stencil instructions"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:4
-# 48e3707da3374f9f89a0a86ef3871171
+# aded1fadb57a4ca58b2010a5c5055cc5
 msgid "Stencil instructions permit you to draw and use the current drawing as a mask. Even if you don't have as much control as OpenGL, you can still do fancy things :=)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:8
-# fa9e01f4489747e0b7922faa15c0563f
+# aa458e3c537a4bbca2e9051451ebc1bb
 msgid "The stencil buffer can be controled with theses 3 instructions :"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:10
-# d4ddf7b6ed6d4599923b8827d7ab8bdd
+# d935b7fbcca34ddfaca281afdad03928
 msgid ":class:`StencilPush`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:11
-# ea60f3d0e25f4a39b7a280611c930204
+# 164a86021b3b4af9907161034b5310d9
 msgid ":class:`StencilUse`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:12
-# cf6325863d5442968e0de357a958c56c
+# 7eb25b40099a4b6c84d7891808a6666f
 msgid ":class:`StencilPop`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:14
-# e6f0c1058bd24775b060d0952e3b66af
+# 0c799304b21f4a978b325ed6b6bac751
 msgid "Here is a global scheme to respect :"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:16
-# 034e274350d446ef933ce9e2d4b95a22
+# 441961b6774140968b6f63abbcdee1b6
 msgid ":class:`StencilPush` : push a new stencil layer"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:17
-# e2a3d064e1dd486f9cbc40cbc08d407b
+# 1532d113f76d402592a3a0e6583cd95b
 msgid "any drawing that happening here will be used as a mask"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:18
-# 7d26eeee735e441495fa137d54f0f1ea
+# d0ca707707164238907aa9947b6654cc
 msgid ":class:`StencilUse` : now draw the next instructions and use the stencil for masking them"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:20
-# 8881427df24342e88491d83cde8b199b
+# 892f274821f44c7a9a40f7b06d31f301
 msgid ":class:`StencilPop` : pop the current stencil layer."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:23
-# a200aa675df2428cb8d36f5de13b02e5
+# 24b93f44899d413e8c0dd6e281baae9c
 msgid "Limitations"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:25
-# 25306226c4dc47b8ba12ca971e2db660
+# 3fb426a5ad004bc791ab6e93b3e5220f
 msgid "The stencil is activated as soon as you're doing a StencilPush"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:26
-# 2f3c1385eddc49259f575b785599fb08
+# c8a87fbad33a4109afad78a425791caf
 msgid "The stencil is deactivated as soon as you've correctly pop all the stencils layers"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:28
-# 9af3eed51bb84956b12db9323c6f7782
+# 09b72ed755274b328a5b13c0a092fd02
 msgid "You must not play with stencil yourself between a StencilPush / StencilPop"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:29
-# f0989c2eb78f4ff8b7a97e2d56ed4faf
+# cf323f68120a42dc9c96bb7a27d83b45
 msgid "You can push again the stencil after a StencilUse / before the StencilPop"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:30
-# 279b5ac9d4cf4450a49d7d815ad0a240
+# fefdd8427a6b4a3c85549ea7e0702ce3
 msgid "You can push up to 8 layers of stencils."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:34
-# 9e2f8759f39f4bdaaf56b0a3ecea93cc
+# 5818f97432624a92806ff432a3f1dba9
 msgid "Example of stencil usage"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions:36
-# eb37cf0794de4ed9b1cfb11bda8b258f
+# 9be0aef393824d3b980bdeace03241aa
 msgid "Here is an example, in kv style::"
 msgstr ""
 
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
-# 0908ba80ce5c444f8b7cf6ddc45f8943
-# 902432308887408cb7bcf8e6fe0f24c1
-# cd4ef6956eb44121b17fac513887a466
+# a1e101c0feb646659d3c6caafcd89b25
+# 594402707b7e428187e801fac1a39e8c
+# 659e622c86ee4f8c865bfa35a6c6cbf0
 msgid "Bases: :class:`kivy.graphics.instructions.Instruction`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions.StencilPush:1
-# bdada0bf478944b185c5fdf389c42e35
+# 4b42bc6c9a224924b51742bf971de509
 msgid "Push the stencil stack. See module documentation for more information."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions.StencilPop:1
-# 2d8f69eb2d7b4071a9a7e9abfff927af
+# 36e5fa69edb348c9ab77c54186946669
 msgid "Pop the stencil stack. See module documentation for more information."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.stencil_instructions.StencilUse:1
-# f8a1491ada354f09a217c4029d8d6760
+# 66cd8332e75d45acbed426494b23646d
 msgid "Use current stencil buffer as a mask. Check module documentation for more information."
 msgstr ""
 

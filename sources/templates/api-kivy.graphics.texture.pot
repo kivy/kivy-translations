@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-08 21:25\n"
+"POT-Creation-Date: 2011-10-14 16:22\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,417 +17,417 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.graphics.texture.rst:3
-# 97a5088a955148479e8b9b8c4ca8b8c1
+# de41b3498cf94ea9b535bda254c2cad7
 msgid "Texture"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:2
-# 07d02ff637734a74b7c4b4be03c047bb
+# df3f8751138e48f084bd4b61a30e8215
 msgid ":class:`Texture` is a class to handle OpenGL texture. Depending of the hardware, some OpenGL capabilities might not be available (BGRA support, NPOT support, etc.)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:6
-# 69ec4f6cf0ce4c498d6e64e0fca1d017
+# 130d03984d8f433ba8086273024d43c2
 msgid "You cannot instanciate the class yourself. You must use the function :func:`Texture.create` to create a new texture::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:11
-# eeaa8a3725624d16abfeb561df53d816
+# 6b28d9cb88eb40f28618f908c57b0b04
 msgid "When you are creating a texture, you must be aware of the default color format and buffer format:"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:14
-# 0552f243db1249aab7e3845534324b0e
+# de36bf939b01428eb15d7adc9e2062c4
 msgid "the color/pixel format (:data:`Texture.colorfmt`), that can be one of 'rgb', 'rgba', 'luminance', 'luminance_alpha', 'bgr', 'bgra'. The default value is 'rgb'"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:17
-# 5c2b5a345725444ea59b84a9e15c6aac
+# 22262b6efaab4f759a2c1021257d10f5
 msgid "the buffer format is how a color component is stored into memory. This can be one of 'ubyte', 'ushort', 'uint', 'byte', 'short', 'int', 'float'. The default value and the most commonly used is 'ubyte'."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:21
-# e1166a5ad39e476ea6982a5a61380bea
+# db94a4a7c36e416784b4cc8280b63cd9
 msgid "So, if you want to create an RGBA texture::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:25
-# db27644ae1e14fe0b14d13da8eeed7c8
+# 47dbc0df0bc648cca3e3950b1bdf1a7b
 msgid "You can use your texture in almost all vertex instructions with the :data:`kivy.graphics.VertexIntruction.texture` parameter. If you want to use your texture in kv lang, you can save it in an :class:`~kivy.properties.ObjectProperty` inside your widget."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:32
-# beffca81aaa5479aa46ec961f94263db
+# 953d2222117a452fb2cc2da26388ace3
 msgid "Blitting custom data"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:34
-# b823819855524566879a27058344da45
+# c9234167363140c58c77ad3552d3aeeb
 msgid "You can create your own data and blit it on the texture using :func:`Texture.blit_data`::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:58
-# 4fde960d0ca248e6be106ef8d1d6355e
+# 0c7b8a6ddc314f78b955b8535c395313
 msgid "BGR/BGRA support"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:60
-# 7b6fe9842d5a417ba5cb1228f4b86b11
+# 1448640eaacf411195f93c8e3ab40e66
 msgid "The first time you'll try to create a BGR or BGRA texture, we are checking if your hardware support BGR / BGRA texture by checking the extension 'GL_EXT_bgra'."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:64
-# e04cf770da5e43c1b7379b87c288238c
+# 84fa1851efb44efea6f58252805a9014
 msgid "If the extension is not found, a conversion to RGB / RGBA will be done in software."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:69
-# fb9f60724b8e4f0ea36f294aafd4f49a
+# ef7f0ced4bfd405bb45dcd5172be3466
 msgid "NPOT texture"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:75
-# 8c3d6a1650ac41e1b4bc55cae5ce28eb
+# 2965e54986784f529b69fe1bcf04a8f6
 msgid "As OpenGL documentation said, a texture must be power-of-two sized. That's mean your width and height can be one of 64, 32, 256... but not 3, 68, 42. NPOT mean non-power-of-two. OpenGL ES 2 support NPOT texture natively, but with some drawbacks. Another type of NPOT texture are also called rectangle texture. POT, NPOT and texture have their own pro/cons."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:82
-# 5244726f335c419aa8d6302ac8f70c26
+# c35ad126600e4210a5c1b11c5c63cbb8
 msgid "Features"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:82
-# b65b04eae3e44673859894732f19dfa3
+# 2a84a756693749f29f4e9d61a06a9667
 msgid "POT"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:82
-# 460ab27662154161a7971891c13ad76e
+# 726a175ebfe64688a1835493a92ea6ed
 msgid "NPOT"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:82
-# 7e6a2ac2da3d4298b923bb9caf47681a
+# e1f283a4d37e4c24887102616b5910d0
 msgid "Rectangle"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:84
-# b1223b7935054ed3b5b7269db0926044
+# 2b36499936974c6aa56f78007d3740b3
 msgid "OpenGL Target"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:84
 #: ../../docstring of kivy.graphics.texture:84
-# fb84ab8ee162484c8dae7a0a8c8eb0da
-# d7376eb3d00a4c38baa8c5207b0fd16a
+# 8eaa629b8479401daf3a62b6ed5f995d
+# 07dc17bdea974eb78f0b0a4142913226
 msgid "GL_TEXTURE_2D"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:84
-# 588f56a3219e4438bd89822970a5288a
+# cc4e2745c5644b199832408b0a1a3cc9
 msgid "GL_TEXTURE_RECTANGLE_(NV|ARB|EXT)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:85
-# 16e25d94f86d4f128fec0a4ec5c561f6
+# 7a7a5e4c122d4e8d81278b9926900422
 msgid "Texture coords"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:85
 #: ../../docstring of kivy.graphics.texture:85
-# f3ead623acb74cd5a2b2bcd391eef558
-# fb5000f698634a63a0bf214b184f31dd
+# 36879e3a45284ff696e527d0351f2840
+# 73a215174a86422b9d1560b943286193
 msgid "0-1 range"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:85
-# e5d225940b824ae5bef4fcb012b52564
+# 2b131f8e345443358473214ea0f43bd4
 msgid "width-height range"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:86
 #: ../../docstring of kivy.graphics.texture:118
-# 982e601f18bd475abf6413b0a46e7e72
-# b660891158ca41adacf796f5f6e37fef
+# bb8086ab83ce4ce5940c19742a2e52f4
+# b8229c484b474c81ac7e0026d8b997b4
 msgid "Mipmapping"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:86
 #: ../../docstring of kivy.graphics.texture:87
 #: ../../docstring of kivy.graphics.texture:87
-# 7821980f56ec44c99623fbaa348fe6c3
-# f48c9bc462c84127ab07c6ed8437fdb7
-# b8f7a5fe48b34a3ab3af810743c8c358
+# a50428a124104287a0bc14810dcb649c
+# 1369d4dfd4d84b0f9816616fa957a9a8
+# 31e1096c24ba411887d385463972059d
 msgid "Supported"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:86
-# eb3a848ec93c4e678f1fa6c38004a63b
+# ccba41399f1d4dc1946d61608c60b13d
 msgid "Partially"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:86
 #: ../../docstring of kivy.graphics.texture:87
-# b2681b3916a148859b27899819b18350
-# 0dcefc5bb0f04ba4826eab5f05c00181
+# 369722e38ea04b98ad9305860e320a79
+# af0adf8f76804b85837be1d85e6c7a8f
 msgid "No"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:87
-# d1d98298318445829212a1cfb316fd05
+# 7d760ad6e3f54987be417d80aa4a6dfd
 msgid "Wrap mode"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:90
-# 445c2dd18fcc43969978c8e2925e1ab7
+# b2ba754e9e384e568e2bb9c82cd25d29
 msgid "If you are creating a NPOT texture, we first are checking if your hardware is capable of it by checking the extensions GL_ARB_texture_non_power_of_two or OES_texture_npot. If none of theses are availables, we are creating the nearest POT texture that can contain your NPOT texture. The :func:`Texture.create` will return a :class:`TextureRegion` instead."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:98
-# 5d058ea138574f02b22fc7c40b72469b
+# ebad8309f6924dcc92220739376ef0ac
 msgid "Texture atlas"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:100
-# 854f818d7c424747bdf9b0c951e4482b
+# 437957a479924078bfd5a29f29f91997
 msgid "We are calling texture atlas a texture that contain many images in it. If you want to seperate the original texture into many single one, you don't need to. You can get a region of the original texture. That will return you the original texture with custom texture coordinates::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:122
-# 7c9a39a22fb14cc8a89b5c8b7f377012
+# 60f4ed4cb5dd44fbb663c1e5dca24036
 msgid "Mipmapping is an OpenGL technique for enhancing the rendering of large texture to small surface. Without mipmapping, you might seen pixels when you are rendering to small surface. The idea is to precalculate subtexture and apply some image filter, as linear filter. Then, when you rendering a small surface, instead of using the biggest texture, it will use a lower filtered texture. The result can look better with that way."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:130
-# 41ffb31969514c41b51124d857cb0562
+# 010050c380834966a9dd3fd4847dc269
 msgid "To make that happen, you need to specify mipmap=True when you're creating a texture. Some widget already give you the possibility to create mipmapped texture like :class:`~kivy.uix.label.Label` or :class:`~kivy.uix.image.Image`."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:134
-# fd61e5f9cfdb4c248a6d075d3e487bac
+# 29946f8f79654276b1212bb3b402f61e
 msgid "From the OpenGL Wiki : \"So a 64x16 2D texture can have 5 mip-maps: 32x8, 16x4, 8x2, 4x1, 2x1, and 1x1\". Check http://www.opengl.org/wiki/Texture for more information."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture:140
-# 2a3fdc75f6ba49bbbfb23994d7cad4b4
+# ce80db251ea9402cbc3f0bdf8be83fb1
 msgid "As the table in previous section said, if your texture is NPOT, we are actually creating the nearest POT texture and generate mipmap on it. This might change in the future."
 msgstr ""
 
 #: ../../<autodoc>:1
-# 621ca6fa23d6483ebfee9866e41ec097
+# 5c381365c0384c83813e58e44c4403c7
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture:1
-# 763374cd9f844035a9cf926e9487c5f3
+# bd66f51e79e0455aa8c244800c54529e
 msgid "Handle a OpenGL texture. This class can be used to create simple texture or complex texture based on ImageData."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.blit_buffer:6
-# 3fe0f7bf2c1a4a93ba70b2216c50d65e
+# 61ed4e4684fd4ef7ad8ba6ff08427adc
 msgid "Image data"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.blit_buffer:8
-# 4f1ed7135796474fabf60f0cd9f5e6e2
+# e884efc358bb4eda9e6a37bedc12c456
 msgid "Size of the image (width, height)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.blit_buffer:10
-# bd7fe66d95d443e09d4587c894721646
+# 618ce7f960df4f6ebf2888e407af3a4b
 msgid "Image format, can be one of 'rgb', 'rgba', 'bgr', 'bgra', 'luminance', 'luminance_alpha'"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.blit_buffer:13
-# 3e3c1c7e57504e0d9bf999759a663d4d
+# cc7354c546944d10afeee1f21efad806
 msgid "Position to blit in the texture"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.blit_buffer:15
-# 3d20e1ff45114437b156a6eeb0a19721
+# 5a2c6b19a7944211913cecc811aadcc9
 msgid "Type of the data buffer, can be one of 'ubyte', 'ushort', 'uint', 'byte', 'short', 'int', 'float'"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.blit_buffer:18
-# 7cacb51e95f544e1984e0b645e581a99
+# 50f02dc55c1b4e629dc9bb502e1ea53d
 msgid "Indicate which mipmap level we are going to update"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.blit_buffer:20
-# 38132e6ad8f64d1e86090d4ec5e33382
+# 26bca8e2bf174ce8b9e5cb5a1328b3d3
 msgid "Indicate if we need to regenerate mipmap from level 0"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.colorfmt:1
-# 0b7e82183a7c47df90b07d638f994abd
+# bd07ea29bb3c47f6acc0f92a1fcf9cdb
 msgid "Return the color format used in this texture. (readonly)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.create:1
-# d5c5ebbeed284e3eaa352007662f3059
+# 82e0b338f9904389b6ac5c08a900a81c
 msgid "Create a texture based on size."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.create:5
-# fe498c80e16b4622b3872dd583ad56ce
+# b2723c94989945028af417da22d7edd9
 msgid "Size of the texture"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.create:7
-# 09cf8913cc8c4383a92e200c814b17d4
+# 2e0cf048cdec4cf9b257dd96c435f824
 msgid "Internal color format of the texture. Can be 'rgba' or 'rgb', 'luminance', 'luminance_alpha'"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.create:10
-# a9e32b14651f4903b3778affa6a8722c
+# 1020eacc14604cfaba5e982cef1f9def
 msgid "Internal buffer format of the texture. Can be 'ubyte', 'ushort', 'uint', 'bute', 'short', 'int', 'float'"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.create:13
-# b05ea79b9d8648a7a8744f63b7aee979
+# a2d9fdd0ad974ed8bbdcf1267f36c505
 msgid "If True, it will automatically generate mipmap texture."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.create_from_data:1
-# 1f01b7e9b76244eca0a179084ac2ca4a
+# 00dc2015ef934efbb7a14b9422a7ec5d
 msgid "Create a texture from an ImageData class"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.get_region:1
-# 458709ebf01e4b99a0c0488518c4ab90
+# ed035e0d5adb406583103a26e2f91044
 msgid "dimensions"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.height:1
-# d02db72afced497c8e6474efdb45d180
+# 7207fbac922643599f070febdca335de
 msgid "Return the height of the texture (readonly)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.id:1
-# 25667277324d44e1a881607fbbb6e8ee
+# bb5466f847784ed2ab50691889642a6c
 msgid "Return the OpenGL ID of the texture (readonly)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.mag_filter:1
-# 52e9e1bff26f42e2b690b2e6f727d732
+# 3a2d3a51be6545799f630a56f07c4bea
 msgid "Get/set the mag filter texture. Available values:"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.mag_filter:3
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:3
-# 773f1ba570054e368bc988bcaa67187f
-# 7663c2960b394a4ebead19da64c76759
+# 2bf51a696b91414f92ce8c4d8314e473
+# fb38325f5bf540e99764bcf29aea1f67
 msgid "linear"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.mag_filter:4
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:4
-# d25f566da4b24ee1989d2188aa987739
-# 7097faf3c3b94169a0bc3c6565ead1d1
+# 34d876d11987438ca486e3dfb1e7c3ca
+# 6bc3145527144a54bbd4496a0e3019d6
 msgid "nearest"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.mag_filter:6
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:10
 #: ../../docstring of kivy.graphics.texture.Texture.wrap:7
-# 2a2314327f45454b8ff809d4f8ba8c9b
-# 1aa6287f84f741429d130e6a1ca33c7b
-# 8e7c6e7d5d944fd39c2a25add29d9088
+# 675040005dd0412cbcb996200640ba16
+# b61834ac307741119ea5b55a2da55744
+# 263dc9da53c741b5a78a3766fe87b82c
 msgid "Check opengl documentation for more information about the behavior of theses values : http://www.khronos.org/opengles/sdk/docs/man/xhtml/glTexParameter.xml."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:1
-# 64f2c0a4e8274c5bb36435082826a66b
+# e89cc320886c4c03be53314a5a2f1e7a
 msgid "Get/set the min filter texture. Available values:"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:5
-# f0fa6281d8ba4b9b9c49239ec8b1c4a6
+# 66368aea92ef46eeba5209dbb04bebac
 msgid "linear_mipmap_linear"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:6
-# 49958b70d80f4ab9ad6e79641fbd6799
+# a69081f171b04debacf4798a7256947d
 msgid "linear_mipmap_nearest"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:7
-# 7e04c99a1a2144fcba8672b7bdfc601d
+# 44a0a0e3e52e4bec8a44a55304fe24ef
 msgid "nearest_mipmap_nearest"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.min_filter:8
-# 903059b3122d4373aa86d33ac4552b96
+# ea78b72cf2bf4d529a2ee22e3287a015
 msgid "nearest_mipmap_linear"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.mipmap:1
-# 64936a58f1e248d8ae0568dcf14565e7
+# 3393a7b11ebc4ab78010985d0befadf2
 msgid "Return True if the texture have mipmap enabled (readonly)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.size:1
-# 8b0105a3197a4b86b589541c27a7bc1e
+# 440089132bcc498485556976e15a4937
 msgid "Return the (width, height) of the texture (readonly)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.target:1
-# ca814828b0fe4521b28f5a85afcb3e55
+# 21344dbd0cb2499ba7ffbffe34b11477
 msgid "Return the OpenGL target of the texture (readonly)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.tex_coords:1
-# bbcae6b5812e45a683c41aaa0fe2913a
+# 28fb42c6a71343fda5546d5f6e989bef
 msgid "Return the list of tex_coords (opengl)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.uvpos:1
-# 4330821578994effa56f7baf0b195498
+# 8493fa98b93b4873895d99d0bbd3e78f
 msgid "Get/set the UV position inside texture"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.uvsize:1
-# 516bcfb4b8c34fcb8c7879850ab551a5
+# 07714abadf534395b5e5e552e9c94db1
 msgid "Get/set the UV size inside texture."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.uvsize:4
-# 73376e4ad5f0438d8564afd7066b75e0
+# e1c7f6db0464450d8a158706949970bb
 msgid "The size can be negative is the texture is flipped."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.width:1
-# 49ea0554e24143b88be92bb0e67b9fb6
+# a9a3589ec2764eac993067f177fb8be8
 msgid "Return the width of the texture (readonly)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.wrap:1
-# fa68fabc92094a7bbfa90b6d31ed03dc
+# 14659bffb0e045d2a3f62ddd37fe0694
 msgid "Get/set the wrap texture. Available values:"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.wrap:3
-# b0805e4d04764806aaba1fbbf2baa687
+# 692c220daaff42d892e763933df0b5bd
 msgid "repeat"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.wrap:4
-# 245f732956d64af59fbfd225c62db5c7
+# e02ae68c447c4264814595e696bf514a
 msgid "mirrored_repeat"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.Texture.wrap:5
-# 2c5e9da98fbc45bd85f8653ff85a2108
+# 488e220da4004242ac1fd1ab8124477a
 msgid "clamp_to_edge"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 56a68dd22e474586a50990ecbc661044
+# 160cd9c724414f4da28b73295bf672c0
 msgid "Bases: :class:`kivy.graphics.texture.Texture`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.texture.TextureRegion:1
-# 903170f70fa0489fb63603da04a8f854
+# 4ea7db86e0a145f8b0091a389ec0d612
 msgid "Handle a region of a Texture class. Useful for non power-of-2 texture handling."
 msgstr ""
 
