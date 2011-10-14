@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-14 16:22\n"
+"POT-Creation-Date: 2011-10-14 16:32\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,1941 +17,1956 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/guide/android.rst:4
-# b7e31a9f1fd3420db73ade19d43f70cc
+# 542d588cc65247fa84f07399b66047af
 msgid "Kivy on Android"
 msgstr ""
 
-#: ../../sources/guide/android.rst:7
-# 7cb0e3d16bb5469998e03875d94ad48f
-msgid "Requirements for android application"
+#: ../../sources/guide/android.rst:6
+# a7149cef844843778121f8ad0cd84224
+msgid "Kivy is able to run on android, but you need a phone with:"
+msgstr ""
+
+#: ../../sources/guide/android.rst:8
+# 42f27c73827146439580237e61a36fe1
+msgid "SD Card"
 msgstr ""
 
 #: ../../sources/guide/android.rst:9
-# a24d74045d0b49f2945512052b725e83
+# e6935c9ddee145f48105dc81764d1fe8
+msgid "OpenGL ES 2.0 (Android 2.2 minimum)"
+msgstr ""
+
+#: ../../sources/guide/android.rst:12
+# 1ece13e3663b4c618ca7d07a6a85150b
+msgid "Requirements for android application"
+msgstr ""
+
+#: ../../sources/guide/android.rst:14
+# b53e8473c7974ab58f04d6c8d88157a5
 msgid "As soon as you want to do an application for android platform, you must have a file named `main.py` in for root directory of your application, and handling the android platform in the `__name__` test::"
 msgstr ""
 
-#: ../../sources/guide/android.rst:17
-# d25827d29eda4c1797c4e04975e9e34f
+#: ../../sources/guide/android.rst:22
+# 54fca0289d4649dfa4610e8e474331a5
 msgid "Create an APK"
 msgstr ""
 
-#: ../../sources/guide/android.rst:19
-# 0c7b5034637f4a47b31d6a8436f1c6f0
+#: ../../sources/guide/android.rst:24
+# 873f053c4e3f41d482568e2b8ad334b3
 msgid "The whole process is described in the :ref:`packaging_android` documentation."
 msgstr ""
 
-#: ../../sources/guide/android.rst:23
-# 09d6683770d8437da14eccb2c3d25f69
+#: ../../sources/guide/android.rst:28
+# 3121edb597794381b173b17a783cb6c9
 msgid "Debugging your application on android platform"
 msgstr ""
 
-#: ../../sources/guide/android.rst:25
-# 62c92946a3a041b7b88ccfd700ddba31
+#: ../../sources/guide/android.rst:30
+# bf5d715737f04bad8bff768573bc5cbe
 msgid "Android SDK ship a tool named adb. Connect your device, and run::"
 msgstr ""
 
-#: ../../sources/guide/android.rst:29
-# d538f96fac024c3896024eb207db4708
+#: ../../sources/guide/android.rst:34
+# c35e2b48029246c784306df72bcd1cd0
 msgid "You'll see all the log, but also your stdout/stderr, Kivy logger."
 msgstr ""
 
-#: ../../sources/guide/android.rst:33
-# 7099de85203548d0bb313a3d0f1e7a60
+#: ../../sources/guide/android.rst:38
+# 8bb999f5edd142dc8fe320c1442bdf1e
 msgid "Status of the Project"
 msgstr ""
 
-#: ../../sources/guide/android.rst:35
-# 31a7d66653f54ab59b88bd465e798d04
+#: ../../sources/guide/android.rst:40
+# 18cfcab660cf4bd08526e8818faee2c3
 msgid "This project is a derivated work of Pygame Subset for Android, made by Tom Rothamel. His work is available at::"
 msgstr ""
 
-#: ../../sources/guide/android.rst:40
-# 2047fefc55644b0197c88c5507a93dc7
+#: ../../sources/guide/android.rst:45
+# 3e3a765d671e44e88f77983f370737bb
 msgid "This project code is available at::"
 msgstr ""
 
-#: ../../sources/guide/android.rst:44
-# 166400e1424748cc9aa81eca17218967
+#: ../../sources/guide/android.rst:49
+# f141fea5e5b24ac69ed92f2805feb593
 msgid "We made that branch to be able to:"
 msgstr ""
 
-#: ../../sources/guide/android.rst:46
-# fa681e2531ff4471bc0528ece7966659
+#: ../../sources/guide/android.rst:51
+# da19bc34c35f4caa8d2d1b036de27820
 msgid "integrate Kivy android-support branch in the build"
 msgstr ""
 
-#: ../../sources/guide/android.rst:47
-# cecb7cd4fb5f43fba0150f75169befec
+#: ../../sources/guide/android.rst:52
+# e8ac074c1305471e8aaa4ac1abc1e91c
 msgid "create opengl es 2 surface with stencil buffer"
 msgstr ""
 
-#: ../../sources/guide/android.rst:48
-# 21d2afacf55d4ac28a05cfe06ec4418f
+#: ../../sources/guide/android.rst:53
+# 9203bd6fb1fe4ff19f043eadcfba230b
 msgid "enable multitouch event"
 msgstr ""
 
-#: ../../sources/guide/android.rst:49
-# 3b0e8cd96d6c473ea5d10f1eaa3fbe8d
-msgid "custom start.pyx to launch kivy application"
-msgstr ""
-
-#: ../../sources/guide/android.rst:50
-# 0b3a3099ce8948f9b6f2e5819809f92b
-msgid "default activation of WRITE_EXTERNAL_STORAGE permission"
-msgstr ""
-
-#: ../../sources/guide/android.rst:52
-# 24c09b1807564cd082d01bc7ce1b2915
-msgid "Currently, Kivy is not fully supported on Android. We are missing:"
-msgstr ""
-
 #: ../../sources/guide/android.rst:54
-# ccfa0d33f9cc4aa1aedb9b6be0c7468f
-msgid "*Video providers* (done in 1.0.8 version)"
+# 8cd728f55e0f4ea3acb1f4b234ed1246
+msgid "custom python native launcher that run the main.py"
 msgstr ""
 
 #: ../../sources/guide/android.rst:55
-# b7202d3318c94a999e90e54e93a4aa5b
-msgid "Camera providers"
+# b21c57bd2c43408fbc06ce9cba779eb2
+msgid "default activation of WRITE_EXTERNAL_STORAGE permission"
 msgstr ""
 
 #: ../../sources/guide/android.rst:56
-# a2858b4d57024a3bab21f31b1e12bb15
-msgid "Audio (can use RenPySound) providers"
-msgstr ""
-
-#: ../../sources/guide/android.rst:57
-# 9b2f722f53254e69b78bc3d315a591bc
-msgid "Keyboard mapping for main button"
+# 00e54bceb2ff475b912bef150ff062dc
+msgid "*Video providers* (done in 1.0.8 version using ffmpeg-android)"
 msgstr ""
 
 #: ../../sources/guide/android.rst:58
-# aee3eb5492654a30bb09b2784cd9ce29
-msgid "Ability to hook app on sleep/wakeup"
+# b92893202afc45ed9a3a8892754e8403
+msgid "Currently, Kivy is not fully supported on Android. We are missing:"
+msgstr ""
+
+#: ../../sources/guide/android.rst:60
+# b0cf058249014e12bd56902ef160a61e
+msgid "Camera providers"
 msgstr ""
 
 #: ../../sources/guide/android.rst:61
-# fb6d9a70293e4bc89c45fbf3f00a0bef
-msgid "Tested Devices"
+# cc5b4ee630d7498c832ad50475a07a8d
+msgid "Audio (can use RenPySound) providers"
+msgstr ""
+
+#: ../../sources/guide/android.rst:62
+# 0d0b701c9a2141b28c1880c9e7a37be1
+msgid "Keyboard mapping for main button"
 msgstr ""
 
 #: ../../sources/guide/android.rst:63
-# 6e76b12e99fe44f88e67367aa5fb28ed
+# 0358f3c7ffe4435db5cb0fbb5014e880
+msgid "Ability to hook app on sleep/wakeup"
+msgstr ""
+
+#: ../../sources/guide/android.rst:66
+# a0946a4b4dd440ae89f63451a1c22b37
+msgid "Tested Devices"
+msgstr ""
+
+#: ../../sources/guide/android.rst:68
+# 5b229f6f401e41fa8b79fecb56be095a
 msgid "These Android devices have been confirmed working with Kivy. If your device is not on the list, that does not mean that it is not supported. If that is the case, please try running Kivy and if it succeeds let us know so that we can update this list. Note, however, that your device has to support at least OpenGL 2.0 ES."
 msgstr ""
 
-#: ../../sources/guide/android.rst:70
-# 2417d6bbfa094a5ab834bcf4d0931613
+#: ../../sources/guide/android.rst:75
+# 496c9733419a4594ace1a9f583adb78c
 msgid "Phones"
 msgstr ""
 
-#: ../../sources/guide/android.rst:72
-# 6ae90edf6a12402bb4d96af4c72e88b4
+#: ../../sources/guide/android.rst:77
+# 776bf1eb277943ef96cc3055fd549583
 msgid "Motorola Droid 1"
 msgstr ""
 
-#: ../../sources/guide/android.rst:73
-# fc7d1b3bf68f4318aaf55280f333bd1b
+#: ../../sources/guide/android.rst:78
+# 758702a98a93463bb7deac6e374293ca
 msgid "Motorola Droid 2"
 msgstr ""
 
-#: ../../sources/guide/android.rst:74
-# b9b123e13e064851a1613ec258be761c
+#: ../../sources/guide/android.rst:79
+# 92f08f4b5ad44b34aa65d5a7a6190f28
 msgid "HTC Desire"
 msgstr ""
 
-#: ../../sources/guide/android.rst:75
-# d036949855b949e18b000c909e5d6c09
+#: ../../sources/guide/android.rst:80
+# 8e0b9142102246a180b1265deab12016
 msgid "HTC Desire Z"
 msgstr ""
 
-#: ../../sources/guide/android.rst:76
-# 02a5a111ecdd4ae0b19c45d848b2f1d1
+#: ../../sources/guide/android.rst:81
+# 2c27f801d1ed4e0a870df9938bf7359c
 msgid "Xperia 10 (custom ROM 2.1 + GLES 2.0 support)"
 msgstr ""
 
-#: ../../sources/guide/android.rst:79
-# 4e12175573e842638a38bc2b140e3b4e
+#: ../../sources/guide/android.rst:84
+# a69a08e1cbde469392c9259c2dd31133
 msgid "Tablets"
 msgstr ""
 
-#: ../../sources/guide/android.rst:81
-# b1e350926e754fe5a9e4d978fa91de75
+#: ../../sources/guide/android.rst:86
+# 013548747ad34a0c8d938e8cd26ea658
 msgid "Samsung Galaxy Tab"
 msgstr ""
 
-#: ../../sources/guide/android.rst:82
-# e611ab0f07b14cb4b83c3dd62d8344e5
+#: ../../sources/guide/android.rst:87
+# a876582a6bc64d4c92c4a5fc102825f0
 msgid "Motorola Xoom"
 msgstr ""
 
-#: ../../sources/guide/android.rst:83
-# 4a2fee71c58641f6b7e68ccc8722ed71
+#: ../../sources/guide/android.rst:88
+# 4e3627a1e34a406281716de8a533ea69
 msgid "Asus EeePad Transformer"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:4
-# 50768fff01fc42f49b8a3c6f1faf7512
+# 03c10e8c2cb64f779b723ce968eacb03
 msgid "Architectural Overview"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:6
-# 77e818e7846449d3bed019aa0968d157
+# b58f162f2ff648cd93ad06bf4210ad9d
 msgid "We would like to take a moment to explain how we designed Kivy from a software engineering point of view. This is key to understanding how everything works together. If you just look at the code, chances are you will get a rough idea already, but since this approach certainly is daunting for most users, this section explains the basic ideas of the implementation in more detail. You can skip this section and refer to it later, but we suggest at least skimming it for a rough overview."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:15
-# ec491eb66f9a48d2ad70574739b5df3a
+# 83acd715d28e4e30b6652d4543cdcadd
 msgid "Kivy consists of several building blocks that we will explain in the following."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:22
-# b10e025621f2479c8b3bd28feaa18808
+# ca8dde2382d14aa98bcabaa16b5f43b9
 msgid "Core Providers and Input Providers"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:24
-# 7e53ef013fd64835affbd8cd16dd5989
+# b73a45c0745c44cda9b161d83412df58
 msgid "One idea that is key to understanding Kivy's internals is that of modularity and abstraction. We try to abstract from basic tasks such as opening a window, displaying images and text, playing audio, getting images from a camera, spelling correction and so on. We call these *core* tasks. This makes the API both easy to use and easy to extend. Most importantly, it allows us to use -- what we call -- specific providers for the respective scenario in which your app is being run. For example, on OSX, Linux and Windows, there are different native APIs for the different core tasks. A piece of code that uses one of these specific APIs to talk to the operating system on one side and to Kivy on the other (acting as an intermediate communication layer) is what we call a *core provider*. The advantage of using specialized core providers for each platform is that we can fully leverage the functionality exposed by the operating system and act as efficiently as possible. It also gives users a choice. Furthermore, by using libraries that are shipped with any one platform, we effectively reduce the size of the Kivy distribution and make packaging easier. It's also easier to port Kivy to other platforms. The Android port did greatly benefit from this."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:42
-# b6788febc5fa47638e52fad48857ac6d
+# 0f4cf1ad7d904cb2a2fd3142778ca529
 msgid "We follow the same concept with input handling. *An input provider* is a piece of code that adds support for a specific input device, such as Apple's trackpads, TUIO or a mouse emulator. If you need to add support for a new input device, you can simply provide a new class that reads your input data from your device and transforms them into Kivy basic events."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:51
-# adfe45c519664d20aa24397261453213
+# bd6f84b6e9354b0d9d74d898704e9d9d
 msgid "Graphics"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:53
-# ceb0f3724f224407a2d0b5ce48edbdf0
+# b163ed5050b142fd803c1eec1170ebf9
 msgid "Kivy's graphics API is our abstraction of OpenGL. On the lowest level, Kivy issues hardware-accelerated drawing commands using OpenGL. Writing OpenGL code however can be a bit confusing, especially to newcomers. That's why we provide the graphics API that lets you draw things using simple metaphors that do not exist as such in OpenGL (e.g. Canvas, Rectangle, etc.)."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:60
-# aecf6576ba2c4ed9a1eb8f0a60f8f056
+# ba3ed7442d5640c68d9b450241ede8f5
 msgid "All of our widgets themselves use this graphics API, which is implemented on the C level for performance reasons."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:63
-# ce5a3e3c0b1f45f4ad110ffbe00befae
+# 64f8146e535f4ceaae06e3a764b39f66
 msgid "Another advantage of the graphics API is its ability to automatically optimize the drawing commands that your code issues. This is especially helpful if you're not an expert at tuning OpenGL. This makes your drawing code more efficient in many cases."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:68
-# 89764144bafe4838862f0540029bd98c
+# c6d670c683ea49e8bf2743d24945e4e9
 msgid "You can, of course, still use raw OpenGL commands if you prefer that. The version we target is OpenGL 2.0 ES (GLES2) on all devices, so if you want to stay cross-platform compatible, we advise you to only use the GLES2 functions."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:74
-# 6cc146d78c7745328f831b3e44521e2c
+# d3d8c72bb3bc4084a7ca0da6ca697ff2
 msgid "Core"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:76
-# b1c8c5ac4bed4c038d5f78904020fa14
+# 9d37a3e1b2e14eba992effe0f3dc7d2b
 msgid "The code in the core package provides commonly used features, such as:"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:79
-# 1ab9e5aa72f14d2da74ea694187fa28f
+# 68892b3558254f91a3821523f205477d
 msgid "You can use the clock to schedule timer events. Both one-shot timers and periodic timers are supported"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:83
-# 318dc49290444384b5bb203be5d04c1e
+# 1cc56e144d0f474d9345c26014f7f57e
 msgid "If you need to cache something that you use often, you can use our class for that instead of writing your own."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:87
-# 2f4f68ab7a1a42f6b91b92ed87e8a38d
+# 668aee0778b74c25911ac7ae4218dfe1
 msgid "We ship a simple gesture recognizer that you can use to detect various kinds of strokes, such as circles or rectangles. You can train it to detect your own strokes."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:92
-# 8dd61703a16d42dd9c5b13a71fedd4cf
+# 87628f4057824778b5b415b5760f701a
 msgid "The kivy language is used to easily and efficiently describe user interfaces."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:96
-# d4c8186098024261be2dd2fed80ff747
+# ef0e3e44733a482ca013b8237aa68f46
 msgid "These are not the normal properties that you may know from python. It is our own properties class that links your widget code with the user interface description."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:102
-# ea4812b4b8a6428ab6ef7f98b7231d19
+# 297e66eef7ed4495a0edb6919f7f96a1
 msgid "UIX (Widgets & Layouts)"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:104
-# ac5753c57e044f81b77b8256773979fd
+# c024181430644ca1b59354c01175f3ba
 msgid "The UIX module contains commonly used widgets and layouts that you can reuse to quickly create a user interface."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:108
-# 6d85be1a9d6a40ecb9f73e7151a21fdb
+# cf9cb6d02b73404598317e5b3856b066
 msgid "Widgets are user interface elements that you add to your program to provide some kind of functionality. They may or may not be visible. Examples would be a file browser, buttons, sliders, lists and so on. Widgets receive MotionEvents."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:114
-# a184f7b05c494f8c8240ce2d086cdc4e
+# 2aefd0747f3046f48ca82f0ed4831eb6
 msgid "You use layouts to arrange widgets. It is of course possible to calculate your widgets' positions yourself, but often it is more convenient to use one of our ready made layouts. Examples would be Grid Layouts or Box Layouts. You can also nest layouts."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:122
-# b0f7046da1c44264b37c0eb4045a9a87
+# d9ae49592d5746cb9c550428904e5241
 msgid "Modules"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:124
-# 7c58bc71ef084414a24317fe2ab6701a
+# e0f3086ad1d74463b3961a8306a10096
 msgid "If you've ever used a modern web browser and customized it with some add-ons then you already know the basic idea behind our module classes. Modules can be used to inject functionality into Kivy programs, even if the original author did not include it."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:129
-# 6c49be79d586410cb97c54e183c997d4
+# 41003b32592542f8bd2c02f48fcd4cdd
 msgid "An example would be a module that always shows the FPS of the current application and some graph depicting the FPS over time."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:132
-# a321e3cdec674939b3aa702ba79c3b0d
+# 48d619ed8a044d79a4071b7b6231cd1b
 msgid "You can also write your own modules."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:136
-# 6fd6358c72ca4509ab540e912f944721
+# 23f01fb1932f4f5693ba83568abcd3ef
 msgid "Input Events (Touches)"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:138
-# e5c1d24664bd46b288e61ee8f64c57b4
+# ed78f456542a41b7b3d237eed9f70cb7
 msgid "Kivy abstracts from different input types and sources such as touches, mice, TUIO or similar. What all of these input types have in common is that you can associate a 2D onscreen-position with any individual input event. (There are other input devices such as accelerometers where you cannot easily find a 2D position for e.g. a tilt of your device. This kind of input is handled separately. In the following we describe the former types.)"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:145
-# a003c4fa766c4a5b9eeb2dd07501bbde
+# e7af00f431144f34ba1b58fb3d257385
 msgid "All of these input types are represented by instances of the Touch() class. (Note that this does not only refer to finger touches, but all the other input types as well. We just called it *Touch* for the sake of simplicity. Think of it of something that *touches* the user interface or your screen.) A touch instance, or object, can be in one of three states. When a touch enters one of these states, your program is informed that the event occurred. The three states a touch can be in are:"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:155
-# 23a73a185a0747d8b9e89de3d7d66074
+# 339879f0b41640fc92e1b3e002e219ae
 msgid "A touch is down only once, at the very moment where it first appears."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:158
-# c94809cb1dfe4f89ba78525fc524254e
+# 96ed99a7aaa8427b8b378dade7d9e68b
 msgid "A touch can be in this state for a potentially unlimited time. A touch does not have to be in this state during its lifetime. A 'Move' happens whenever the 2D position of a touch changes."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:162
-# eae3472e59a344fbbe0cf8f948d0628c
+# 897d96378ed8443e856fb5b556453f19
 msgid "A touch goes up at most once, or never. In practice you will almost always receive an up event because nobody is going to hold a finger on the screen for all eternity, but it is not guaranteed. If you know the input sources your users will be using, you will know whether or not you can rely on this state being entered."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:171
-# 33e05f4581a44acd87edd46ba27213d2
+# 1ea412f571f24a78ac5f6ef3f296f56e
 msgid "Widgets and Event Dispatching"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:173
-# e8fcab935243493b857a90841830b920
+# 18a49a6ee96a4d2090d5fb2e07854a85
 msgid "The term *widget* is often used in GUI programming contexts to describe some part of the program that the user interacts with. For Kivy, a widget is an object that receives input events. It does not necessarily have to have a visible representation on the screen. All widgets are arranged in a *widget tree* (which is a tree data structure as known from computer science classes): One widget can have any number of child widgets or none. There is exactly one *root widget* at the top of the tree that has no parent widget, and all other widgets are directly or indirectly children of this widget (which is why it's called the root)."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:183
-# 7921874cc6c24334bf93b62e49ffa194
+# 0845ca4caa4b48a7af35dc1b7b324e84
 msgid "When new input data is available, Kivy sends out one event per touch. The root widget of the widget tree first receives the event. Depending on the state of the touch, the on_touch_down, on_touch_move or on_touch_up event is dispatched (with the touch as the argument) to the root widget, which results in the root widget's corresponding on_touch_down, on_touch_move or on_touch_up event handler being called."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:191
-# 45a49c493bfd46d5b645474078099dbd
+# 4b0a91550ef84b69b535777a9d1394f6
 msgid "Each widget (this includes the root widget) in the tree can choose to either digest or pass the event further. If an event handler returns True it means that the event has been digested and handled properly. No further processing will happen with that event. Otherwise, the event handler passes the widget on to its own children by calling its superclass's implementation of the respective event handler. This goes all the way up to the base Widget class, which -- in its touch event handlers -- does nothing but pass the touches to its children::"
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:206
-# 2d02ea4d3f4245e5bc560b75543f8256
+# c80cdae2a08547658ee081795931fea6
 msgid "This really is much easier than it first seems. An example of how this can be used to create nice applications quickly will be given in the following section."
 msgstr ""
 
 #: ../../sources/guide/architecture.rst:210
-# d20696fca13a4e91a3aa58b85a9827c9
+# d81ca039c4a1447ea0a752cad4a87943
 msgid "Often times you will want to restrict the *area* on the screen that a widget watches for touches. You can use a widget's collide_point() method to achieve this. You simply pass it the touch's position and it returns True if the touch is within the 'watched area' or False otherwise. By default, this checks the rectangular region on the screen that's described by the widget's pos (for position; x & y) and size (width & height), but you can override this behaviour in your own class."
 msgstr ""
 
 #: ../../sources/guide/config.rst:2
-# 23cb4c0c651d447abd22985463f0a8df
+# dd5abaf06bcf42a8b76b69247617a4d2
 msgid "Configure Kivy"
 msgstr ""
 
 #: ../../sources/guide/config.rst:4
-# 06aaa9c2c836459fab3774c721765917
+# 15e91572b510443782556d5eb64dc3fe
 msgid "The configuration file of kivy is named `config.ini`, following the INI format file."
 msgstr ""
 
 #: ../../sources/guide/config.rst:8
-# 1484898037ec433ba0b5075dbd5d4c88
+# c8ab4d6ad4774c3a95194c2c928ef974
 msgid "Locating the configuration file"
 msgstr ""
 
 #: ../../sources/guide/config.rst:10
-# 8d10b9c26dfb41bba63438a99b9f0cfc
+# 838b2f9db9e6416a87b2068df67aabe5
 msgid "The location of the configuration file is in::"
 msgstr ""
 
 #: ../../sources/guide/config.rst:14
-# 941362a3ecd94470af139386d8c48b47
+# da6edcd2cb7b45a8849e80f9d3fd771d
 msgid "If your user is named \"tito\", the file will be located at:"
 msgstr ""
 
 #: ../../sources/guide/config.rst:16
-# 1a2f124a8e4146f2b4836e143f136d0f
+# c251dbcbfe6d4f908e3ad6f22df8a55c
 msgid "Windows: ``C:\\Users\\tito\\.kivy\\config.ini``"
 msgstr ""
 
 #: ../../sources/guide/config.rst:17
-# f3adc5a784e9496fb1eb25b52bb6a506
+# 7b0e58188c8b4905ad6a7d1d318eef2c
 msgid "MacOSX: ``/Users/tito/.kivy/config.ini``"
 msgstr ""
 
 #: ../../sources/guide/config.rst:18
-# 1c8844a8a8f84910abb4f44518800ca0
+# 75c1e2ef5ac44ec986e1c09dee86d8f0
 msgid "Linux: ``/home/tito/.kivy/config.ini``"
 msgstr ""
 
 #: ../../sources/guide/config.rst:22
-# 5903a6789ebb4799b7083549b8d7be7a
+# cb8a756e11ce4de48bc63e8d5c5fca9e
 msgid "Understanding config tokens"
 msgstr ""
 
 #: ../../sources/guide/config.rst:24
-# 2ce55fcdd0124ca2ac0e249a54baeddc
+# e3edf1eed59a40808a3fedf3bb42b7a6
 msgid "All the configuration tokens are explained in the :mod:`kivy.config` module."
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:7
-# 7510c7267a774cbfa4f2b8bc2dca5beb
+# 5f1b3e37e2cc49af878c432bc88f4991
 msgid "Designing with Kivy language"
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:9
-# 07791ae459e243cc80813c18e445f903
+# c1a4b88c4e76473a935741652458c1a2
 msgid "Let's start with a little example. First, the Python file named `main.py`:"
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:14
-# e00c41ff80af4e28a369d816ccd1d2dd
+# 86375c846b2d4c81b476d8e5445ac57e
 msgid "In this example, we are creating a Controller class, with 2 properties:"
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:16
-# 00659d3736b64d728c6966ad2bfcaf39
+# ae4665b2c112402c94672e7202800f34
 msgid "`info` for receving some text"
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:17
-# c44d77c9b71247f5b0831ca7b9a38e68
+# 4601c73b3878497b84dfd77c32a66b60
 msgid "`label_wid` for receving the label widget"
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:19
-# 2e57af3d2e894918a2d25c32976a904c
+# 529559642d654fbfb617450ac3de66ed
 msgid "In addition, we are creating a `do_action()` method, that will use both of theses properties: change the `info` text, and use `label_wid` to change the content of the label with a nex text."
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:23
-# 138c4eef40694a38a792b99c1bf8ebf0
+# a63e7227785544239645747ec25983e7
 msgid "If you execute that application without kv, it will work... but nothing will be showed on the screen. That's normal: `Controller` class have no widget in it, it's just a Layout. We can now create a kv file and create the UI around the `Controller` class in a file named `controller.kv`. The relation between the previous file and the kv is described in the :class:`kivy.app.App` class."
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:32
-# 784ecc4a9f3c4ee28ee5dbd36199f5cf
+# c2c39c067d294569bf3a80d4d7bdabeb
 msgid "Yes, one label and one button in a vertical boxlayout. Seem very simple. Now, we have 2 things here:"
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:34
-# 0d84f957491844dca4891844e1091e2f
+# 07c7ebc1061f4e2d8ec046d3130bd48c
 msgid "Use data from `Controller`: that's the goal of `info` property: as soon as the property is changed in the controller, the kv part that use it will be automatically re-evaluated, and change the button text."
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:38
-# b68b92e92b59476c86bf65de499bc335
+# bda6f5c244b74f10851c1c4f2e27b7b5
 msgid "Give data to `Controller`: the first assignation `label_wid: my_custom_label` is to assign a new value to the `label_wid` property. Using id, you can give the instance of one of your widget to the `Controller`."
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:43
-# d18d955317f94f9f9fa17c4e8bb751df
+# 81db34cbbf4e43d088cf0ff45b96320d
 msgid "Also, we are creating a custom callback in the `Button` using `on_press`. Remember that:"
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:45
-# f0015d097cf146748295b8b3f389ab50
+# 8b55b9f584e943e1bdb4560108a74653
 msgid "`root` and `self` are 2 reserved keyword, that can be used anywhere for evaluation. `root` represent the top widget in the rule and `self` represent the current widget."
 msgstr ""
 
 #: ../../sources/guide/designwithkv.rst:49
-# a646d96de479459bb317f71505313059
+# 5f4362528be046de881e782a61f40cef
 msgid "you can use any id declared in the rule same as `root` and `self`. For example, you could do in on_press::"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:4
-# 36a817248a314094ba30e902c29135bd
+# f1dd8e59a9c74613acfa81fa1fb66a68
 msgid "Controling the environment"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:6
-# 120af96358624261aebbdafb7c407861
+# b20e94a565f24afdba4f2ba0af193295
 msgid "Many environment variables are available to control the initialization and behavior of Kivy."
 msgstr ""
 
 #: ../../sources/guide/environment.rst:9
-# dcfddf0bf9df4dce97f18ad1e774e847
+# 96ee5b08103348a9953834b13974f065
 msgid "For example, for restricting text rendering to cairo implementation::"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:13
-# ac71114aa5b8435bb8131a616fef2777
+# 57cd6eb63528404ba3c5cc57226ad825
 msgid "Environment variable can be set before importing kivy::"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:20
-# d6803e226e6341ffbd926b546a64cb1b
+# e847198e527d4a71af171bbfa4356f35
 msgid "Configuration"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:23
-# 240b04aa06c94307afa815bf97ec8efc
+# dd67a4b5ccd94878af2bfea1d0cefa2c
 msgid "If this name is found in environ, Kivy will not read the user config file."
 msgstr ""
 
 #: ../../sources/guide/environment.rst:26
-# a59092faf54a42c689adb32fae233ba5
+# 7317e820a07b4c3bb1d5408fb7ba5cf1
 msgid "Path control"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:30
-# c94ae6ed0d9e4a978a4ee283d3138f56
+# a8a9a42db5d84535845c7bcef5974ae8
 msgid "You can control where is located default directory of modules, extensions, and kivy datas."
 msgstr ""
 
 #: ../../sources/guide/environment.rst:34
-# a054a0e9a89f4b1cbc6d5842b05e587a
+# 01bbb5570a7b4b199541be223cba5ec1
 msgid "Location of the Kivy data, default to `<kivy path>/data`"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:37
-# d024ae735d1146899252878e98d449cc
+# 84478a7c38f8435ca44cce9759552665
 msgid "Location of the Kivy extensions, default to `<kivy path>/extensions`"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:40
-# 551e3b259acc419d9e1e76ec1fd1e9db
+# 43d7dd1d26a54500af69e116fce3066f
 msgid "Location of the Kivy modules, default to `<kivy path>/modules`"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:43
-# 72302600ec9d4d9086920fc08d559f00
+# 4fbc5de2576e4d27aab07c5c2fe8b342
 msgid "Restrict core to specific implementation"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:45
-# 8d1c24c8c4b04f5ebca21fb1a160ab0b
+# c9e1e2e27664411cb311562e25484be1
 msgid ":mod:`kivy.core` try to select the best implementation available for your platform. For testing or custom installation, you might want to restrict the selector to a specific implementation."
 msgstr ""
 
 #: ../../sources/guide/environment.rst:50
-# 8f0c1987b377462b8cc93788f6945fbe
+# ab849c732a28476fa82427bdd2245ecc
 msgid "Implementation to use for creating the Window"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:52
-# 74b5928001da4698a8585b4a91f9610b
+# ab17bd23ca714466903c8bcd6c42103b
 msgid "Values: pygame"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:55
-# 4c917f101cff465292d3185745192219
+# 9b0791d871b446608fccc7328d80b457
 msgid "Implementation to use for rendering text"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:57
-# b29307ae8a944d8fa899c656627e9a6e
+# 18d722fe44b2482ab79528095ca419df
 msgid "Values: pil, cairo, pygame"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:60
-# 8660f8a98043400c8c613da7d8ba34b9
+# 823a410296c345e6ab8f517bfe8e5335
 msgid "Implementation to use for rendering video"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:62
-# d6fb9b99f68d4d8b986f426c58b5549b
+# ca3b036a2c864860a70be2682451d324
 msgid "Values: gstreamer, pyglet, ffmpeg"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:65
-# b20173615bf74470b83821c702c4ba81
+# b754819489d64e69bda33e4b2cac7f7f
 msgid "Implementation to use for playing audio"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:67
-# 082e7f2f596a42f7ac8fd1f6c1f947f0
+# 6dd40827635f443daf78e1d7d6b22e3c
 msgid "Values: gstreamer, pygame"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:70
-# cc9dc2e512f145398b128eccf670aac9
+# 6cdeaa86d8c34e01b64a62d9b1a1c3ab
 msgid "Implementation to use for reading image"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:72
-# 30d6d9d0555945f49686837bf2137ed2
+# b479bf6a568a40259a7d5350b69cea8d
 msgid "Values: pil, pygame"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:75
-# 2f4a8766ac6644669d93bb25b79207ca
+# 355cc025d78446a59311e71602ec4f57
 msgid "Implementation to use for reading camera"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:77
-# 255fc273beca44f09a440a2e1ce0a3dd
+# 4a9e5e52873d44aebca61fad37f4c698
 msgid "Values: gstreamer, opencv, videocapture"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:80
-# 444d929d27384b39924a8100f6670d80
+# dead04b64574497bbcba92d1b9bf9749
 msgid "Implementation to use for spelling"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:82
-# 286adbf3d160482f9da0c5fcf73c06c9
+# 9292d5702766493e8a9d472ee26c4ccd
 msgid "Values: enchant, osxappkit"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:85
-# 54390250a8494e1b8eb51389ea9aaf00
+# de8da31b8b4e44259d2950838779501c
 msgid "Implementation to use for clipboard management"
 msgstr ""
 
 #: ../../sources/guide/environment.rst:87
-# 6e7f1007c4ba4141ac740c05ff130cf3
+# a5f921a9ff6a4773a03821dcc83fe612
 msgid "Values: pygame, dummy"
 msgstr ""
 
 #: ../../sources/guide/events.rst:2
-# 489153c01c1e49169eea031fd6ef96e7
+# 46ffafa47433469f90b413fb513c281b
 msgid "Events"
 msgstr ""
 
 #: ../../sources/guide/events.rst:4
-# 66cdf68c292b4290a92ec92755ebd24c
+# b975f2621f5a4289926bca1fbffc66a5
 msgid "You have 2 types of events living in Kivy:"
 msgstr ""
 
 #: ../../sources/guide/events.rst:6
-# c9fbbe0918164627aeae6b089fd4d823
+# 6b3ec7df4eab48b9b4d63f290c7e1d5b
 msgid "Clock events: if you want to call a function X times per seconds, or if you want to call a function later."
 msgstr ""
 
 #: ../../sources/guide/events.rst:8
-# 07fa5654503f47008b36c08245b7099b
+# 213c9606049842899e3c0c761274dddd
 msgid "Widget events: if you want to call a function where something change in the widget, or attach a function to a widget specific event."
 msgstr ""
 
 #: ../../sources/guide/events.rst:13
-# 6cb6f0b3ba754ce9831efb33d3defb82
+# b2c226493a1e4dc48b7e153adad41057
 msgid "Clock events"
 msgstr ""
 
 #: ../../sources/guide/events.rst:15
-# 25ee0be8318b47e3b2fd844da0dd61b5
+# 9bc942fe1cea4d9b884eb1488aa6505d
 msgid "Before starting the event part, Kivy have a main loop, and must avoid to break it. The main loop is responsible to read all the inputs, load images asynchronously, draw the frame etc. If you are looping yourself or sleeping somewhere, you'll break the main loop. For example, here is the biggest mistake done::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:25
-# 63b645857d254e6cb951ff6c291e272b
+# f454457e7aa643c19a2d79332fb40752
 msgid "This is wrong. Because you'll never go out of your loop, and you'll see a black window, no more interaction. You need to \"schedule\" the call of your function over the time. You can schedule it in 2 way: repetitive call or one-time call."
 msgstr ""
 
 #: ../../sources/guide/events.rst:30
-# 834a666de5ff4c4581d5b979e41fe24d
+# 333c4304ffa64574ab52aa36bb8aaed1
 msgid "Scheduling an repetitive event"
 msgstr ""
 
 #: ../../sources/guide/events.rst:32
-# 47c26de9add0401b9496b467100ccb96
+# ff9cbe349c7647fdb65cb46a1e47dd97
 msgid "You can call a function or a method every X times per seconds using :meth:`~kivy.clock.Clock.schedule_interval`. Here is an example of calling a function named my_callback 30 times per seconds::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:40
-# 5bbc3d19be1e4830a2bcec7c137deeb5
+# 2bc19d1cea504ad9bf7778519b23d1af
 msgid "You have 2 ways of unschedule a previously scheduled event. The first would be to use :meth:`~kivy.clock.Clock.unschedule`::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:45
-# b7d024a5662e4a819e5cc4ad1c3934da
+# 1aaa457a93e648fe8e1fda5a3a090db6
 msgid "Or, you can return False in your callback, and your event will be automatically unschedule::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:60
-# f06aeb2cd0a442ee92501c495ee211ee
+# 2fed8516dfdf4eccb12d9e5760c2b9bd
 msgid "Scheduling an one-time call event"
 msgstr ""
 
 #: ../../sources/guide/events.rst:62
-# c2688f9b5c1c49d184d6ec39ac480f85
+# 0a3ff143bd9b471f9e7f81fbcaf8844b
 msgid "Sometime, you can to call a function \"later\", like in the next frame, or in X seconds. Use :meth:`~kivy.clock.Clock.schedule_once`::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:69
-# b4a97e014b2c490db528c45b231a2903
+# 24e56db248fb441a9abf55c47114ed76
 msgid "This will call the callback one second after. The second argument is the time to call the function, but you have achieve tiny tricks here :"
 msgstr ""
 
 #: ../../sources/guide/events.rst:72
-# 0b006d049c9340ac9ef4fac317f43e9e
+# 8230f4e8137d4f14bab9b2085e1be9a9
 msgid "If it's more than 0, the callback will be called in the X seconds"
 msgstr ""
 
 #: ../../sources/guide/events.rst:73
-# 6df0c2e2079649f5afa2221500df3df5
+# 4d7b5ec8a4074435a19052afe70545a8
 msgid "If it's 0, the callback will be called in the next frame, before the drawing"
 msgstr ""
 
 #: ../../sources/guide/events.rst:74
-# 239956ef310c4be89909da58fab2bf96
+# db2324aa29c64fa484c34b3bc811dd87
 msgid "If it's -1, the callback will be called before the drawing, if the clock is not overflooded"
 msgstr ""
 
 #: ../../sources/guide/events.rst:77
-# e11595781fb04a3ba468b801cdb22433
+# 06fcc80f9a06467bb193977c86e36822
 msgid "The -1 is mostly used when you are already is a scheduled event, and if you want to schedule a call BEFORE the next frame is happening."
 msgstr ""
 
 #: ../../sources/guide/events.rst:82
-# 0db2a07062744a859f02af47fbe84ef7
+# ca27002db1804f18a9daa2feaf091762
 msgid "Trigger events"
 msgstr ""
 
 #: ../../sources/guide/events.rst:84
-# 3fca1d0292ee4048b9ac492070b9c655
+# d193e8c592cc4501b26e82b136c5cb7d
 msgid "If you want to have schedule a call only \"one time\" for the next frame, the trigger events is for you. Before, triggering can be achieve with::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:90
-# a0cb5f52dd64481eafd3ec18920a6538
+# ab21f7678a1a45dd82e0a555e03766db
 msgid "That way of doing trigger is expensive, because you'll always call unschedule whatever if the event is already scheduled or not. In addition, it need to iterate into the weakref list of the Clock to found your callback, and remove it. Don't do that. Use trigger::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:99
-# 48edf7c65bc6425c8a655ecf0dc51f15
+# c83be0406ee9450099f0615e20d27b0e
 msgid "Each time you'll call trigger, it will schedule a call of your callback, only one. If the schedule was already done, it will be ignored."
 msgstr ""
 
 #: ../../sources/guide/events.rst:106
-# de5d7aca572a4dc9b9deab9cfaaff028
+# 6888bd625d8c42f18db9ae99ba2f1014
 msgid "Widget events"
 msgstr ""
 
 #: ../../sources/guide/events.rst:108
-# 4b88691ecbf1460c9ba036dd4e2c3c6f
+# 8c0a12b5e3e448929601de33fa307fce
 msgid "A widget have 2 types of events:"
 msgstr ""
 
 #: ../../sources/guide/events.rst:110
-# 64cb97b2e14b40d3a6d1902a25ddcfee
+# 50d09c21b8464cf997fc7850748b6a8d
 msgid "Property event: if your widget change of pos or size, you'll have an event fired"
 msgstr ""
 
 #: ../../sources/guide/events.rst:112
-# b8d2ae03089248c9aa98f0e8cefc8985
+# 8f6859e52a00453b804c65e2e54600d0
 msgid "Widget defined event: a Button will have even fired when it's pressed or released."
 msgstr ""
 
 #: ../../sources/guide/events.rst:117
-# 019b4017dc7c4dc6925313fe07c84233
+# eb6f0e0d0db74f43816b3e1ba9a5107c
 msgid "Property event"
 msgstr ""
 
 #: ../../sources/guide/events.rst:119
-# e5c3db59712347d3a624ef2d7c32c957
+# 3259c54127a24c1181b1dc1e1de9dd94
 msgid "A widget have many property. You'll find in the doc that every property have a type like :class:`~kivy.properties.NumericProperty`, :class:`~kivy.properties.StringProperty`, :class:`~kivy.properties.ListProperty`."
 msgstr ""
 
 #: ../../sources/guide/events.rst:124
-# 7f85d113cb0d4733a5977cfcc7d85dd5
+# eff3612c0db3411ca729d2358c2a8f8e
 msgid "Usualy, when you want to create a Python class with properties, you'll do something like this::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:131
-# 9e0e1a75678d4a8aab401074a2f870ac
+# 8fcb5c21e2d34f6c91d143f6559c713e
 msgid "By doing that, you have not a good way to know when the prop1 is changed, except by rewriting the class and hook the __getattribute__. But we'll not get into details here. The Kivy way is that::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:138
-# ae19f49dba004b9caff792f510345fc0
+# d907add24af442fea50f571b77bf3b4b
 msgid "You can connect a function to that property if you willing to be called when the value of the property change::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:151
-# ca0d6e7ddcad4536aa0bc15f069cb673
+# a55a808cd1fa465886642d38def2b60c
 msgid "If you want to resign of receiving event from prop1 property, call unbind::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:157
-# 92c74d90baa84cdb9ed043a0252a2272
+# 5c9e9f185ef64fc48e7dad9911cb6656
 msgid "Widget defined event"
 msgstr ""
 
 #: ../../sources/guide/events.rst:159
-# 0e4ee80151c24a57abd0d8bb32961470
+# 523ee338688e46789fef791574385c84
 msgid "Sometime, the properties event is not enought to hook on it. For example, a Button can have a state property that will indicate if the Button is currently pressed or not (\"down \" or \"normal\" actually). We make the choice to add additionnals event for that: :meth:`~kivy.uix.button.Button.on_press` and :meth:`~kivy.uix.button.Button.on_release` event::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:170
-# c7e48d1e382542a09379ca4299a7739c
+# 09a6874a66a04d97a963a3470e7c2ff3
 msgid "Every widget defined event are in the documentation, at the start of the widget class. You can find a list of widget defined event that the widget support."
 msgstr ""
 
 #: ../../sources/guide/events.rst:173
-# da7e8ada5d194833a382b2516a036b41
+# 6974bc6fc78746928ded8ef0b8c2fb2d
 msgid "If are designing your own widget, you can create your own widget event by using the :meth:`~kivy.event.register_event_type`::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:185
-# 744c8411ef0b418b94ea3fda8ec1e934
+# 73238e286c7a4c8fb85d14c26f42785b
 msgid "Then, the user can hook on it, same as the Button.on_press event. But the event is never dispatched here. Let's just add a function for demonstrating how to dispatch a widget defined event::"
 msgstr ""
 
 #: ../../sources/guide/events.rst:196
-# 0973800ec48d482ab7772091abe4ec30
+# 0126849a6c0841cbac05ffcc9bb5bf85
 msgid "Now, everytime you'll call do_something() method, it will dispatch on_custom_event, and call every function attached to this event."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:7
-# 79f9c39f7d0e4f8d9ba65fc029f752c2
+# 0693e4822ca84380837ef8520c36f2de
 msgid "Your First Widget"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:9
-# cd7eaf5669f945de86a97ce34b05e852
+# 0bbdc45b01ae4585b71427f3104000b7
 msgid "In the following you will be guided through the creation of your first widget. This is some very powerful and important knowledge when programming Kivy applications, as it lets you create completely new user interfaces with custom elements for your specific purpose."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:16
-# 4c9dc948572b46bc9c97f21c7493c06d
+# 8994683bf24942bc946c28a5dc81e5a8
 msgid "Basic Considerations"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:18
-# 5d7d756378e84548b2eab7e4a00fb785
+# b8073c26bc234b2abe725c673870a222
 msgid "When creating an application, you have to ask yourself three main questions:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:20
-# 6584ee17ba2d439ab88022a8c1e6c3e6
+# 51bf29a7e46a474a8ee664d7155b96e0
 msgid "What data does my application process?"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:21
-# 5ef145493ada46aa92c634a171b1966e
+# ba78694e345c4f1cb3ea8308d8388c83
 msgid "How do I visually represent that data?"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:22
-# 5f29f6ee5ee6449586dbca8db89b3b9b
+# c331705a77b1424eb8978770c5f6743e
 msgid "How does the user interact with that data?"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:24
-# 5b39e9450be5488cbc67068fa7821801
+# 16652c75e7b44a42868206bed5cbe5b8
 msgid "If you want to write a very simple line drawing application for example, you most likely want the user to just draw on the screen with his fingers. That's how the user *interacts* with your application. While doing so, your application would memorize the positions where the user's finger was, so that you can later draw lines between those positions. So the points where the fingers were would be your *data* and the lines that you draw between these would be your *visual representation*."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:32
-# 8e6113c1c5a44ff5bc56cdc79207a71d
+# c022a579369e4c9f8500221636c873ab
 msgid "In Kivy, an applications user interface is composed of Widgets. Everything that you see on the screen is somehow drawn by a widget. Often you would like to be able to reuse code that you already wrote in a different context, which is why widgets typically represent one specific instance that answers the three questions above. A widget encapsulates data, defines the user's interaction with that data and draws its visual representation. You can then build anything from simple to complex user interfaces by nesting widgets. There are many widgets built in, such as buttons, sliders and other common stuff. In many cases, however, you need a custom widget that is beyond the scope of what is shipped with Kivy (e.g. a medical visualization widget)."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:45
-# 2365f34dd6b146c09aef3def4461b41c
+# 5bf0d1543dde45b0afd9b40e91f25b36
 msgid "So keep these three questions in mind when you design your widgets. Try to write them in a minimal and reusable manner (I.e. a widget does exactly what its supposed to do and nothing more. If you need more, write more widgets or compose other widgets of smaller widgets)."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:52
-# be6126b27fd94da99dfe0e76dd1a43a7
+# 7576334e147843959295c44e1e09e088
 msgid "Paint Widget"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:54
-# 0ac8b33bc4d844aab86df01f37f481d5
+# 4c0499cd96ff4bfdb3e9d5f414d31cf4
 msgid "We're sure one of your childhood dreams has always been creating your own multitouch paint program. Allow us to help you achieve that. In the following sections you will successively learn how to write a program like that using Kivy. Make sure that you have read and understood :ref:`quickstart`. You have? Great! Let's get started!"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:63
-# 7751815d6e1e4749ab1a11bebfef3ef4
+# 0e32dcae62964cb89a301ff6c3f3d1a6
 msgid "Initial Structure"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:65
-# 08476cdae4e74a698eeb51c9a8457390
+# 02ba227a01c04631ace7df6d5ddf4e5d
 msgid "Let's start by writing the very basic code structure that we need.  By the way, all the different pieces of code that are used in this section are also available in the ``examples/guide/firstwidget`` directory that comes with Kivy, so you don't need to copy & paste it all the time. Here is the basic code skeleton that we will need:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:75
-# 955e0bec23bb44669b604384f17dfbb1
+# d16d6d3fdaa84c818c234337bed7a795
 msgid "This is actually really simple. Save it as paint.py. If you run it, you should only see a black screen. As you can see, instead of using a built-in widget such as Button (see :ref:`quickstart`), we are going to write our own widget to do the drawing. We do that by creating a class that inherits from :class:`~kivy.uix.widget.Widget` (line 5-6) and although that class does nothing yet, we can still treat it like a normal Kivy widget (line 11). The ``if __name__ ...`` construct (line 14) is a Python mechanism that prevents you from executing the code in the if-statement when importing from that file, i.e. if you write ``import paint``, it won't do something unexpected but just nicely provide the classes defined in the file."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:89
-# 4504bd72caa84b7bbd302a40301bb372
+# d1b082dec4e14b988ddcafeb5e5f1232
 msgid "You may be wondering why you have to import App and Widget separately, instead of doing something like ``from kivy import *``. While shorter, this would have the disadvantage of cluttering your namespace and making the start of the application potentially much slower. It's also not as clear what your application uses. The way we do it is faster and cleaner."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:98
-# 3c59c44dc81f4522b77b988e1b24d70d
+# 2f4cfd2e88554858803d1ad4e825561e
 msgid "Adding Behaviour"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:100
-# 28d31f73356947f1ad5f83ccd866bde5
+# d87d540f05e04a95a8719e7339b062f3
 msgid "Let's now add some actual behaviour to the widget, i.e. make it react to user input. Change the code like so:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:107
-# 9d8a1347567a4fcc8c26fead8613882e
+# 64758392837f411d8dce32f1522b95ea
 msgid "This is just to show you how easy it is to react to user input. When a :class:`~kivy.input.motionevent.MotionEvent` (i.e. a touch, click, etc.) occurs, we simply print the information about the touch object to the console. You won't see anything on the screen, but if you observe the command-line from which you are running the program, you will see a message for every touch (initially). This also demonstrates that a widget does not always have to have a visual representation."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:115
-# 4f3849eabb604064b5fc193b52cb8a6c
+# d549c269a4064e1dae070bb45edeb810
 msgid "Now that's not really an overwhelming user experience. Let's add some code that actually draws something into our window:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:124
-# bdc754e7b3cb4ff2a90f9328d4ca149a
+# 9334f857631c4a2e82f976f11ba3ba18
 msgid "If you run your code with these modifications, you will see that every time you touch, there will be a small yellow circle drawn where you touched. How does it work?"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:128
-# ce5cd00a712842bd9537837927f67c20
+# b1ce03bd7f9d48849a475beaa14f69ee
 msgid "Line 8: We use Python's ``with`` statement with the widget's :class:`~kivy.graphics.instructions.Canvas` object. This is like an area in which the widget can draw things to represent itself on the screen. By using the ``with`` statement with it, all successive drawing commands that are properly indented will modify this canvas. The ``with`` statement also makes sure that after our drawing, internal state can be cleaned up properly."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:135
-# 57f3ae2e14a94f57946584887fcb4b56
+# 0f5e69a9ede842669872af4e6f437dfb
 msgid "Line 9: You might have guessed it already: This sets the :class:`~kivy.graphics.context_instructions.Color` for successive drawing operations to yellow (default color format is RGB, so (1, 1, 0) is yellow). This is true until another color is set. Think of this as dipping your brushes in that color which you can then use to draw on a canvas until you dip the brushes into another color."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:141
-# fd83235c7ca54d4f8561d6b3eb819fc9
+# 42af687797224eb588b7e6914146a8e2
 msgid "Line 10: We specify the diameter for the circle that we are about to draw. Using a variable for that is preferable since we need to refer to that value multiple times and we don't want to have to change it in several places if we want the circle bigger or smaller."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:145
-# 2e94ae1a21a042398da04071356ca48c
+# 5922bf66e19c4565b71daf9f51dc9dc9
 msgid "Line 11: To draw a circle, we simply draw an :class:`~kivy.graphics.vertex_instructions.Ellipse` with equal width and height. Since we want the circle to be drawn where the user touches, we pass the touch's position to the ellipse. Note that we need to shift the ellipse by ``-d/2`` in the x and y directions (i.e. left and downwards) because the position specifies the bottom left corner of the ellipse's bounding box, and we want it to be centered around our touch."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:155
-# ec170c768e99420f8899c4d223e6549b
+# ad20d455b2ab4bf6b247e894c4e53995
 msgid "That was easy, wasn't it? It gets better! Update the code to look like this:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:165
-# f19ab3f3996f4fe3b09882fc9c1e0a8d
+# 5e089924cb584ef48ad8c1fa321e4ac4
 msgid "Line 3: We now not only import the :class:`~kivy.graphics.vertex_instructions.Ellipse` drawing instruction, but also the :class:`~kivy.graphics.vertex_instructions.Line` drawing instruction. If you look at the documentation for :class:`~kivy.graphics.vertex_instructions.Line`, you will see that it accepts a ``points`` argument that has to be a list of 2D point coordinates, like ``(x1, y1, x2, y2, ..., xN, yN)``."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:172
-# f397049a551b4bfc8fa1630511a08618
+# 172dad42026e46608753c9613d07fce7
 msgid "Line 8: This is where it gets interesting. ``touch.ud`` is a Python dictionary (type <dict>) that allows us to store *custom attributes* for a touch. On this line we simply get a reference to it to make it more clear that ``ud`` stands for ``userdata``. You could just as well write ``touch.ud`` instead of ``userdata``."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:177
-# 463af51eb7d24eb5bce2175c663108ac
+# 9826c97c158b417ab1c970460cc084de
 msgid "Line 13: We make use of the Line instruction that we imported and set a Line up for drawing. Since this is done in ``on_touch_down``, there will be a new line for every new touch. By creating the line inside the ``with`` block, the canvas automatically knows about the line and will draw it. We just want to modify the line later, so we store a reference to it in the ``userdata`` dictionary under the arbitrarily chosen but aptly named key 'line'. We pass the line that we're creating the initial touch position because that's where our line will begin."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:186
-# 2087b844a24a415480c4b2da3a8252f3
+# e41efa712ddf4faa9514d4feb5d0a849
 msgid "Lines 15: We add a new method to our widget. This is similar to the ``on_touch_down`` method, but instead of being called when a *new* touch occurs, this method is being called when an *existing* touch (for which ``on_touch_down`` was already called) moves, i.e. its position changes. Note that this is the **same** :class:`~kivy.input.motionevent.MotionEvent` object with updated attributes. This is something we found incredibly handy and you will shortly see why."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:194
-# 7c716e528c644540a4e4e122cf21a4d3
+# 3b4ed246792a44f582af5aaeab7bf4ef
 msgid "Line 16: Remember: This is the same touch object that we got in ``on_touch_down``, so we can simply access the data we stored away in the userdata dictionary! To the line we set up for this touch earlier, we now add the current position of the touch as a new point. We know that we need to extend the line because this happens in ``on_touch_move``, which is only called when the touch has moved, which is exactly why we want to update the line. Storing the line in the userdata makes it a whole lot easier for us as we don't have to maintain our own touch-to-line bookkeeping."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:207
-# ef4f7dc1255d41e6b9f8350ca62a759a
+# 858ac33dca5d48599b1fe181c696e12b
 msgid "So far so good. This isn't exactly beautiful yet, though. It looks a bit like spaghetti bolognese. What about we give each touch its own color? Great, let's do it:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:217
-# 89d1b7c4f7f049eb968701203d73d5b7
+# 62dd532cb0904d11a236513609f1b2c6
 msgid "Here are the changes:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:219
-# 17c777cb7f7e4183b96dd5b160c4c05f
+# 9a78bb553ce34d5eb8158597c1bc97f2
 msgid "Line 1: We import Python's random() function that will give us random values in the range of [0., 1.)."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:221
-# 160a8450b85e46e1aacf754477f6246d
+# 57fa168a4a934f2db3f58ded5a2a6c59
 msgid "Line 10: We want to memorize the color for this touch, so we store it in the touch's userdata dictionary. In this case we simply create a new tuple of 3 random float values that will represent a random RGB color. Since we do this in ``on_touch_down``, every new touch will get its own color. Don't get confused by the use of two ``=`` operators. We're just binding the tuple to ``c`` as well as a shortcut for use within this method because we're lazy."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:229
-# f01652109c0142d4bd6fe182bdfdb42c
+# 828eb697602940528c9db7b1d75f08e9
 msgid "Line 12: As before, we set the color for the canvas. Only this time we use the random values we generated and feed them to the color class using Python's tuple unpacking syntax (since the Color class expects three individual color components instead of just 1. If we were to pass the tuple directly, that would be just 1 value being passed, regardless of the fact that the tuple itself contains 3 values)."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:238
-# 1bbd56acd1c448ed814759756473416b
+# ebca5d0cf4944eb2b3abf8f4ebbbed6b
 msgid "This looks a lot nicer already! With a lot of skill and patience, you might even be able to create a nice little drawing!"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:242
-# 7920094a65964f578d183761f983e5ad
+# 5288e4352e274e12bec2065430b2f3c2
 msgid "Since by default the :class:`~kivy.graphics.context_instructions.Color` instructions assume RGB mode and we're feeding a tuple with three random float values to it, it might very well happen that we end up with a lot of dark or even black colors if we are unlucky. That would be bad because by default the background color is dark as well, so you wouldn't be able to (easily) see the lines you draw. There is a nice trick to prevent this: Instead of creating a tuple with three random values, create a tuple like this: ``(random(), 1., 1.)``. Then, when passing it to the color instruction, set the mode to HSV color space: ``Color(*c, mode='hsv')``. This way you will have a smaller number of possible colors, but the colors that you get will always be equally bright. Only the hue changes."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:257
-# 353cc5a91a7c4ec9955ea711158eb760
+# 22474b2e4a2b4e8c94f0086da7fb5745
 msgid "Bonus Points"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:259
-# 4e911786620b46e79e33acf98d65e8f4
+# 10468e4b9aec469d84561c8f0a0fdcc3
 msgid "At this point, we could say we are done. The widget does what it's supposed to do: It traces the touches and draws lines. It even still draws circles at the positions where a line begins."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:263
-# 7ea58411680c412c9795d5833c0e5f28
+# 047e0628ef5c4e56ae9033a93934d6a9
 msgid "But what if the user wants to start a new drawing? With the current code, the only option to clear the window would be to restart the entire application. Luckily, we can do better. Let us add a *Clear* button that erases all the lines and circles that have been drawn so far. There are two options now:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:270
-# acc181b0b3334efbac5142df93e5f20e
+# 05f64c67abe04089beb16d3573f1a8e5
 msgid "We could either create the button as a child of our widget. That would imply that if you create more than one widget, every widget gets its own button. If you're not careful, this will also allow users to draw on top of the button, which might not be what you want."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:274
-# 2a378fe489ba484685d7008c922ede50
+# 3397f45831d34d919276a07696029462
 msgid "Or we set up the button only once, initially, in our app class and when it's pressed we clear the widget."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:277
-# 28e7019b19054e91a9a9819dedc007d4
+# 7b3a89f0ffb74050aed6ae5f02c42cbc
 msgid "For our simple example, that doesn't really matter at all. For larger applications you should give some thought to who does what in your code. We'll go with the second option here so that you see how you can build up your application's widget tree in your app class's :meth:`~kivy.app.App.build` method. We'll also change to the HSV color space (see preceding note):"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:289
-# 22b8986089c64706bf7da2f0408481b8
+# 0ac3c3cebca74b79991cb48458ba5b4d
 msgid "Here's what happens:"
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:291
-# e35e65c1d3f74cec8f5584ebf5b8ed4a
+# 90333492382848158e607cc5a30aa9a2
 msgid "Line 4: We added an import statement to be able to use the :class:`~kivy.uix.button.Button` class."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:293
-# b9d8608c281142f4b2837098cb14d9ce
+# 079a93b8e68b4431acd1689e4882a5ac
 msgid "Line 24: We create a dummy ``Widget()`` object as a parent for both our painting widget and the button we're about to add. This is just a poor-man's approach to setting up a widget tree hierarchy. We could just as well use a layout or do some other fancy stuff. Again: This widget does absolutely nothing except holding the two widgets we will now add to it as children."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:299
-# cd868840a6d14566851c61ea5fe84de5
+# 4a38e0a6a6e04250aec45389ccea4444
 msgid "Line 25: We create our ``MyPaintWidget()`` as usual, only this time we don't return it directly but bind it to a variable name."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:301
-# 64b27308761746a58f53a02efa482947
+# 3099223b20cb4e8b89b97de1b968d050
 msgid "Line 26: We create a button widget. It will have a label on it that displays the text 'Clear'."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:303
-# 1b661020ba0e46b3902dd52349b2ec64
+# 9093a58b96494e05b5aec9e720ba8112
 msgid "Line 27 & 28: We set up the widget hierarchy by making both the painter and the clear button children of the dummy parent widget. That means painter and button are now siblings in the usual computer science tree terminology."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:307
-# 9e057bab300d4f959ac973516e818ea6
+# 148690de440847049a1013131b858d98
 msgid "Lines 30 & 31: Up to now, the button did nothing. It was there, visible, and you could press it, but nothing would happen. We change that here: We create a small throw-away function that is going to be our callback function which is called when the button is pressed. The function just clears the painter's canvas' contents, making it black again."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:313
-# 25ede1db1d8c43d4b24c7d9944905301
+# 351b734c47ad4277bb674718dabd77ba
 msgid "Line 32: We bind the button's on_release event (which is fired when the button is pressed and then released) to the callback we just defined."
 msgstr ""
 
 #: ../../sources/guide/firstwidget.rst:317
-# d07e0e89f9734ba3be161ca8f53fddc3
+# a03f653dda0048bf83cd0206a82ac4bf
 msgid "Congratulations! You've written your first Kivy widget. Obviously this was just a quick introduction. There is much more to discover. We suggest taking a short break to let what you just learned sink in. Maybe draw some nice pictures to relax? If you feel like you've understood everything and are ready for more, we encourage you to read on."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:2
-# c7b35d9b6d56448a9566cec0d1fd55de
+# b8a7095038514a09bfdba879a9bc47ae
 msgid "Input management"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:5
-# b5c39d094d914fa7b18e4d6eaddb0988
+# a0f6ce8babd54c89ae99ced26c5c5a3c
 msgid "Input architecure"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:7
-# b2205de919a34779b2686b5aaf88cc10
+# 246c0263ca814f0db181851b510e0f18
 msgid "Kivy is able to handling almost all types of inputs: mouse, touchscreen, accelerator, gyroscope, etc. It handle natively multitouch protocol on every platforms: Tuio, WM_Touch, MacMultitouchSupport, MT Protocol A/B, Android."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:11
-# 5ffeb4baaeaa4a35bcefc5d112ef344c
+# 1d65c15a687945c3a4afd4d44a0b2170
 msgid "The global architecture can be resumed like that::"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:15
-# 53d9b2d18cf2412c8541dd81c3c82ac2
+# fe1b86e4657d47458f8f08886fe8209b
 msgid "The class for all input events is the :class:`~kivy.input.motionevent.MotionEvent`. From this, they are 2 kinds of events:"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:19
-# c5fe389add8f4d329d1e26506ffc675f
+# e82bbd660cf244bf9077e1a789df2186
 msgid "Touch events: it's a motion event that contain at least X and Y position. All the touch events are dispatched accross the Widget tree."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:21
-# e4e50263521848ffba2b5e08cd60d5c8
+# f6cc7201a038472ca316b428ad674e8c
 msgid "No-touch events: it's all the rest. For example, accelerator is a continuous event, without position. It never start or stop. Theses events are not dispatched accross the Widget tree."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:26
-# 3d5385c1a1804afc946eb701c4628a36
+# b6b9216b2197441685a3fbc492b0ecf7
 msgid "A Motion event is generated by a Input Provider. An input provider is responsible of reading the input event of one operating system, from the network of even from another application. Severals inputs providers exist, like:"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:28
-# 5d6b5d8af67c492398d67ecf66fb870a
+# d9f861c46818490cb7fff71a4913d1b4
 msgid ":class:`~kivy.input.providers.tuio.TuioMotionEventProvider`: create an UDP server and listening for TUIO/OSC message."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:30
-# 3f45133aac4342db87321e0e27d85f92
+# fb17ae667585486da6dcd1bb23322680
 msgid ":class:`~kivy.input.providers.wm_touch.WM_MotionEventProvider`: use the windows API for reading multitouch information and sending back to Kivy"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:32
-# b741cbb3f0d64ec5a17aeb40f237e0e9
+# b03cab7c09014a41a86f04fb237c195e
 msgid ":class:`~kivy.input.providers.probesysfs.ProbeSysfsHardwareProbe`: iterate over all the hardaware connected to the computer on linux, and attach multitouch input provider for all the multitouch hardware found."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:35
-# 2d376ee63d8844938a9bef2d859c3629
+# a3c7d2b93dc7473091a5297d8be0c938
 msgid "and lot more !"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:37
-# fd29f943bd3e4b778438aa4faed980f8
+# 1dd5c52c51184c7c987cd5619d29d7ee
 msgid "When you write an application, you don't need to create input provider. Kivy try to detect automatically the hardware available on the user computer. If the user want to support custom hardware, he will configure kivy to make it work."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:39
-# efd3e7b4077a4b698a078eb643f0ba24
+# c75ebeb9cf1644e2a9b80336e469206e
 msgid "Before the newly Motion Event is passed to the user, we are applying Input post-processors. For every motion event, we are analysis them to detect and correct the inputs like:"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:41
-# 3a5993f8835e47d685090b92192928ee
+# c05c889e26f04540b78d2c95d226a15e
 msgid "the detection of a double-tap according to a distance and time threshold"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:42
-# 99411014983d4db49f21ab44d1ba3c30
+# a487ea14c3674d7fbf64a296e8183e56
 msgid "correcting events when the hardware is not accurate"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:43
-# 8501c4ab00f84e9e9999a4eda7a13d02
+# 53bfeaef43f44deebed53875841837fc
 msgid "reducing the amount of event if the touch is sending nearly the same position"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:46
-# 871d6c156f274ac7874c53fd3ae823e8
+# f8ad8c56c98e4418873ae0128fc5a425
 msgid "Then, the motion event is dispatched to the Window. But as explained at the start, all the events are not dispatched to the whole widget tree, the window is filtering them."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:48
-# f7bcc9cecf744794b338fb20cee2e449
+# 01123f1823414510acdcf1bd400a2169
 msgid "if it's only a motion event, it will be dispatched to :meth:`~kivy.core.window.WindowBase.on_motion`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:49
-# 7ee46967e15b49aab2b60da5fc4fd95a
+# 795c990b825a4416a28fefc235313bfc
 msgid "if it's a touch event, the x/y position of the touch (0-1 range) will be scaled to the Window size (width/height), and dispatched to:"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:51
-# a5e5f609074e48509ddf3dd1a2ad7369
+# 086d122d643b4575b042fa86f8d86aef
 msgid ":meth:`~kivy.uix.widget.Widget.on_touch_down`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:52
-# 06fbc78dc8d94483a09091abac7da0bf
+# f874b1b513fc45cdad188ad320c446ec
 msgid ":meth:`~kivy.uix.widget.Widget.on_touch_move`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:53
-# fa4f6a4c639a4d5f96d61b28c5e30200
+# 1edbc14d0f2a48cebccf9fba96ddb462
 msgid ":meth:`~kivy.uix.widget.Widget.on_touch_up`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:57
-# 2c1fa4193f084829a126e2e77767a83a
+# 29212465c02e4fdda512fe1fa43a75d7
 msgid "Motion event profiles"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:59
-# c15c04ddb6854d5f9c74e68597e32321
+# c640ceb5d0d6465abde07ef24da58974
 msgid "Depending of your hardware and the input providers used, you can have more information. For example, a touch have x/y position, but might have pressure information, blob size, acceleration vector etc."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:63
-# 5fd5c5baf46549c2a71149bf9b71b2b0
+# ea8b6dfeaaa0403388fc644e13f8128f
 msgid "A profile is a string that indicate what features is available inside the motion event. For example, let's imagine that you are in a on_touch_move method::"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:71
-# 265cb2f8978c4b3a87e9acf362ddc12c
+# 1600a37c67a5441c8e46295cf912b141
 msgid "The print could output::"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:77
-# fcd2c800f9d94c3ba4a1f16949977aab
+# 35244c8200404352ab3cef789d92cf3a
 msgid "Most peoples are mixing the profile name and the properties available. Checking for 'angle' in profiles doesn't mean that a properties 'angle' exist."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:81
-# e82139ade18441e1ac8a9b796047aaf2
+# 0c6288bfdeaa4731b7efab5d1bc164d8
 msgid "The 'pos' profile mean that the properties 'pos', 'x' and 'y' will be available. The 'angle' profile mean that the property 'a' will be available. As we said, for touch event, pos is a mandatory profile. But not angle. You can extend your interaction by checking if the angle profile exist::"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:91
-# 895a51ded1d3492db35769f7f89097c0
+# 5292b41d383f42a4aa245c11002c66f4
 msgid "You can find a list of available profiles in the :ref:`motionevent` documentation."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:95
-# 9cbd68f8339f48fca9d54439f7814ebf
+# 145aea4591c94129b3ff870178b1e6b4
 msgid "Touch events"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:97
-# f15f37a8f0dd40d59c3bcae45d675320
+# 7a6258afe57a4e80922765cffeade079
 msgid "A touch event is a specialized :class:`~kivy.input.motionevent.MotionEvent` with the property :data:`~kivy.input.motionevent.MotionEvent.is_touch` to True. For all touch event, you have automatically the X and Y position available, scaled to the Window width and height."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:102
-# e7034b3685674db884f65bc01e55a5df
+# cbdf1fef7bbe467f94cc2e8531f976a7
 msgid "All the touch event have also the \"pos\" profile."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:104
-# 8fd5564665d94e489b2f2b1759b21cbb
+# 79f882a444fb442bbd22794bd55fb1f8
 msgid "You must take care about matrix transformation in your touch as soon as you use a widget with matrix transformation. Some widgets as Scatter have their own matrix transformation, mean the touch must be multiply by the matrix scatter to be able to correctly dispatch touch position in the Scatter's children."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:109
-# 64670243855f417f9308fdfb971a9350
+# b3e4334a32ec46438885c38d53ad20eb
 msgid "Get coordinate from parent space to local space: :meth:`~kivy.uix.widget.Widget.to_local`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:111
-# d3bd20644cfc40d683e40223304f7642
+# 6f05ede91bcf4053943b034bfcf1180c
 msgid "Get coordinate from local space to parent space: :meth:`~kivy.uix.widget.Widget.to_parent`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:113
-# 73f0a81d48b64c19b5721216f6ddb205
+# 31a959a7a1cd4954a3f0a17ca889e764
 msgid "Get coordinate from local space to window space: :meth:`~kivy.uix.widget.Widget.to_window`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:115
-# cb2fd1e314c74350a282a62e19546abd
+# 68ac5e2a17134f8f9fa221d28bd344f1
 msgid "Get coordinate from window space to local space: :meth:`~kivy.uix.widget.Widget.to_widget`"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:118
-# 6edd7e18a1794719a643cbe31633279a
+# 54e9b41c9e1d42e88227fc2300734d2e
 msgid "You must use one of them to get the good coordinate. Let's take the scatter implementation::"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:141
-# 4255bc4755cd4c9095973c893493f333
+# afebffe984ad4c49b50d0a6b41a7bcbb
 msgid "Touch shapes"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:143
-# 10b44a70b7b942499175447c9cc2a4c1
+# 58eaf89eba69458f89e5434037f0d3ff
 msgid "If the touch have a shape, it will be reflected in the 'shape' property. Right now, only a :class:`~kivy.input.shape.ShapeRect` could be exposed::"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:154
-# 950d71cd86b34ef8a3f8c64b74b84716
+# 4dc057ff56124e339c3d20f3a42038b2
 msgid "Double tap"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:156
-# 95abaf4308b048c59bfae71097b4e68c
+# ea0b36d6f327484bbf826720d0ea8cb2
 msgid "The double tap is the action of tapping twice in within a time and a distance. It's calculated by the doubletap post-processing module. You can test if the current touch is one of a double tap or not::"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:169
-# e7c3e1b7ea9844eb832e734eb94f4fbf
+# 747fa72ade8648b393115b0250bec7c7
 msgid "Grabbing touches"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:171
-# 8d514b078e7d48beb3362cb00c091b59
+# 950673255dc74cd3b35dbe91c78aaee1
 msgid "It can happen that your parent dispatch to you a touch in on_touch_down but not in on_touch_move and on_touch_up. They might have severals reasons, like the touch movement is outside the bounding box of your parent, and the parent think that you don't need to know about it."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:176
-# b683cc4198dc4ffca13c0c27b0533961
+# d17c55ec0c804802be49e637db9fda9c
 msgid "But you might want to do an action when the touch is going up. If you have started something at the down event, like playing a sound, how can you do to have the touch up ? Grabbing is made for that."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:180
-# e74cc1ba1aaf46339003213fef00ffe9
+# a55fb38ca865476e892edbe42de18756
 msgid "When you grab a touch, you will always receive the move and up event. But they are some limitations to that:"
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:182
-# 82e642d4e6e64a908d7b42a721fd93c3
+# af4da22d9b5d456186738cbf157460c1
 msgid "You will receive the event at least twice: one time from your parent (the normal thing), and one time by the window (grab)."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:184
-# cdd4e8ad22fb46d5bc3c8c592e360a69
+# cbbf36067a8d45ff814b525b591342c8
 msgid "You might receive an event with a grab touch, but not from you: it can be because the parent have sent the touch to the children, while it was in grabbed state."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:187
-# 4dcb753ba26f4670be6bfd0be428259b
+# d0a6d498922544e8b855ddaee96322e6
 msgid "The touch coordinate is not translated to your widget space. BBecause the touch is coming directly from the Window. It's your job to convert the coordinate to your local space."
 msgstr ""
 
 #: ../../sources/guide/inputs.rst:191
-# 8f2ac14454034be99dadd2ab17ad724f
+# 30b28809693f4cbbba142fb017c97cca
 msgid "Here is an example about how to use it::"
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:5
-# e16b2aa445174247825ed92f1a1ece87
+# 3f0044a866c542d383f342864a637eed
 msgid "Integrating with other Frameworks"
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:9
-# 5f5a7c2ad07e4e1fbd7a1b40cabe543a
+# 892efd81c7bf4b0590ab39acca474ff2
 msgid "Using Twisted inside Kivy"
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:12
-# 6cedc6af389942dcb4bfc7f937847f78
+# 1871bec4a5f44e3191723a1f6f2219d0
 msgid "You can use the `kivy.support.install_twisted_reactor` function to install a twisted reactor that will run inside the kivy event loop."
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:15
-# 8278cad1936a4bceb6795b4d33bc64d1
+# 0ea982b9a82b4f0b8001433b0eab1107
 msgid "Any arguments or keyword arguments passed to this function will be passed on the the threadedselect reactors interleave function, these are the arguments one would usually pass to twisted's reactor.startRunning"
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:20
-# b65c3eb32e414cd28bd6e1e63912b639
+# 16ee23f9c4654bd38174dc74b8fe46c8
 msgid "Unlike the default twisted reactor, the installed reactor will not handle any signals unnless you set the 'installSignalHandlers' keyword argument to 1 explicitly.  This is done to allow kivy to handle teh signals as usual, unless you specifically want the twisted reactor to handle the signals (e.g. SIGINT)."
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:28
-# 91d7ff0b937849bda842d626172b8754
+# 010ac91344954034b66dd2a7022155fd
 msgid "The kivy examples include a small example for a twisted server and client. The server app has a simple twisted server running and log any messages. The client app can send messages to teh server and will print its message and the repsonse it got. The examples are based mostly on simple Echo example from the twisted docs, which you can find here: - http://twistedmatrix.com/documents/current/core/examples/simpleserv.py - http://twistedmatrix.com/documents/current/core/examples/simpleclient.py"
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:36
-# 270a8993f55848a0a0351c7aad708450
+# 2f9e9e2c2a5c4c4590735f46476bb5a1
 msgid "To try the example run echo_server_app.py first, and then launch echo_client_app.py.  The server will, reply with simple echo messages to anything the client app sends, when you hit enter after typing something in the textbox."
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:42
-# a551c6ff26d54460afae2d3bdeca14a0
+# ea4f9fbdcbe0477e96665fb52c63fad7
 msgid "Serer App"
 msgstr ""
 
 #: ../../sources/guide/other-frameworks.rst:47
-# d71a3cfca46d426183ad6ab8dc5e1d99
+# 2264ed4bd3a14208a7cc01b6c9d8d110
 msgid "Client App"
 msgstr ""
 
 #: ../../sources/guide/packaging.rst:4
-# b066bffe76c8480d82e0a5ce2d571716
+# 219928e3453e4cc0a1e6e47f5b741cd7
 msgid "Packaging your application"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:4
-# 4bf4018d6f3742079a4f3dcc2d9d7c2e
+# 9c32a4d90bb84b6894ebeee187fde325
 msgid "Create a package for Android"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:7
-# 7c40c6f14a1741be80ed98cd58a8fc2d
+# bed469f3b4b0464c8925f9dddb4ea534
 msgid "Packaging your application into APK"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:9
-# b82de3c2a9d3424692a3ddfabf6ca2e2
+# df0da87233d84d02a628869037a80d47
 msgid "To be able to package your Kivy application into an APK, you must have some tools available in your PATH:"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:12
-# 9ac35fd137c44401b891ca5085f79bf6
+# 69173929bfb04626839d96c9a7ba7f0d
 msgid "Java"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:13
-# 489a210e82dd4b09884134240fd5792d
+# e664e20f37fe4929a877e5712f7d754b
 msgid "Python 2.7 (not 2.6.)"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:14
-# 8cc1729b1a16463ba0d427c0a999d4be
+# 906c739e7d7e4474b0b6e7b892c9b270
 msgid "Jinja2 (python module)"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:15
-# a962d96ad60f4fbdb877ac38952da5b6
+# 3660e60eb8114600ae6b8165b9f54153
 msgid "Apache ant"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:16
-# a9bb5c4186af4f0db5274a98abbec8a8
+# 4317106973474ff79d9e1843c44b063e
 msgid "Android SDK"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:18
-# e39cde1baec04ebb89ce0252f25b8d6c
+# 7e4437ca68024a36a3a33203d2ccc109
 msgid "You must download the tool named Kivy-XXX-android.zip, available at http://code.google.com/p/kivy/downloads/list, and unzip it."
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:22
-# dc01561e0d4f4659883728a4d25461c3
+# 452ad3133b1b40fc99409f2c92dd59a3
 msgid "Build in debug mode"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:24
-# c7058e2d532243ea9fefffbf67ff80cc
+# 48a23133200941adb555dbb7f75e6e33
 msgid "Inside the package, you have a tool named build.py. This is the script that will create APK for you::"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:36
-# 27d2d8f68fb04c399570f380f2dd671e
+# f4db5b165fba4b7ca86d409f292569fa
 msgid "The last argument stand for:"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:38
-# 17fcc54cc3a94ac69361bf87cadac0f5
+# f4610ceeea5d4bc79d319a5c2b368de6
 msgid "debug: build debug version and save to bin directory"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:39
-# 7edae20f6c914368bfd5cebe4cf49ab4
+# eaba88d624054929b7ed64061e930ee8
 msgid "install: same as debug + upload on connected device"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:40
-# 3f40497f1d7447bea52631b2806315da
+# aa35236994b440bf8b36397a7fe22b1d
 msgid "release: build release version and save to bin directory"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:42
-# b5af3d5aa60245169c7dbdea2b8c7041
+# 5b5732c43cb54fada5166b9130bceaed
 msgid "For example, if we imagine that touchtracer demo of Kivy is in the directory ~/kivy/examples/demo/touchtracer, you can do::"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:49
-# 6da2cf965d6e473695318822aefd3981
+# e07a973f3c1248c3952de07e4c25e680
 msgid "The debug binary will be generated in bin/KivyTouchtracer-1.0.6-debug.apk."
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:51
-# 0706b47445634b539def9dfdb3fc99b9
+# 600588932dfe45b8a894481ca8e452c8
 msgid "Then in later time, you can install directly to your android device by doing::"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:55
-# ce9343f3c332430fbec4df200254e010
+# 3db9813bfeb245b8b0e2e4eaa0465cfb
 msgid "Or you can use the `install` method instead of `debug`."
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:58
-# 6284983b466c4e2eb427fa28464e71fd
+# 7f8b029ebc184cb9b65eceafcdca75a0
 msgid "Video support"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:62
-# 2ee2e61cef694a06b8cf100fa3fc1a07
+# 7f92f338b2344c53a18db828a1db655c
 msgid "By default, the produced APK don't contain any libraries for video support. You can add ffmpeg library on your build to activate it. The default ffmpeg compiled is the \"minimal support\", and will increase the APK size of ~8MB."
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:66
-# 53558cd2c177415f8bf029f5caa4b3b8
+# 22f2b644347b42a29a1f5d10c2ce9f9e
 msgid "The option to add on the build.py command line is `--with-ffmpeg`::"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:71
-# 4dfc3ce3e0874dd7bf5c136a2d376ccb
+# a63509c895544d92a0c898216ab5541e
 msgid "Release on the market"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:73
-# 283fb2c270b444fe92253a892c157d6d
+# c8f89cd3ead844a19f8078c1143f4800
 msgid "Launch the build.py script again, with the `release` command, then, you must sign and zipalign the apk.  Read the android documentation at:"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:76
-# 2d1b7a8858c746c6ae3b0f1b5afe410e
+# cd2d650d876c4695b2010ce9b687fc79
 msgid "http://developer.android.com/guide/publishing/app-signing.html"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:78
-# 632c6aedb8d0442aabf065aec67efbef
+# cf4644ce2765467295159f19753325f2
 msgid "The release binary will be generated in bin/KivyTouchtracer-1.0.6-unsigned.apk (for previous touchtracer example.)"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:83
-# e914ee11654b4a0cb77b187524f78946
+# 624ca106fbff46af8a62307d978cd651
 msgid "Packaging your application for Kivy Launcher"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:85
-# b508a49d27d4472d8766a342e774c4ff
+# 521c572b75534bfd9020a870d9127507
 msgid "The Kivy launcher is an application to run any Kivy examples stored on your SD Card from android. See :ref:`androidinstall`."
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:88
-# 76e7310f87654c6192fae285c3e118ed
+# 38d0a685b9204160b6b988b7d1bb0728
 msgid "Your application must be saved into::"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:92
-# 11b457a85fc5429290b8f45cbf285bbd
+# 8c97cd5318cb4ab5857d58f2e7e8479f
 msgid "Your application directory must contain::"
 msgstr ""
 
 #: ../../sources/guide/packaging-android.rst:99
-# ddb4a5bc18254132a1c7599d2243475b
+# 63c5d9968efc44afb34a330a6665a47c
 msgid "The file `android.txt` must contain::"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:2
-# c90d32fd7ab9457b99724b3b264fdc58
+# f51e8f8f8f76461b8bda319109dbbbef
 msgid "Create package for MacOSX"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:4
-# 3e35d24bc2034dce8238d86ca0254bd2
+# 2bc36302c48c499bba2fd4743ca19cff
 msgid "Packaging your application for MacOSX 10.6 platform can be done only inside the MacOSX. The following method have been tested only inside VirtualBox and MacOSX 10.6, using the portable package of Kivy."
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:8
-# 59062eecc7f54674822048c9b902b244
+# 3235f0523a45435eaa582ef8ceff2084
 msgid "The package will be only for 64 bits MacOSX. We have no way to do 32 bits right now, since we are not supporting 32 bits MacOSX platform."
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:12
 #: ../../sources/guide/packaging-windows.rst:12
-# fa1daed91b3d45428fd40ae28053d634
-# 204e7ae1eba749f885b4dcc8c0b355dd
+# 0c3ec346e6a54ee9bd2a64f199d4201f
+# 6d7a98399b38496d91a0a37766308241
 msgid "Requirements"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:14
 #: ../../sources/guide/packaging-windows.rst:14
-# b59567dcf9aa4192935c4f355ec91fea
-# 495ccb53ec364c77b19921286a24edfb
+# 8f354f2c321d40108fa444c5be32758f
+# e21c1467a4384b7b968e158bceb4e7cb
 msgid "Latest Kivy (the whole portable package, not only the github sourcecode)"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:15
 #: ../../sources/guide/packaging-windows.rst:15
-# 02476c2b6722414990294d1e7db4eb14
-# 60fae2d5712b4a73b25eb30050d9ff46
+# ef3bad88bb6e484ab2345bdf5f1eb953
+# 2fbfc3df1e89472baee161bb08897d5b
 msgid "PyInstaller 1.5: http://www.pyinstaller.org/#Downloads"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:18
 #: ../../sources/guide/packaging-windows.rst:18
-# 8a033dd3aa924a68893f47f5548dfe25
-# 751db0867d244e5ea57d477242be71e3
+# f2997ed1d5fc424bad55bb00b6e00911
+# 159645aeb966465abe12f81babdb28d0
 msgid "Install and configure PyInstaller"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:20
-# 82b988efa4ae4831b35d0ace0c8e8ca9
+# 0775d1e9ba824011ad258cf1f33188bf
 msgid "First, we need to setup correctly pyinstaller for 64 bits if you want to be able to package your Kivy application."
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:23
-# 4d07a718ff3749c4912e1ea49b7b5a30
+# a9759357e2c6408bb4dcb122f1f8a80e
 msgid "Decompress the PyInstaller"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:24
-# 3df6ebe5e2bf4b8c86abc6965e2c8119
+# 60c0f278fb0540ab9966f4c9c70bfeda
 msgid "Open a console, and go to the pyinstaller-1.5 directory"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:25
-# 5a5e72aabde647999eb95bc0e84b17d6
+# fc7ee5f41f4a4e2ca1c5e23805274ef1
 msgid "Execute the following::"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:37
-# 1799f0a31dc44dddbaea880e050ffe8b
+# b645c66bcf0b41af8aa98593ccb0842a
 msgid "Now, your pyinstaller installation is ready to be used !"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:40
 #: ../../sources/guide/packaging-windows.rst:28
-# 9d403e294e7c415e9729efd5e961899f
-# 5b484f86852140b3bfc57ee045ebf017
+# a0ac16edd2854154b3397841fe1ca698
+# 79d01a0425c44cffaba19ed294d9eb01
 msgid "Create the spec file"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:42
-# 4a5521300a4d40099cea2dde49bf9bfe
+# ff48249da98b45779f25fa3a3a239dca
 msgid "For the example, we'll package touchtracer example, using a custom icon. The touchtracer is the `../kivy/examples/demo/touchtracer/` directory, and the main file is named `main.py`. Replace both path/filename according to your system."
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:46
 #: ../../sources/guide/packaging-macosx.rst:76
-# 737e337ab849499e9ac1d45261eff15e
-# 2a7e7f6c100c4e169576b5e1063915b3
+# ffb8affd18034b2cafa9ef632265218f
+# 02229836e9d444a3924cfdc92a9d9e65
 msgid "Open a console"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:47
 #: ../../sources/guide/packaging-windows.rst:35
-# 5e8ce9748cd84c748f612451310b5d41
-# 437b458d752d40e0afdc053ffd231104
+# 7cd7183680b341338172a35ea2fdf115
+# be153c2056df4f5eae28f0c62d145c62
 msgid "Go to the pyinstaller directory, and create the initial specs::"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:52
 #: ../../sources/guide/packaging-windows.rst:44
-# 0092c076bf6742a7bdea6576294a893b
-# 26fcc8314703447fb0e5ddee5b26170c
+# 0b1ae180220e46a28f00832517be8010
+# c36a08282a394168842e7b16f81b43cf
 msgid "The specs file is located on `touchtracer/touchtracer.spec` inside the pyinstaller directory. Now we need to edit the spec file to add kivy hooks for correctly build the exe. Open the spec file with your favorite editor and put theses lines at the start of the spec::"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:61
 #: ../../sources/guide/packaging-windows.rst:53
-# 9597bbc41b4747c8883d971b3c2d09df
-# 3d345d9bd57a45ef94fd97dd061ac13e
+# 27bd23dcafa34d2e8c164173ebfcc4e5
+# 23597f5602bd4348bf833cb480fa3408
 msgid "Then, you need to change the `COLLECT()` call to add the data of touchtracer (`touchtracer.kv`, `particle.png`, ...). Change the line to add a Tree() object. This Tree will search and add every files found in the touchtracer directory to your final package::"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:71
 #: ../../sources/guide/packaging-windows.rst:63
-# ab4a2b91c308401d816e0900109fa97f
-# 51eef45ccfae4756ac28575da8c6e99d
+# 2471f37e605441b59af2a40d71d5102e
+# 83f9b590eb58461088e7858fcc29616e
 msgid "This is done, your spec is ready to be executed !"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:74
-# a7972f7926464cf1b0f1c226fd2573a0
+# 7182f4078ef1464d93b4d8adbf4f95ba
 msgid "Build the spec and create DMG"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:77
 #: ../../sources/guide/packaging-windows.rst:69
-# 1b71cec36a084f41808032aca8ecfad6
-# 05bfbf5042ac407e904c23f4e633262c
+# 429b021027b944acbe6692e75a7e2440
+# aa33f263809548aab68239b325376a09
 msgid "Go to the pyinstaller directory, and build the spec::"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:82
-# 0a436d576d5c4c13aaa93f7aa201201a
+# 6d051c3e4e964eb8b42142878028d28c
 msgid "The package will be the `touchtracer/dist/touchtracer` directory. Rename it to .app::"
 msgstr ""
 
 #: ../../sources/guide/packaging-macosx.rst:89
-# f13b031a09ff4508806a94dc7ead83e2
+# a341d8a1ac104804a39bc56d26b638b6
 msgid "You will have a Touchtracer.dmg available in `touchtracer/dist` directory"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:2
-# 0af9a815231349fca9ccc0440a38b37d
+# f1e14e756954439abb16c9da997b082f
 msgid "Create package for Windows"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:4
-# 163d7dc059e84e90a4c3fb0f82c92e67
+# c1ebf5ec89474c519e932c9d9d8d9775
 msgid "Packaging your application for Windows platform can be done only inside the Windows OS. The following method have been tested only inside VirtualBox and Windows Seven, using the portable package of Kivy."
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:8
-# f87ecf46458c414da9e403c5e1d8c1c1
+# e72d1a7c33d7449a95bc2158fe301a9e
 msgid "The package will be 32 bits, and can be runned on both 32/64 bits windows platform."
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:20
-# fa08b179fdbe447784665ba1b56edc06
+# 94e5b7895776435db8ac0be5a0e8fd18
 msgid "Decompress the PyInstaller in the Kivy portable package"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:21
 #: ../../sources/guide/packaging-windows.rst:34
-# 07e279de18d54732a6b98453cf0f189b
-# dde8998aced54992a3202aa1a125e7ca
+# e68d72a50fe942e383aed0bb94777c71
+# 73e64bb5f0ac479f99b647fa876cc108
 msgid "Double click on the Kivy.bat, a console will be open"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:22
-# 2dbd6c6bc7834cdba1e62962456d4b41
+# dd5b847990fe4795b547b16962b8a672
 msgid "Go to the pyinstaller directory, and run only once the Configure.py::"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:30
-# d5ad9ead61df4b6189d973edcd1d46a5
+# 1007b979f40e41ceb082b4fd61091406
 msgid "For the example, we'll package touchtracer example, using a custom icon. The touchtracer is the `kivy/examples/demo/touchtracer/` directory, and the main file is named `main.py`"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:40
-# 27c6e8946c5045b8b5c7e1f6f8487deb
+# 4ee6f9dd4b4442e6ab64e2ef7d92d71e
 msgid "Alternatively, you can add an icon.ico to the main executable. If you don't have any .ico file available, you can convert your icon.png file to ico with the http://www.convertico.com/. Save the icon.ico in the touchtracer directory and do::"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:66
-# f4a3e01fda4c4e0ab0ae489ccf50c16c
+# 533985e516964329b4c32f71f6b0efd4
 msgid "Build the spec"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:68
-# 893c8c89e0c345b4935ae35c231f925d
+# cc4a82322d104e48a2446bbd60b0d0e3
 msgid "Double click on Kivy.bat"
 msgstr ""
 
 #: ../../sources/guide/packaging-windows.rst:74
-# e754398c6d7d409caed1ad3eb43f3a89
+# 89dfdb4b051c4d5a8682b33f9cebf409
 msgid "The package will be the `touchtracer\\\\dist\\\\touchtracer` directory !"
 msgstr ""
 
 #: ../../sources/guide/platform.rst:2
-# be3fe1260260467d899bdea5b9023ee1
+# 4d60f7cae0554693b0a9deb9e5808460
 msgid "Running on Mobile Platforms"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:4
-# 1e9247b0cbc249e6abb68231cf8c1947
+# 64abe13741054afe9704cd8bf65c5522
 msgid "Quickstart"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:6
-# 751b4acf1bd64c59b02416dd3ae81922
+# b0c1c1b7229949ef9d315df81d1163af
 msgid "This page explains how to create a simple Kivy *\"Hello world\"* program. This assumes you already have Kivy installed. If you do not, head over to the :ref:`installation` section. We also assume basic `Python <http://docs.python.org/tutorial/>`_ 2.x knowledge throughout the rest of this documentation."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:13
-# 4b8999625d204b1889dc7613335ec451
+# 6274aa26e0634310a424f92700c43d7c
 msgid "Create an application"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:15
-# 01c784bab513412fb1d604974994f84f
+# 013f40a9f0fe4b7a8fd926da77ce8461
 msgid "The base code for creating an application looks like this:"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:32
-# 1acfbfe5fd584016aabec988ecda798c
+# 3ff3c1d694824220aad8c280b581dfc7
 msgid "Save it as `main.py`."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:34
-# 9fec949aad6446e1b5362fe2bce382ca
+# a7d1696e78274ec69da91519bcaccdf8
 msgid "To run the application, follow the instructions for your operating system:"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:37
-# 5d5632330f2541fd8128eafca74c8565
+# 241e3de6e0af4ee0a376e296bab86264
 msgid "Follow the instructions for :ref:`running Kivy application on Linux <linux-run-app>`::"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:42
-# 543bbb4daf9a481bbd75dc1d132f9fb4
+# d9ca4fcb8a664706adfa05a9c6260e2c
 msgid "Follow the instructions for :ref:`running Kivy application on Windows <windows-run-app>`::"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:49
-# d6a9e25e18534e4ca36bf0ae03df8aa5
+# a7f759bac6ac4dac90eb5d2b49926b2b
 msgid "Follow the instructions for :ref:`running Kivy application on MacOSX <macosx-run-app>`::"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:54
-# 191f0586d2384645b7831681ac2dba92
+# d5b6ec403028402788ebd31cbbff24e6
 msgid "Your application needs some complementary files to be able to run on Android. See :doc:`android` for further reference."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:57
-# 307d3fb480b945b1bf4a73dde9ff3295
+# 41aeebbe9c00431cbf9a7eefff1d458b
 msgid "A window should open, showing a sole button (with the label 'Hello World') that covers the entire window's area. That's all there is to it."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:63
-# 3aef7726c2454570a5638688dbf0785e
+# 6e6e4efa7a4840fab8cca1316ec72b91
 msgid "So what does that code do?"
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:65
-# 688c498893c24e6c86e18bfe7fd561a1
+# 731fb43d675c47eeaf7b6b1d65815e30
 msgid "First, we import Kivy, and check if the current installed version will be enough for our application. If not, an exception will be automatically fired, and prevent your application to crash in runtime. You can read the documentation of :func:`kivy.require` function for more information."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:69
-# 329aa0cc280e46d4b26d747b1030502d
+# 82f29608fef24585859bde6c1c79fae3
 msgid "We import the :class:`~kivy.app.App` class, to be able to subclass it. By subclassing this class, your own class gains several features that we already developed for you to make sure it will be recognized by Kivy."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:73
-# 6ff8f5c41005474e990696d5d89773c1
+# 1637c5fa6e964cc09193fc5c514556b1
 msgid "Next, we import the :class:`~kivy.uix.button.Button` class, to be able to create an instance of a button with a custom label."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:75
-# 8a026dc0a2a7450d89502d05cd5bb614
+# 888db9ac163745848d753a8c8866ba71
 msgid "Then, we create our application class, based on the App class. We extend the :meth:`~kivy.app.App.build` function to be able to return an instance of :class:`~kivy.uix.button.Button`. This instance will be used as the root of the widget tree (because we returned it)."
 msgstr ""
 
 #: ../../sources/guide/quickstart.rst:79
-# 80f349d85a1148ba8b8191e2928f4f9f
+# d095899e31b74281ac33b8bf250af428
 msgid "Finally, we call :meth:`~kivy.app.App.run` on our application instance to launch the Kivy process with our application inside."
 msgstr ""
 
 #: ../../sources/guide/readingdoc.rst:2
-# a18c8a5c153f4b91a3775098eb1c69db
+# 49abd3b35de741959d011e2d8dbb68e2
 msgid "How to read the documentation"
 msgstr ""
 
 #: ../../sources/guide/readingdoc.rst:4
-# 4b94577425e44e268593cb9f9353e93c
+# 45a60e76c2854b819b3485204d3bd595
 msgid "The documentation is seperated in 2 parts:"
 msgstr ""
 
 #: ../../sources/guide/readingdoc.rst:6
-# bcd95a9e8c44483992d0becddd43d3fe
+# 5f8c7995c3bd40daad0b49bc135c9d98
 msgid "the Programming Guide: it's a must read to understand the Kivy basics, specially if you never done GUI programming before."
 msgstr ""
 
 #: ../../sources/guide/readingdoc.rst:8
-# 7d733b61e4c1440a9f82e3cb107f65d9
+# de36516e2148412ea575a247719d526b
 msgid "the API: all the functions, classes, methods are explained."
 msgstr ""
 
 #: ../../sources/guide/readingdoc.rst:12
-# 52fd9736479b469cb138098245887309
+# 64092921144c4b5d91d9f06875132470
 msgid "Importing a class"
 msgstr ""
 
 #: ../../sources/guide/readingdoc.rst:14
-# 7b4ab2b9d29c4be999e6f4274ab31d36
+# 5a1f645c3955450b92180eac86ec58d2
 msgid "The API part is autogenerated from the source code. If you take any class, it will be generated like this:"
 msgstr ""
 
 #: ../../sources/guide/readingdoc.rst:19
-# 10f72b1124b14250ae8b8b3b8ff40c16
+# c2ca336d9246413da2e5cb21db559a56
 msgid "It must readed like this: the \"Button\" class is into the \"kivy.uix.button\" module. So if you want to import that class in your code, write that::"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:4
-# 6c8531480dc54e3fb59708994d5a02e7
+# b3289ed9e6f14bdeaa901979e94f992f
 msgid "Widget tree"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:6
-# 77b0e4e7888147f9b88891c05f22612c
+# b0801a8ff620451e9d92cf96b9ddfe36
 msgid "Like most of GUI toolkit, Kivy have a tree for handling a hierarchy of widgets. The top level widget is called \"root\". Each widget can be connected to others widgets, as a parent or as a child."
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:10
-# 569b1b12072c46cc8067839d2f9ed027
+# df5cfa94a2eb42f3a89de4664bb91878
 msgid "You cannot add into the widget tree something that is not a :class:`~kivy.uix.widget.Widget` subclass."
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:14
-# 43e52be688f948e78e89c36a0ad635b0
+# b6f5f45dba9447d2b656f437a33c10d5
 msgid "Manipulating the tree"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:16
-# c681381dea354c888236b9c9b6a6753f
+# 8d4d2507ada9479385e3a92ad02972eb
 msgid "The tree can be manipulated with 3 methods:"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:18
-# 8cfbca7cc41946879ca0ac17ffca6d69
+# e8abd38a2e4845b8a70c3ff29401945f
 msgid ":meth:`~kivy.uix.widget.Widget.add_widget`: add a widget as a child"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:19
-# 3f523cb1363d40fd95fb2645214d389d
+# 6b8052104e174022b6cc51bacf1ab974
 msgid ":meth:`~kivy.uix.widget.Widget.remove_widget`: remove a widget from the children list"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:21
-# dcf04cab3127436c904a379fb7539628
+# b46e0ff9e9654d2e8a10081bbc27dbba
 msgid ":meth:`~kivy.uix.widget.Widget.clear_widgets`: remove all children from a widget"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:24
-# 9347e83765fc4eaa9650f7427339f276
+# ade3a4e07b1443acabf17f2558c84235
 msgid "For example, if you want to add a button inside a boxlayout, you can do::"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:30
-# 8eca927cfafc421fa7e86bee32f4171c
+# 726baa74fd6743b3acd6a801878fafae
 msgid "Now, the button parent will be set to layout, and layout will have button in his children list. To remove the button from the layout::"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:35
-# ee40315e11c44c4a98aca44f0b4203d9
+# 4cd0b20ae04849d397adc7bbf7a7c81f
 msgid "The button parent will be set to None, and layout will remove button from his children list."
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:38
-# 2819b4d4e77548aaa68d3705bac6f969
+# f7609d24434c4d56a07a4180acab6a8a
 msgid "If you want to clear all the children inside a widget, use :meth:`~kivy.uix.widget.Widget.clear_widgets` method::"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:45
-# 98c5f62938de4269ad5aa3225e1e235f
+# 73054a57876a4ac9a3138f8d25facf44
 msgid "Never manipulate the children list yourself, if you don't know what you are doing. The widget tree is associated to a graphic tree. For example, if you add a widget into the children list without adding his canvas to the graphics tree, the widget will be a children yes, but nothing will be drawed on the screen. More than that, you might have issue on further call of add_widget, remove_widget and clear_widgets."
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:54
-# 8dfb96c75577494c83d577ee1be5a25d
+# a73df97889cf4f9ca18a671906333977
 msgid "Traversing the tree"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:56
-# be7165811c784f25bcba72d8b6d160f6
+# 0474075146944ba6beff21e291006551
 msgid "The widget class have a :data:`~kivy.uix.widget.Widget.children` list property that contain all the children. You can easily traverse the tree by doing ::"
 msgstr ""
 
 #: ../../sources/guide/widgettree.rst:64
-# c8ee149ecc0d41c5a112fe96313de648
+# d7b18f2e89ab4c48b007335d6d5a7544
 msgid "However, this must be used carefuly. If you intend to modify the children list with one of the methods showed in the previous section, you must use a copy of the list like this::"
 msgstr ""
 
