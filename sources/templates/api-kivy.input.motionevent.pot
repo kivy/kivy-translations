@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-17 18:05\n"
+"POT-Creation-Date: 2011-10-17 22:29\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,432 +17,432 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.input.motionevent.rst:3
-# 2bf33448c5df484793b51a2026296e54
+# d6ffb4f59947488da60117c75f84524d
 msgid "Motion Event"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:2
-# 8b48db5b11434fd49e9b77533d7a088a
+# 647f9a5f36354411af03a3e69e527357
 msgid "The :class:`MotionEvent` is the base class used for every touch and no-touch event. This class define all the properties and methods needed to handle 2D and 3D position, but may have more capabilities."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:8
-# 8d92501542ed4b57b1700846a7119aa1
+# 5b16f0cd1b44453a9e6bdbe9e39fe507
 msgid "You never create the :class:`MotionEvent` yourself, this is the role of the :mod:`~kivy.input.providers`."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:12
-# 066a2ada6cce48928f064fb7f725b2fa
+# e856c7f9bc2545a5b30e59685bd2c7c9
 msgid "Motion Event and Touch"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:14
-# 2f2030d584314e539b41c59ec3cee815
+# abfabf39bfff4c8eb62739ebd6e05d7b
 msgid "We differentiate Motion Event and Touch event. A Touch event is a :class:`MotionEvent` with the `pos` profile. Only theses event are dispatched all over the widget tree."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:18
-# 2758acc639174a2394252f02adac077c
+# 6d34fe796a7e4b03a592f9a206be3d79
 msgid "The :class:`MotionEvent` are gathered from input providers"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:20
-# f338dac98f1a4e72b3038fea4318ccb6
+# 1e00e910eebc4c51ac5b088f4a5df85e
 msgid ":func:`~kivy.core.window.Window.on_motion`."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:22
-# 71d1c258f6ce4e5bbe92036863622897
+# 799899947da14521a69c3b35bcc636d1
 msgid ":func:`~kivy.core.window.Window.on_touch_down`,move,up."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:25
-# 4f03afdf57b347c99066da4b73311ae2
+# 03daff4ad0e34c3e863db3ca60ebfd2f
 msgid "Listen to Motion Event"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:27
-# ec83e3c0433344c8aac17788c06e5703
+# c4babd3cca4a49fba8311b76992a7267
 msgid "If you want to receive all Motion Event, Touch or not, you can bind motion event from :class:`~kivy.core.window.Window` to your own callbacks ::"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:38
-# a696d58c2fa247ecbddccaeb9d8647dd
+# 8a9fb4f2d3674c409b96ce569853dd55
 msgid "Profiles"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:40
-# 9ca000b08c894d29bfb3f3bf0611f565
+# 8652e0f9481f43a59bbd629f3253aa6b
 msgid "A capability is the ability of a :class:`MotionEvent` to store a new information, or a way to indicate what is supported by the Motion Event. For example, you can receive a Motion Event that have an angle, a fiducial ID, or even a shape.  You can check the :attr:`~MotionEvent.profile` attribute to check what is currently supported by the Motion Event, and how to access on it."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:46
-# 44ea0fe112d243ce8404570a026f950e
+# ad866ad15f3241cb8efebc73f8e67e3d
 msgid "This is a tiny list of the supported profiles by default. Check other input providers to know if they are other profiles available."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:50
-# f6bbefe1d6274e9482f933f7cb20f90a
+# 75ac21efc3134db9a2d17c189af2e432
 msgid "Profile name"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:50
-# a4497dd9e5e942f184008d401b96d3be
+# 750b9d424a4949bfa94d3af743ac7473
 msgid "Description"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:52
-# 755eaf87a9cb4d919a182a0bb5cb102f
+# 9fbb4a8d09844f338b8064bce8027393
 msgid "angle"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:52
-# 2a71f6e46b7e4df19cc6dba6ee4503d2
+# cc55cfd7675847999ee3b58d55364ba5
 msgid "2D angle. Use property `a`"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:53
-# f84c6fa3facd49658fe5212aebff0bbb
+# dbdbed532de44b40af344d795bcb2a60
 msgid "markerid"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:53
-# 2c9155b1ebce4e19a96a203aa1661ceb
+# 912b3212d59c43229cbe31764c06da5d
 msgid "Marker or Fiducial ID. Use property `fid`"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:54
-# 657b180691cc4e11817ea5d14d6ec7d3
+# 34aad0a167334b959329ceb8b054692c
 msgid "pos"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:54
-# 4dc255b620384c5d926f82a26c137e5a
+# 6d36bdcb8fc04277af3c715de4c00c27
 msgid "2D position. Use properties `x`, `y`"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:55
-# baa14245c72449aca2826972e21e63cb
+# 9bb222b77b5749dab66b74f181cd3084
 msgid "pos3d"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:55
-# a77a810792634f83bd6b55418a1e5ba7
+# 1fcce9bcbc5d4d7ab06682bd7794bf0f
 msgid "3D position. Use properties `x`, `y`, `z`"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:56
-# 8ea47bedb92e42fa8228f60a238fd547
+# 6f35ecc57dec43dc9bb121b35c22ee22
 msgid "pressure"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:56
-# 88be3e06556047f18f5bc819a1f06510
+# 3926509c2b54443a9a0de906cfe4ab95
 msgid "Pressure of the contact. Use property `pressure`"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:57
-# 9c33303c303e40d28aa9b6f6cf95d373
+# 4536751d948043bdb6aee017bdef5d12
 msgid "shape"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:57
-# 11b543ed33ec42a38e4666c3aab7cd55
+# 50484380acd44b53936627e93b77f5f7
 msgid "Contact shape. Use property `shape`"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:60
-# 950b50630db3432aad9411ca5bec71da
+# 91d53fcba5504cce8fea2e7f19677c43
 msgid "If yo want to know if the current :class:`MotionEvent` have an angle ::"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent:66
-# 69d063a4cce84270bea73396d3c5d9fa
+# 27b8a39b2b47434f8d9750ae11cf91d5
 msgid "If you want to select only the fiducials ::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 882a5be2bdb64e1baca86049565debbb
+# afd105a8aea34cdca68df9ccb70b7a7a
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent:1
-# d50587b694384a1e9ccaad409b751474
+# 7535d3afaad446478af99d0e6ca36ae1
 msgid "Abstract class to represent a touch and no-touch object."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent:5
-# 850357a9541943108f32452428304d5e
+# 7317f6155d9143c1a68aba5e139d7008
 msgid "uniq ID of the Motion Event"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent:7
-# 42bba6398a23468396ec728193c376c5
+# 74a5c9a335f44992ae854e11dfde7198
 msgid "list of parameters, passed to depack() function"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.apply_transform_2d:1
-# 07679c4f445141da83667e8bc798347b
+# 0a9ef3ef6ca949818c44bc2328627a38
 msgid "Apply a transformation on x, y, z, px, py, pz, ox, oy, oz, dx, dy, dz"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.copy_to:1
-# 65b0884761d7477aa6be14262ebbe4aa
+# 6f66cf2234794015b5b4c15a1ea82997
 msgid "Copy some attribute to another touch object."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.depack:1
-# de4df8b1e2904425acd22462aefa1d81
+# a8c796930fe04c07b69570ff3e8b462f
 msgid "Depack `args` into attributes in class"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.device:1
-# 6a8cd7ab71b249efbe24d553bbe26017
+# 00e753b7c61f4673b6d8d09800535ca9
 msgid "Device used for creating this touch"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.distance:1
-# 766a5be25fec4e2fb275506c9941cfd1
+# 827161a3617244de9ed4fc6bd1104848
 msgid "Return the distance between the current touch and another touch."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.double_tap_time:1
-# 1bb4176da3804d83a5238d96368ece4c
+# 68a191a9ab244bde9b9dd60605d16973
 msgid "If the touch is a :attr:`is_double_tap`, this is the time between the previous tap and the current touch."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.dpos:1
-# cf98bb022ca14d1db1df99cf28ae61af
+# 572b876216694e699f4cfa82c6cc0eb9
 msgid "Return delta between last position and current position, in the screen coordinate system (self.dx, self.dy)"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.dsx:1
-# d40ccd74d8764fed917488a6a9910b51
+# 8e5f647795ca47b0a1d6cd4430ba8f92
 msgid "Delta between self.sx and self.psx, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.dsy:1
-# 77f84131c57141b48e69c38fd3d77036
+# 8cf7d32423c1454d9363642925ca8efd
 msgid "Delta between self.sy and self.psy, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.dsz:1
-# a398ebdc5ce1429783b676e3725604bc
+# f16cecb6b395462c9f61524fe8198d93
 msgid "Delta between self.sz and self.psz, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.dx:1
-# bba9c66753694af8a380113316994e21
+# 1c89bbc5f16c479da9f6d3642769f376
 msgid "Delta between self.x and self.px, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.dy:1
-# 26f2086f7000412a904cac2d61583ec2
+# 8de69dd0e8b9434f846127821de6f8b8
 msgid "Delta between self.y and self.py, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.dz:1
-# 941a7b5c78d3499c9f6f3c0b9a53fdee
+# 015f8faf1ca14990b263eef23ce6c3d2
 msgid "Delta between self.z and self.pz, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.grab:1
-# b46e42867dda40f9b3fca3988914e3f8
+# 3f60eba072994ea293cb01d8b3c6e846
 msgid "Grab this motion event. You can grab a touch if you absolutly want to receive on_touch_move() and on_touch_up(), even if the touch is not dispatched by your parent ::"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.grab_current:1
-# 5fa550fb2f644ee2a96eb8373975a3a3
+# 46cbf31a3c9f46698e864a92b3837a42
 msgid "Used to determine which widget the touch is beeing dispatched. Check :func:`grab` function for more information."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.id:1
-# 58c3f477225440a3a383444c08cc03e6
+# 008cbed94069421691c0172bffe08851
 msgid "Id of the touch, not uniq. This is generally the Id set by the input provider, like ID in TUIO. If you have multiple TUIO source, the same id can be used. Prefer to use :attr:`uid` attribute instead."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.is_double_tap:1
-# ddd74e198b2f4283b54ed47f95cb2fa2
+# 8394bb1b517e49f09589daf144afb651
 msgid "Indicate if the touch is a double tap or not"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.is_touch:1
-# a2c3dbdb917d4ab69f08aafadc601475
+# dbe390c0d2f04b5a80d1d852be62b9a8
 msgid "True if the Motion Event is a Touch. Can be also verified is `pos` is :attr:`profile`."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.move:1
-# a1565ec6da0546eca5f1b959842c2e43
+# c3db3b9bcd2e4ddf82d8feeead54408f
 msgid "Move the touch to another position"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.opos:1
-# 9db85d240d9c41b0a019769ff516b779
+# 337ca0598e644453821a84bbd7494ee7
 msgid "Return the initial position of the touch in the screen coordinate system (self.ox, self.oy)"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.osx:1
-# 8628db910170450ea4fdc94db6d3cecb
+# 3b4659f3bb5e4868a41756eee5d68ef0
 msgid "Origin X position, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.osy:1
-# e32ad55176cc44f4a72f12d49f1892b5
+# b953f994467f4174b9c29bdbe8a27b63
 msgid "Origin Y position, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.osz:1
-# 3df083efc1d94c7d8f63503514436195
+# 45952decd12342b4a65bb3961c36fdeb
 msgid "Origin Z position, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.ox:1
-# 11eb8a0b75674d629c352ba68795da83
+# 78eaf97fe6454c55bcd8e61ecee3b012
 msgid "Origin X position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.oy:1
-# a657bcf57101490bb1b23b924e74a91e
+# 6db4d721aa2445e4a44b43d0c34ca2f2
 msgid "Origin Y position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.oz:1
-# 15445626919f46cf8e7d71d8a48f7a4a
+# 2977ab4c44e74621a32aa4da93016897
 msgid "Origin Z position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.pop:1
-# f6471729be464032a78f931df709affc
+# a2b818d608fb467bac57bf84e1c6d39e
 msgid "Pop attributes values from the stack"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.pos:1
-# 088fb6fed90c42969db8dce55f477467
+# 0b9cd245523840d9af0ec3247729403f
 msgid "Return position of the touch in the screen coordinate system (self.x, self.y)"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.ppos:1
-# 2cac63321a944557a0a4a946de8398d0
+# 09081cf9f20349f1a8d515f79b130295
 msgid "Return the previous position of the touch in the screen coordinate system (self.px, self.py)"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.profile:1
-# ce295effb62d499bbf5728b7a1220a38
+# f342ba3347394d5c83d3c73e4f6e0ea8
 msgid "Profiles currently used in the touch"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.psx:1
-# 144af46655b54d4b8cb0dae1178b9478
+# c5ec98c5637c4d29aa17b08c1319a763
 msgid "Previous X position, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.psy:1
-# 8e080cba1b864c689ad3bcf77512640b
+# 24b3f6dbad804c9789db005783b222f2
 msgid "Previous Y position, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.psz:1
-# 649e2b39012b4bf4bd109be4f9b3ae98
+# 0959a2b0cbc245eaacdc28588f5ce95b
 msgid "Previous Z position, in 0-1 range."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.push:1
-# ff524031ad834d4bad43b533663484b4
+# a60992a18ba84046ac9ec9d60a5f2435
 msgid "Push attributes values in `attrs` in the stack"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.push_attrs_stack:1
-# e12544a397874e7d9a09306b08c92b98
+# d49d122449a5418084a605159af5d993
 msgid "Attributes to push by default, when we use :func:`push` : x, y, z, dx, dy, dz, ox, oy, oz, px, py, pz."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.px:1
-# d87b1b0998cb4fa29bf7137a61529283
+# a992c7a8ab214d59ac734ff479690971
 msgid "Previous X position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.py:1
-# ad060078c6764be0b2b33571670c1979
+# f46d57e528f247dbb9ef26c94c3982a9
 msgid "Previous Y position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.pz:1
-# 85038be4ab4b4daf84a11e4445fa1732
+# 0b3bd27b98e04593828ae6ed8c2b8faa
 msgid "Previous Z position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.scale_for_screen:1
-# f3a25de197034063bc32ad2a834ee059
+# 4035590bf763414982e294c4d578ac7c
 msgid "Scale position for the screen"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.shape:1
-# e4e14fe7949847e98a5ef8c68a79c936
+# fa714310f295424c85fbebe490f12c90
 msgid "Shape of the touch, subclass of :class:`~kivy.input.shape.Shape`. By default, the property is set to None"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.spos:1
-# 87a42f9674604b0aa6603c2454099f65
+# ca05072774144a80bfd607efd8105ef7
 msgid "Return the position in the 0-1 coordinate system (self.sx, self.sy)"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.sx:1
-# 867e9afb91b4465f89d751d7eda20cf1
+# 35fdea12741c46c1bcc38123dd67c2ac
 msgid "X position, in 0-1 range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.sy:1
-# ee0ee95277d643d2b5483648bdfa357d
+# f21640b6257b4fe4bf9cb360f6a1bf4b
 msgid "Y position, in 0-1 range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.sz:1
-# de29d0d0767f40c3a9fedd6ca330f79b
+# 3441e4805d6f42d78e54966553941848
 msgid "Z position, in 0-1 range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.time_end:1
-# 835b46236045405aaeb89b3e470bae07
+# d6ca689ba61e46be8fa21f53fc95a17d
 msgid "Time of the end event (last touch usage)"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.time_start:1
-# 58063c4a9a364552aa26de7b862f77bc
+# b0a4d31f6e304a288dc8f89d7c90ea6c
 msgid "Initial time of the touch creation"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.time_update:1
-# 16fd25daa5124cf2b7c201fb5bf1205b
+# 3d899ff28fcf468791ffbd7101061638
 msgid "Time of the last update"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.ud:1
-# b3989f5c175444a88f176d586cf4eff2
+# e574542d614b4871871dc8694a48943d
 msgid "User data dictionnary. Use this dictionnary to save your own data on the touch."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.uid:1
-# 9a938b62ca6340fab096efc61e22fe59
+# bb2803d4741e4cd7a5df2f9bcf06ab44
 msgid "Uniq ID of the touch. You can safely use this property, it will be never the same accross all existing touches."
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.ungrab:1
-# b909d760f6394eae8939be9191a1ecfa
+# 83fa8afaa6654f538e4638c0412d65d2
 msgid "Ungrab a previous grabbed touch"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.x:1
-# c9d1538b5e6b4664806f1720ccfbf769
+# 4c5a7a8845494a889a0e91271b0cfdf3
 msgid "X position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.y:1
-# 2412662574264bb3951f91b8160b7013
+# 19680de5336f40a388f1ce71d5172265
 msgid "Y position, in window range"
 msgstr ""
 
 #: ../../../kivy/input/motionevent.py:docstring of kivy.input.motionevent.MotionEvent.z:1
-# 7b4ea39ba0984407a23cb418bbffd394
+# 704f92f8e61c4160847877630aa575f9
 msgid "Z position, in window range"
 msgstr ""
 
