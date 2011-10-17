@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-17 18:02\n"
+"POT-Creation-Date: 2011-10-17 18:05\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,426 +17,426 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.uix.settings.rst:3
-# 64144ecb7fe54fa79f3ddf3b00b0a642
+# 5ebfbeed69de48d29e993cdcc63bc011
 msgid "Settings"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:4
-# 3d154e9536ec4433b9b9c81da90a73dd
+# e6d9f48cd6ef41499774d99ffd520967
 msgid "This module is a complete and extensible framework for building a Settings  interface in your application. The interface consists of a sidebar with a list  of panels (on the left) and the selected panel (right)."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:11
-# a5e5a8dc58c742738a5b2a3843e4e359
+# 4daf58a51fa645cbb9160c52889c2aee
 msgid ":class:`SettingsPanel` represents a group of configurable options. The :data:`SettingsPanel.title` property is used by :class:`Settings` when a panel is added - it determines the name of the sidebar button. SettingsPanel controls  a :class:`~kivy.config.ConfigParser` instance."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:16
-# 891e0b72b9dc46a6a016f7f71c082911
+# 03a610f5ef17494eb89358ea540d32da
 msgid "The panel can be automatically constructed from a JSON definition file: you  describe the settings you want and corresponding sections/keys in the  ConfigParser instance... and you're done!"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:20
-# f1f55a14a1e34f01908ff44d403c77ff
+# 017b278eddbe4136980a2874a45d3569
 msgid "Settings are also integrated with the :class:`~kivy.app.App` class. Use :func:`Settings.add_kivy_panel` to configure the Kivy core settings in a panel."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:27
-# cea8240e47a0452584aa3289d4b77ec4
+# 977569ec985f44ef954de264225aaa80
 msgid "Create panel from JSON"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:29
-# 116a633444bd48688dff90fb9ad6b7aa
+# ddb997ef2d1f4afa9f1b9ab2bc8c8e43
 msgid "To create a panel from a JSON-file, you need 2 things:"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:31
-# 0018b27ffd894c6e9926229053213d2f
+# cf654aab0f2f4bb096b54234142874a7
 msgid "a :class:`~kivy.config.ConfigParser` instance with default values"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:32
-# 83b14f48a9f742b497f875760d52ef7f
+# fad17effb47742f18651bec91c1c9758
 msgid "a JSON file"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:36
-# 29195988d5ed4ad4a07bc255c8f72c54
+# 54fc4754d6164ad7a3d71f62368ce47c
 msgid "The :class:`kivy.config.ConfigParser` is required, you cannot use the default ConfigParser from Python libraries."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:39
-# afdff601279f478d819159864eb4b960
+# 8e0527ba137644b081565fb42be4abbe
 msgid "It is your duty to create and handle the :class:`~kivy.config.ConfigParser` object yourself. SettingsPanel will read the values from the associated  ConfigParser instance. Make sure you have default values for all sections/keys in your JSON file!"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:44
-# a0a52cd67ff24fe8b74d0c60ceb45dd9
+# a2a5ae23458a4c3f96f2c920a6628858
 msgid "The JSON file contains structured information to describe the available  settings. It can look like this::"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:62
-# 70d6f833919e4b6a8776da4985874100
+# 4ded1f3d061d4509a2967c37b33362d8
 msgid "Each element in the root list represents a setting that the user can configure. Only the \"type\" key is mandatory: an instance of the associated class will be  created and used for the setting - other keys are assigned to corresponding  properties of that class."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:68
-# 20ceca72510c40d7beb726858726e7a0
+# 32946e55b1274fc5955ae77b4735a1f0
 msgid "Type"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:68
-# ff098618ccef4c758de1d56a016327bb
+# 242d92f9ad1e42c5aecbd25e046df1b3
 msgid "Associated class"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:70
-# 1643568adacf425495a9a79dfa3b2d18
+# 414bb53ce7834b679df2217ded9632e9
 msgid "title"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:70
-# 92b609b8d60246838000b6f6323c2807
+# 5533a3f47f834b929dc58c1695480ddf
 msgid ":class:`SettingTitle`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:71
-# c5927e5c33e34131aaca787c9b720e97
+# 98714c57c46340be9681c16ec1942b6e
 msgid "bool"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:71
-# 82b183f7fd314b8c98e8dcc2c106d1b8
+# e542e04ab5e6424fb802875a3ec6de57
 msgid ":class:`SettingBoolean`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:72
-# bbaf622dbdf448d187c8aa56e0f18a88
+# 99de82304e434100bc9c9c0a88575317
 msgid "numeric"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:72
-# abca4ffbd3e8432d87df1a9ee1fd1043
+# 8713f83741384dbbabbd71e0e7c07ee0
 msgid ":class:`SettingNumeric`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:73
-# 0256167ef597441d852c9d9f373598f5
+# 42b52abd7a9a44d58e1e360e8d0d13cd
 msgid "options"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:73
-# fc80789ad0654ef6b539629ef64d47cf
+# 5b162782fb934ca184c32b55bcccde7f
 msgid ":class:`SettingOptions`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:74
-# af5211f42bea47afbca84e9e006971a7
+# bbafebc88bf4411aa45a2ea3624d64f5
 msgid "string"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:74
-# fea44145eb2c4151ad39230cc7d545da
+# 514469f3135042f8ac97196240db7130
 msgid ":class:`SettingString`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:77
-# c5c10fc4521d4bf89aa63f6ec93881b7
+# 834e21ce8f6c4b4e861cdc7f40c9912c
 msgid "In the JSON example above, the first element is of type \"title\". It will create  a new instance of :class:`SettingTitle` and apply the rest of the key/value  pairs to the properties of that class, ie \"title\": \"Windows\" sets the  :data:`SettingTitle.title` property to \"Windows\"."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings:82
-# 88055b94e06f4214b91116cd9b151f7f
+# 9251ed0731bb4cc8aecf03c5e1f600f1
 msgid "To load the JSON example to a :class:`Settings` instance, use the  :data:`Settings.add_json_panel` method. It will automatically instantiate  :class:`SettingsPanel` and add it to :class:`Settings`::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 356f7555e80140c18e9658a215a64b42
+# b94dfc0ee4134eebadee4bdef58c8859
 msgid "Bases: :class:`kivy.uix.boxlayout.BoxLayout`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings:1
-# d06040a8664449f7a81672c12ac62362
+# fbf19fe45ba441bf8d2acd35a8305f86
 msgid "Settings UI. Check module documentation for more information on how to use this class."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings:6
-# ef52322d83294d6daa4d515d430d25be
+# 16058109296c47c4b9b93a70407b8666
 msgid "Fired when section/key/value of a ConfigParser changes"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings:8
-# e9a0d3a32a1441dab7735a0f106333ea
+# eaa30f8698b542609b5efc82a0a30cac
 msgid "Fired when the Close-button is pressed."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.add_json_panel:1
-# 1cbec289a1cf4b9a873f9ef53be2255c
+# a368acbdfa8042f0bda99f5a92cce39b
 msgid "Create and add a new :class:`SettingsPanel` using the configuration `config`, with the JSON definition `filename`."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.add_json_panel:4
-# a89f088ab20a4b4ebceab16f7f358e80
+# 103c4ad90e924f1b898356f55021b975
 msgid "Check the :ref:`settings_json` section in the documentation for more information about JSON format, and the usage of this function."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.add_kivy_panel:1
-# 85321c803eeb4093b22227b82ba17ed7
+# b7c8dfcb1b814924b9d702601453d21a
 msgid "Add a panel for configuring Kivy. This panel act directly on the kivy configuration. Feel free to include or exclude it in your configuration."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.content:1
-# 557ffe5c063c4d7f88a12357dd1f6649
+# e79c2d2e9b414a28a1fafe209595415a
 msgid "(internal) Reference to the widget that will contain the panel widget."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.content:3
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.content:5
-# ad0e37596c31400eb15b1e5bfd6d7b3a
-# 1b8347f0dc764b16a0a5a1947c468f1b
+# 2f29fbc2227a4b23a81b8b52e080df16
+# 811e3632c94b488786832a5e40e94b81
 msgid ":data:`content` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.get_panel_by_uid:1
-# 24d90f0fced845b290fa99ad69908146
+# c571eac577cf4f26986e1bd97638d36c
 msgid "Return the panel previously added from his UID. If it's not exist, return None."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.menu:1
-# 25e1abc9e5bb4980942c0930eb537e3b
+# fbb8195e46d041c284fe9e6f1a605315
 msgid "(internal) Reference to the widget that will contain the sidebar menu."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.menu:3
-# b2b2b32d9ad04938a072c6616b838e1e
+# f9cc41c22b1e484e80088a595297168d
 msgid ":data:`menu` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.register_type:1
-# cb0c98e792dc452b8129110aeee90cba
+# bdd569a634af48aa80624177652206fc
 msgid "Register a new type that can be used in the json definition."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.select:1
-# 5c0fb3b7407b461a998fa268685fc682
+# 696c0bb3d7d4444db4b17412d9f8db0e
 msgid "Select a panel previously added on the widget."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.selection:1
-# 2c98fb4d83944e06a78807c6917ad391
+# be1ac06f6aa14b6d8cd625ddcdb5e0d6
 msgid "(internal) Reference to the selected label in the sidebar."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.selection:3
-# 54d721b0c29b4e25a89e8a883834e6d0
+# b2d6aa291572468ebc938fb5513d6640
 msgid ":data:`selection` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.Settings.unselect:1
-# 657c0f4324ac4fc9ab1c4dec65bb0e28
+# 31d73dec8f0442ba85b1ad7c143ce816
 msgid "Unselect the current selection if exist."
 msgstr ""
 
 #: ../../<autodoc>:1
-# 08030c47034e40f98a16aae0af311d02
+# fb557993aad7485fb2d67b26c4adc65c
 msgid "Bases: :class:`kivy.uix.gridlayout.GridLayout`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingsPanel:1
-# a34046dc96b7424a91d075bb0a70e651
+# cf83b50e97124233aa3bb98991950ff0
 msgid "This class is used to contruct panel settings, for use with a :class:`Settings` instance or subclass."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingsPanel.config:1
-# f4480a0b5f4a4a18988649ea92356b06
+# 296287fc5dbe404d826edd8fd65c42df
 msgid "A :class:`kivy.config.ConfigParser` instance. See module documentation for more information."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingsPanel.get_value:1
-# 86e78c0160414b4f9328c95dcff76d2d
+# 791e056227524aa99fd07b881e7bcad6
 msgid "Return the value of the section/key from the :data:`config` ConfigParser instance. This function is used by :class:`SettingItem` to get the value for a given section/key."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingsPanel.get_value:5
-# 1c638c2696594ad38c79e78866ea0b73
+# 96c81f90c99943eab8a30db6e8b3e0d1
 msgid "If you don't want to use a ConfigParser instance, you might want to derivate this function."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingsPanel.settings:1
-# 90081967f96a468cbb89f397005ba636
+# bdd04c5a3f9a477f98ec6f705f7df526
 msgid "A :class:`Settings` instance that will be used to fire the `on_config_change` event."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingsPanel.title:1
-# fd2d9a3890374de490b576c99346cd11
+# aac6ae64b3ac4e819a2fc47e5c73319f
 msgid "Title of the panel. The title will be reused by the :class:`Settings` in the sidebar."
 msgstr ""
 
 #: ../../<autodoc>:1
-# f76520d6dbff4b2082788598e277cac2
+# 1c4dda28f0da4350814ed372d9491ca2
 msgid "Bases: :class:`kivy.uix.floatlayout.FloatLayout`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem:1
-# 195cd3161a554c1fb32a5ef9b1f88de8
+# 73ddfe7807ad4acc883336ecc9dba213
 msgid "Base class for individual settings (within a panel). This class cannot be used directly; it is used for implementing the other setting classes. It builds a row with title/description (left) and setting control (right)."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem:5
-# 111bc683ff8f458b91b2c6493bcfc6c4
+# dc6dd0dc3a534121805300a38d4b10ad
 msgid "Look at :class:`SettingBoolean`, :class:`SettingNumeric` and :class:`SettingOptions` for usage example."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem:10
-# 97b5a5f9c9634802b604368b36a57dd9
+# a0a6740bf05240caa868dafdffde12da
 msgid "Fired when the item is touched then released"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.content:1
-# d8e2e0a640004383bfc265ee9c900357
+# 0d1d2a3648914e60b301fada2e62c6e7
 msgid "(internal) Reference to the widget that contains the real setting. As soon as the content object is set, any further call to add_widget will call the content.add_widget. This is automatically set."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.desc:1
-# 8ccf531a6506462c877edf6aee0d48f2
+# a3409bfc00d0498298f496eaee28ffcc
 msgid "Description of the setting, rendered on the line below title."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.desc:3
-# 984e33b858ad49ed855e955d8cd313d4
+# 9459c34cb4e246c895e6de26a0114cb5
 msgid ":data:`desc` is a :class:`~kivy.properties.StringProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.disabled:1
-# 5717ef56db084d3782d4db0de519f074
+# 01e35a88cc594145b9312795fc31792d
 msgid "Indicate if this setting is disabled. If True, all touches on the setting item will be discarded."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.disabled:4
-# a2e33026d03040c89160577e7288bb0f
+# d3845f61007e428fa94b55efd80767e8
 msgid ":data:`disabled` is a :class:`~kivy.properties.BooleanProperty`, default to False."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.key:1
-# 0853578df48e46cba3e9d9c2dbd0927a
+# b274d9da876b426e9d53a1920be93ef7
 msgid "Key of the token inside the :data:`section` in the :class:`~kivy.config.ConfigParser` instance."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.key:4
-# 09afc57729464dbda64987bf50706618
+# aecd5fca22f342f1b12f50d043516f22
 msgid ":data:`key` is a :class:`~kivy.properties.StringProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.panel:1
-# 279ae57526f64931ad409391d7507f00
+# 1c2191025f4f4538b8cd2fea82cce11c
 msgid "(internal) Reference to the SettingsPanel with this setting. You don't need to use it."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.panel:4
-# c99972dce213441bbb8fed7c7ea94a49
+# 02f6568a76194c22850fd1786959ce53
 msgid ":data:`panel` is a :class:`~kivy.properties.ObjectProperty`, default to None"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.section:1
-# 60bccca5a9b84181baeb709348e3679d
+# 8e3f7f20984144d9859199e5e70588f2
 msgid "Section of the token inside the :class:`~kivy.config.ConfigParser` instance."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.section:4
-# ccea413476e74b129391b13c5440989b
+# cd2cd0b5be1d422ca37e5cf80f90ffc9
 msgid ":data:`section` is a :class:`~kivy.properties.StringProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.selected_alpha:1
-# 66c778788f874f559c2e17062ca00b3e
+# 1c29563c933240aaac328c3a3f61fb12
 msgid "(internal) Float value from 0 to 1, used to animate the background when the user touches the item."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.selected_alpha:4
-# 818ebc232a404c32a2c8d251ce6df724
+# 1b3c59fee08f4cd4972744db26bca12c
 msgid ":data:`selected_alpha` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.title:1
-# b27dd4db8f004c17a466626a61d791f3
+# 46f2ac5a773b454d88a0473dc1481c7f
 msgid "Title of the setting, default to '<No title set>'."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.title:3
-# 14f670c78efc4d0e9952a9e32dce99c1
+# 7afcf69a623b49b883851fde239134f7
 msgid ":data:`title` is a :class:`~kivy.properties.StringProperty`, default to '<No title set>'."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.value:1
-# 80cdf0f5225e4b6ca9a78659d2e0f0e3
+# 6d584517e2d5496f8971674aed4724b4
 msgid "Value of the token, according to the :class:`~kivy.config.ConfigParser` instance. Any change to the value will trigger a :meth:`Settings.on_config_change` event."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingItem.value:5
-# eb278e83095c420ba306a89de0415430
+# 2b032e5ca88b4ba89ce0ebfd84fbf19d
 msgid ":data:`value` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
-# 74551f06a99d4b4d9764a9a0c89e8556
-# 4842a577920942f58260976f2ecf09c6
+# fff336f6d9a74ba5ae27a1a343167fa2
+# 072043fdc3be475b8a57b5675b911880
 msgid "Bases: :class:`kivy.uix.settings.SettingItem`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingBoolean:1
-# 7224003ed1de472b9b5a7d88a799d5bb
+# 901aff6873524a87b07efe9e48f364b3
 msgid "Implementation of a boolean setting on top of :class:`SettingItem`. It's visualized with a :class:`~kivy.uix.switch.Switch` widget. By default,  0 and 1 are used for values, you can change them by setting :data:`values`."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingBoolean.values:1
-# 187dc8ea44084c26aca55c47c6e46ccc
+# edb50ad77df4488ba20bec303e583262
 msgid "Values used to represent the state of the setting. If you use \"yes\" and \"no\" in your ConfigParser instance::"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingBoolean.values:8
-# 8c1339fbdf8043d7b76a4110d4bf9ae5
+# 62b82fe4e70a4bf9b7627883b4cee335
 msgid "You need a minimum of 2 values, the index 0 will be used as False, and index 1 as True"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingBoolean.values:11
-# c0c920798bda4527bdc8c3aacb8e62e1
+# 03c6a8c5900c49dfbcd613efdc10fdab
 msgid ":data:`values` is a :class:`~kivy.properties.ListProperty`, default to ['0', '1']"
 msgstr ""
 
 #: ../../<autodoc>:1
-# ad12d8b0b376418ab91753aa2a30d9e8
+# 8168668ac5654bb49bc0f253458c3ae1
 msgid "Bases: :class:`kivy.uix.settings.SettingString`"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingNumeric:1
-# 02fe5817fbc54477a63e5203cad0f987
+# f074725a450c4e7289e6b4cdd52a0afc
 msgid "Implementation of a numeric setting on top of :class:`SettingString`. It's visualized with a :class:`~kivy.uix.label.Label` widget that, when  clicked, will open a :class:`~kivy.uix.popup.Popup` with a  :class:`~kivy.uix.textinput.Textinput` so the user can enter a custom value."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingOptions:1
-# 449faf91cfd84c97992a3a581ad8f98c
+# e65dda98969b4632ae012c069f4edc92
 msgid "Implementation of an option list on top of :class:`SettingItem`. It's visualized with a :class:`~kivy.uix.label.Label` widget that, when  clicked, will open a :class:`~kivy.uix.popup.Popup` with a  list of options that the user can select from."
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingOptions.options:1
-# 2e88af6a6f4749d3bdf46c39c1816a79
+# e64234af9cfb48ff862a74f1abb84def
 msgid "List of all availables options. This must be a list of \"string\", otherwise, it will crash :)"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingOptions.options:4
-# 9998c46e79754d18bb8c3dd723d52509
+# 59618a44ba834bd7a5e9b0a7e535dab8
 msgid ":data:`options` is a :class:`~kivy.properties.ListProperty`, default to []"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingOptions.popup:1
-# 309f2de33f684a4492d39f2e28c557be
+# 0f20e51b11d34cc792cc6c420fe006e3
 msgid "(internal) Used to store the current popup when it's shown"
 msgstr ""
 
 #: ../../../kivy/uix/settings.py:docstring of kivy.uix.settings.SettingOptions.popup:3
-# fb7f6376bfd0459ea587ef99ba2c5b5d
+# 714700af6da44437a6ec69fb9e0bf5b7
 msgid ":data:`popup` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
