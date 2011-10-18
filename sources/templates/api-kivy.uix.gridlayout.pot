@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-18 09:08\n"
+"POT-Creation-Date: 2011-10-18 12:53\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,192 +17,192 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.uix.gridlayout.rst:3
-# 36615d8ce8d94d9889f0a6d13dc627a7
+# a1367511e42d4217908495984da85346
 msgid "Grid Layout"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:4
-# 3f6467075542466eab14754719367185
+# 9d902c8d91d042d4a02a213965addd1b
 msgid ":class:`GridLayout` arranges children in a matrix. It takes the available space and divides it in columns and rows, then adds widgets to the resulting \"cells\"."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:13
-# e3f7a17177c24749a9652bcd3ea195ad
+# ebc9e779665844b5af27dca00354a576
 msgid "Background"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:15
-# b9e00c849fb744ed8df9b8af2aa2a75d
+# 6d8f5a80c991410493d63ccbf42b2a9a
 msgid "Unlike many other toolkits, you cannot explicitly place a widget at a specific column/row. Each child is automatically assigned a position, depending on the layout configuration and the child's index in the children list."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:19
-# c0c29ed2cfc041d69c0643f7e73f0b3a
+# 0762f782995d4494b638924df1934ede
 msgid "A GridLayout must always have at least one restriction: :data:`GridLayout.cols` or :data:`GridLayout.rows`. If you do not specify a restriction, the Layout will throw an exception."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:24
-# cdc5bbb16a2540c5b1121d738df5eb7d
+# 0743f16214ec4b71b68469eb55f5e492
 msgid "Column width and row height"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:26
-# 0a2b9b08ae144cfb9d2c245af42ca085
+# 199e9674697c449aa52b926fb4debc96
 msgid "The column width/row height are determined in 3 steps:"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:28
-# febd1cb8f4c648c481cfad720cd676e4
+# 26ea2352416d4c73b56f01e7062acf18
 msgid "The initial size is given by the :data:`col_default_width` and :data:`row_default_height` properties. To customize the size of a single column or row, use :data:`cols_minimum` or :data:`rows_minimum`"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:31
-# 42b1a5ce37184ca3a50c1ae7d9877abd
+# ffd71252f46c43f49e1ca516b575c2c0
 msgid "Then the `size_hint_x`/`size_hint_y` of the child are taken into account. If no widgets have a size hint, the maximum size is used for all children"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:33
-# 4ea0f9a848fa4ed9969cc06250c2b219
+# cc87cfcb824545f99d836382a0f929a0
 msgid "You can force the default size by setting the :data:`col_force_default`  or :data:`row_force_default` property. This will force the layout to  ignore the `width` and `size_hint` properties of children and use the default size."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:39
-# 9bb8302f294e489f8afe244a3be39b80
+# a57e0469672e416d80456198fb8dbfc5
 msgid "Usage of GridLayout"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:41
-# 8bef843843614cac861b786568faab26
+# 4e3291e4725a497f86b61fb374c0f818
 msgid "In the example below, all widgets will get an equal size. By default,  `size_hint` is (1, 1) so a Widget will take the full size of the parent::"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:52
-# d61006b329084a1da2c4ea3ec47f5d80
+# 968473023cbd4659aa1b0aa2c0873fa5
 msgid "Now, let's fix the size of Hello buttons to 100px instead of using size_hint 1::"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout:62
-# aa951cc8819845d9ab573f1fa3946d63
+# 28cc4601263d4ce38fb89d9c4bf68bcc
 msgid "Next, let's fix the row height to a specific size::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 1335dde76d07471f89232013f48f8fa0
+# 609efe5d4fba4ed69f8f5d6ff030128c
 msgid "Bases: :class:`kivy.uix.layout.Layout`"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout:1
-# 840866b854474c35a94ac232f75f5d09
+# 7ad2256a35c144de9bde699838342bad
 msgid "Grid layout class. See module documentation for more information."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.col_default_width:1
-# 24714bb4be8d46e99dde915f7da97259
+# acd9da90940f493c8e22e94320e3e7d0
 msgid "Default minimum size to use for column"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.col_default_width:5
-# 124442a2d0694fc9a61945663f528568
+# 9f040971655549459fca66ca0b1b85d3
 msgid ":data:`col_default_width` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.col_force_default:1
-# bf2e51f9568b4093ac62a636779e4ea3
+# 1bccac1fafd7401ab0aa602c9578897c
 msgid "If True, ignore the width and size_hint_x of the child, and use the default column width."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.col_force_default:6
-# 7815de120afe4d9fbf50ef641f3fd162
+# bb638abadbe14123ba7a211111d47d40
 msgid ":data:`col_force_default` is a :class:`~kivy.properties.BooleanProperty`, default to False."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.cols:1
-# 7cb3b2fff4f64f6fb80709fc21332385
+# a03e9f48936f42e694a26e7211b49737
 msgid "Number of columns in the grid"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.cols:7
-# e3fbec507a3742f6b9b543467fca2ff9
+# 1c61d8de1c8040a4ad89604429295b2d
 msgid ":data:`cols` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.cols_minimum:1
-# 684786636f9a44ef9e13775cfdfb376a
+# 3d2c1fb8e2f2454f9710ea7ab9992fd6
 msgid "List of minimum size for each column."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.cols_minimum:5
-# 6cb3938e421c434989a181a59e1c0960
+# 79ebe9bef8034d1986241700417b97bf
 msgid ":data:`cols_minimum` is a :class:`~kivy.properties.DictProperty`, default to {}"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.padding:1
-# 7da7d427c7b5433a8697b1021d7b1619
+# e18d71fae1e7410da897946764043a05
 msgid "Padding between widget box and children, in pixels."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.padding:3
-# 046805331b4a4b06ab2e065f762a4c26
+# d2746367ee8548b8bb6f1f0fd1984ae0
 msgid ":data:`padding` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.row_default_height:1
-# ec7e884f93f14016b7d127ccd253422c
+# 921f2e3dc7a34680a23adfbce95c1c01
 msgid "Default minimum size to use for row"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.row_default_height:5
-# 487683208b474189b95954e97f5e455e
+# 6e57f96344934859bf6489285d56a082
 msgid ":data:`row_default_height` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.row_force_default:1
-# 1bce6cff9cf2402b9ddf12907bb6694b
+# 4a8c51b45bbb4754889307a2d704a445
 msgid "If True, ignore the height and size_hint_y of the child, and use the default row height."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.row_force_default:6
-# 8e7e416f9fe34a4a92293feb78ce77fa
+# bc9d516cdcb848c5aeab80acf29ba4fa
 msgid ":data:`row_force_default` is a :class:`~kivy.properties.BooleanProperty`, default to False."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.rows:1
-# 7a3315f641a243f3853c87d0312c22c2
+# 3e3ff3de0c1647038dd8bcba094ba797
 msgid "Number of rows in the grid"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.rows:7
-# e039b4bfd41548508e26646f3474842a
+# 3a8308879d2f4fe2a71ad195e1d9ea43
 msgid ":data:`rows` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.rows_minimum:1
-# 43ae14ffe8354e2bb39ade3fc4b48a0c
+# ed325014c5724d5fb0338abed9dcb901
 msgid "List of minimum size for each row."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.rows_minimum:5
-# 31c1b8b1d7d742d486838df925bd44de
+# 11a048c0675f4522a4513b260f551652
 msgid ":data:`rows_minimum` is a :class:`~kivy.properties.DictProperty`, default to {}"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.spacing:1
-# 34462cc28090489881eb8775e462f0a2
+# cbe9b250ff92433fb6055e8b67820628
 msgid "Spacing between widget box and children, in pixels."
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayout.spacing:3
-# bd1a4d6bc9544559b668688d751ab46c
+# 898c649136554a5391c52607f67a8de9
 msgid ":data:`spacing` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../<autodoc>:1
-# d99c6b0917e641f68fa590e824ccd2cd
+# b784b1d0cc824d809dc8301a769cf3c2
 msgid "Bases: :class:`exceptions.Exception`"
 msgstr ""
 
 #: ../../../kivy/uix/gridlayout.py:docstring of kivy.uix.gridlayout.GridLayoutException:1
-# eb70907471834cac8c0ee91ac4f7c438
+# 088d35236f3041cab6c7ba79ae6f5720
 msgid "Exception for errors in the grid layout manipulation"
 msgstr ""
 
