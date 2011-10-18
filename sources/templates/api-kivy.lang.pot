@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-18 09:05\n"
+"POT-Creation-Date: 2011-10-18 09:08\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,418 +17,418 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.lang.rst:3
-# 704ac0ceef204c838257bd393ac570f5
+# c48ecb7f3ff6449faa4727601fe5522a
 msgid "Kivy Language"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:2
-# a2ff508603884f248bb3273694096f57
+# 6c75a39eeb794b81891af235d36958d7
 msgid "The Kivy language is a language dedicated to describing user interface and interactions. You could compare this language to Qt's QML (http://qt.nokia.com), but we included new concepts such as rule definitions (which are somewhat akin to what you may know from CSS), templating and so on."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:9
-# 4927c7ec4f16444eb89aace3e7c6507d
+# 382b607256df45d58b6fd215e4c83126
 msgid "Overview"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:11
-# 6da85004ec25496e985806115157eaef
+# 2a31ddc40de5478f95ad4d59052aade0
 msgid "The language consists of several constructs that you can use:"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:14
-# f36a0c5fd9d34a369a5de2fcc648fd5c
+# a81f62af64d1451292a09e567bb9d6e2
 msgid "A rule is similar to a CSS rule. A rule applies to specific widgets (or classes thereof) in your widget tree and modifies them in a certain way. You can use rules to specify interactive behaviour or use them to add graphical representations of the widgets they apply to. You can target a specific class of widgets (similar to CSS' concept of a *class*) by using the ``cls`` attribute (e.g. ``cls=MyTestWidget``)."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:22
-# c423dc1bf14648078db7ccf180a9b588
+# a269e128b9f84f458ad138198327f6ce
 msgid "You can use the language to create your entire user interface. A kv file must contain only one root widget at most."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:26
-# a73f0021777346059992e340d5441378
+# 46169207c5eb454196f2ca04a8dbafcd
 msgid "*(introduced in version 1.0.5.)* Templates will be used to populate parts of your application, such as a list's content. If you want to design the look of an entry in a list (icon on the left, text on the right), you will use a template for that."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:33
-# 3ebee11fb74b41fcb89443cbde02cd0e
+# 54f8118bab0e4309af945a7199b8a496
 msgid "Syntax of a kv File"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:37
-# ef8fbc65949a43e296bdb05360635281
+# 8a85da687d734cab9e4ded674210c2ba
 msgid "A Kivy language file must have ``.kv`` as filename extension."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:39
-# ad3901edcd014a14a8e81fe6efa3f181
+# 93fbbbe583fc49a3bf985d5454f8cad7
 msgid "The content of the file must always start with the Kivy header, where `version` must be replaced with the Kivy language version you're using. For now, use 1.0::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:47
-# fdcb34d8be464809bade071f214f1f41
+# ddc9028061ca45d19eed4d38a9cf96df
 msgid "The `content` can contain rule definitions, a root widget and templates::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:65
-# 639c84b1e10b4c4691f0fa1fcf4c8f27
+# c35c8daf66014a47b78d071f1dadd643
 msgid "Regardless of whether it's a rule, root widget or template you're defining, the definition should look like this::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:82
-# 8b4da90f9c2d406cb6582c51b589e482
+# 4d6dc82666744990a5b7ed22d519a74d
 msgid "Here `prop1` and `prop2` are the properties of `ClassName` and `prop3` is the property of `AnotherClass`. If the widget doesn't have a property with the given name, an :class:`~kivy.properties.ObjectProperty` will be automatically created and added to the instance."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:87
-# a2f09fd45f74447eac0b4228f1d546f3
+# f7122c9036654ac8ab3af3e6440cc08d
 msgid "`AnotherClass` will be created and added as a child of the `ClassName` instance."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:89
-# ed4808e56c4f4a0880b1fd26a67711b0
+# 36fc8f5ece734b4481f4f80c4a0a3f0e
 msgid "The indentation is important, and must be 4 spaces. Tabs are not allowed."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:90
-# 97df6d87ec3b45e895ffff4bac68a952
+# a12d072200fd49fb81e62eaa680468f1
 msgid "The value of a property must be given on a single line (for now at least)."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:91
-# 4d2833150dd7463d891efe890f674bd2
+# 0b6b35999ea246dc8ee84b9a168683b9
 msgid "The `canvas` property is special: You can put graphics instructions in it to create a graphical representation of the current class."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:95
-# ca9c00d51f9048cf8a4f37f3277afead
+# f0d92d5db2714cc0979c1fcd03b2e2fe
 msgid "Here is a simple example of a kv file that contains a root widget::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:104
-# 7e2b1dff7e304f72a27312fcd12e78e6
+# b5cc2de08a4b4b3080cc2ea89d96f02f
 msgid "Value Expressions and Reserved Keywords"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:106
-# d8bacdc2f56f4551bef0f2baf5bbfe57
+# 7a131068fc904845a4261bc072083670
 msgid "When you specify a property's value, the value is evaluated as a python expression. This expression can be static or dynamic, which means that the value can use the values of other properties using reserved keywords."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:111
-# 31a63d25f6484fd18f295aa3e6e597af
+# 7854045a72c6468f89a4c7fc3d3ef5c7
 msgid "The keyword self references the \"current widget instance\"::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:117
-# 55c1c315994a4c5bb407904eeb11c368
+# 491682d5003d4b8cb811a7d5187702be
 msgid "This keyword is available only in rule definitions, and represents the root widget of the rule (the first instance of the rule)::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:125
-# fae10554e1234acfa4ae5b928c1ade89
+# a51e9b46ab1741249ce1970da9dd7681
 msgid "Furthermore, if a class definition contains an id, you can use it as a keyword::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:133
-# b960dcf32f704a37a03449668c12960b
+# fbdc5747127a45ca99c617d13b792499
 msgid "Please note that the `id` will not be available in the widget instance; The `id` attribute will be not used."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:138
-# c135b905c0634491b14efff4f6b80e1f
+# b63621dc11de4e3b89b4b8277881cfb2
 msgid "Relation Between Values and Properties"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:140
-# fe2b67e9a1c5469cac3a05a8135cad5f
+# ef00211a095c43719c0b3c546156dc42
 msgid "When you use the Kivy language, you might notice that we do some work behind the scenes to automatically make things work properly. You should know that :doc:`api-kivy.properties` implement the *observer* software design pattern: That means that you can bind your own function to be called when the value of a property changes (i.e. you passively `observe` the property for potential changes)."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:147
-# f586130d26a74fa2a6037cfe38113cbc
+# 46cf3728c5f946ceb338c322a33ad5ee
 msgid "The Kivy language detects properties in your `value` expression and will create create callbacks to automatically update the property via your expression when changes occur."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:151
-# d998a07fa11345deaf7d66e9ff70c806
+# 0e27e7f9f55a438695ac19178b242d77
 msgid "Here's a simple example that demonstrates this behaviour::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:156
-# 143ea1d83f23446f9e06e5faced1f36a
+# d4234afd602b46cb8b3c1d4a7aed94d4
 msgid "In this example, the parser detects that `self.state` is a dynamic value (a property). The :data:`~kivy.uix.button.Button.state` property of the button can change at any moment (when the user touches it). We now want this button to display its own state as text, even as the state changes. To do this, we use the state property of the Button and use it in the value expression for the button's `text` property, which controls what text is displayed on the button (We also convert the state to a string representation). Now, whenever the button state changes, the text property will be updated automatically."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:166
-# 26da112128c643689808d2bc54a64a42
+# c7fa91c3f43342aba09dd4f936714350
 msgid "Remember: The value is a python expression! That means that you can do something more interesting like::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:172
-# 67959bfdd7504c05b84e9bc84478ab08
+# 9f92040b6d6747dcb461b0ce2df13e96
 msgid "The Button text changes with the state of the button. By default, the button text will be 'Plop world', but when the button is being pressed, the text will change to 'Release me!'."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:178
-# 53c4448eac374abf936733949f43935a
+# 69db13c71d0d4a07aadaf429704ef8c0
 msgid "Graphical Instructions"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:180
-# 247d22255c6844368213b08711084f96
+# 85736885ff984cab86ae0f94a7ad1393
 msgid "The graphical instructions are a special part of the Kivy language. This concerns the 'canvas' property definition::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:191
-# 0aef5740bee742a68b09000fc8f08d37
+# 772e38c5ce3946e4a1fe63b4924528d3
 msgid "All the classes added inside the canvas property must be derived from the :class:`~kivy.graphics.Instruction` class. You cannot put any Widget class inside the canvas property (as that would not make sense because a widget is not a graphics instruction)."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:196
-# a1949a0d5c4f4ae1b1cd0211e8c8275f
+# 3d663a71081d4195bf2189cce5c04ddc
 msgid "If you want to do theming, you'll have the same question as in CSS: You don't know which rules have been executed before. In our case, the rules are executed in processing order (i.e. top-down)."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:200
-# 0dbbf08e0cc34b7da3ac9b9ad8bd270f
+# f018d673df164b4281b355841fc26949
 msgid "If you want to change how Buttons are rendered, you can create your own kv file and put something like this::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:215
-# 5eede607707a47c7ab186f99e4406cd8
+# 6f48a50bc04a489f8276515029d400f8
 msgid "This will result in buttons having a red background, with the label in the bottom left, in addition to all the preceding rules. You can clear all the previous instructions by using the `Clear` command::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:232
-# 456e90addce4438d84a781bf0afab3ce
+# 548fd94c12224cbfbeffefdf916b6750
 msgid "Then, only your rules that follow the `Clear` command will be taken into consideration."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:239
-# 335270e7ebfd41ccbf570ff96953cd00
+# b948b91c098747e7a804e1caa2cad4b4
 msgid "Templates"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:244
-# 34af3dc8ae3d4a4c9442450c1c308001
+# 0642ae54c1764ef486ca90ba01760dc5
 msgid "Syntax of template"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:246
-# db841df5042c4f0890819e4eeb23f13d
+# 5bc8bc7fc406491b8148bb7d73a8adc9
 msgid "Using a template in Kivy require 2 things :"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:248
-# aad4268b8cb343bd90194e5ef486b1ee
+# 4711ab82ef9e4e9d939bcd5fb7cbde8d
 msgid "a context to pass for the context (will be ctx inside template)"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:249
-# ab6a5f3e9142492c9ffa8d70bbb38e94
+# 63ee03cdc3ba4a0f85d857a85386bbf2
 msgid "a kv definition of the template"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:251
-# 8963f31b3a074802bf3908d53590b5c5
+# a6154d9e973c414e884315858ee8c476
 msgid "Syntax of a template::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:261
-# 4ff120a42dc8458e9e8cbd896897bfd8
+# 9f254bcea313470b9ee270ecfcdbbe2e
 msgid "For example, for a list, you'll need to create a entry with a image on the left, and a label on the right. You can create a template for making that definition more easy to use. So, we'll create a template that require 2 entry in the context: a image filename and a title ::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:275
-# 64361a376b324ee1aef8521fcb067969
+# 05ed537dfb38475cbaa74aad9841b564
 msgid "Then in Python, you can create instanciate the template with ::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:293
-# ff6785dfd2f24bcbadd95bbe9f98f540
+# a0f61bf628ad46d58fe13e2c4255de6d
 msgid "Template example"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:297
-# 969b5c374a5441fe8e2092f46455bf02
+# b088e0853c1a415285382e01ce338073
 msgid "Most of time, when you are creating screen into kv lang, you have lot of redefinition. In our example, we'll create a Toolbar, based on a BoxLayout, and put many Image that will react to on_touch_down::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:321
-# 24c220c295684aae9be31dba1918b51f
+# fd765771cb1b4207a6c8351b414e5b22
 msgid "We can see that the side and size_hint attribute are exactly the same. More than that, the callback in on_touch_down and the image are changing. Theses can be the variable part of the template that we can put into a context. Let's try to create a template for the Image::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:336
-# e130f5607de6402daaec6176764dda59
+# 1758ad8635734f279659010c2b0a879c
 msgid "The template can be used directly in the MyToolbar rule::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:350
-# 37a132c61da44e82a1d3904f46bac716
+# 04ecca53c0654bbab9048b83f139b2be
 msgid "That's all :)"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:354
-# 6b26e2617b674ac38cb219bec51319a0
+# 76a5b1dd9c4f48db8adf4f7aae67b94b
 msgid "Template limitations"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:356
-# ad625f2314c442089b4a8e4bb4e08084
+# 9c09f6d608d0477fa913f336d391b283
 msgid "When you are creating a context:"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:358
-# 3e96249bb3ac4bf68e301a9d59669fb0
+# 3a78c19c81ab4fb1a440d850216170ba
 msgid "you cannot use references other than \"root\"::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:367
-# d378d11a07b048ec823602125896537f
+# 2c1ef6de4af542c9ae892c8dfd40ae80
 msgid "all the dynamic part will be not understood::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:376
-# 0bdfbca0c0d94c7098c95944a0378e04
+# 5e2d65754fea47e5a2aba52c96486210
 msgid "Lang Directives"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:378
-# b767138d8d8a4218829470c899eca087
+# db9b4e965af5473196473f9b45852766
 msgid "You can use directive to control part of the lang files. Directive is done with a comment line starting with::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:384
-# 53de2612ca7845519df6ff4f0f4fed04
+# 85301353e0ab4ef0aa008354b90e73e0
 msgid "import <package>"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:388
 #: ../../../kivy/lang.py:docstring of kivy.lang:422
-# 75dd8e085941497da8e9c0530bb7ed8b
-# fe46cb42a5b446a19d85bf6d932b0329
+# a30183589b834e5096594770cfd0e90e
+# 81fa8129112e42b2a57886d323ae4eda
 msgid "Syntax::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:392
-# 5cf310c9b85d4ec0b2f4216cb14cecca
+# e9d166af182c440a9e848132742d315c
 msgid "You can import a package by writing::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:400
-# bbd8bb2e02bf42a397eadbb090195548
+# f004aa6786ef42649f29e8d59380ed52
 msgid "Or more complex::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:411
-# 78fd9c1eca984d589de8c21462ba9410
+# 766f1ef9c731489e8e1658f86f0efdfe
 msgid "You can directly import class from a module::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:418
-# 22ffce33821a40dbaffafff9156fa461
+# f7c72cf305bc45acaf362e525417fbf1
 msgid "set <key> <expr>"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang:426
-# f94bf3928b5b415daa7f9bc1abb5754d
+# 1d0377f018604b83818ed84c2f077bd9
 msgid "Set a key that will be available anywhere in the kv. For example::"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.Builder:1
-# f64cae39ae6949f4a731a9cf54db00fa
+# 8d598e3bbbee45e7b02103d26ab07b73
 msgid "Main instance of a :class:`BuilderBase`."
 msgstr ""
 
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
-# 7026ae5270884b57a5580917ae55457f
-# 022b62e1e68d4f509334e89f448755f8
+# 40f2ac36383e448ab0ba71d6bd20b0c8
+# bb483fadcfda47b88d69a666f450a5dd
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase:1
-# 98a7b11eae9c465db0659ac6a86bce8b
+# c17c83753eb64138b7f2e089e0579119
 msgid "Kv objects are able to load a Kivy language file or string, return the root object of it and inject rules into the rule database."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.apply:1
-# 4fb116416c1a4f7f9c1f2a7a97894966
+# 9fed42eba2d14ae69d5b21b869a8bfd2
 msgid "Apply all the Kivy rules matching the widget on the widget."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.load_file:1
-# 5c3af6262184469f893c45383f08781e
+# 59ea4c313260492f843d539dd7c7cc44
 msgid "Insert a file into the language builder."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.load_file:5
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.load_string:5
-# 21a8af0b09e340e1932532dc653f2b39
-# 55e5046d74f9431ab6b4170618f6d90c
+# 90d64f4493464a2da95ff0af546c32d4
+# b6ae23a3cb5e49c9a4eda0f06902981b
 msgid "If True, the Builder will raise an exception if you have a root widget inside the definition."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.load_string:1
-# 6a3bd91a5b134671acec4d1e3635b01a
+# 26dfc464133145e2916a0de79112094c
 msgid "Insert a string into the Language Builder"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.match:1
-# 799f5d43020c4d2199f4e7912fb654bc
+# 7f3b891481964d0da503b1b221c9f046
 msgid "Return a list of all rules matching the widget."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.template:1
-# 4123d09c0dbb410cb66b41523699f7a4
+# 656bd4ed852849c1aab18cae63394594
 msgid "Create a specialized template using a specific context. .. versionadded:: 1.0.5"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.template:4
-# 9dc5f9bf88214d2199ccd123c7b217cb
+# 674cc069619045d281f3f34c88aea6b7
 msgid "With template, you can construct custom widget from a kv lang definition by giving them a context. Check :ref:`Template usage <template_usage>`."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.unload_file:1
-# 7000df2ea4f14d9fb166b0c5689f8b2c
+# 8d8c3bcb3daf4b008e384099cb0bda29
 msgid "Unload all rules associated to a previously imported file."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.BuilderBase.unload_file:7
-# c34cc5df16a740e9956aee740ff5808e
+# ee6077565b40487b9fcb4d12bc5dd214
 msgid "This will not remove rule or template already applied/used on current widget. It will act only for the next widget creation or template invocation."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.Parser:1
-# a7c424aca0474583be007d93575471f6
+# 679c5bf029bc4810baa0a795ca7c1cb3
 msgid "Create a Parser object to parse a Kivy language file or Kivy content."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.Parser.load_resource:1
-# 74f0da46f3f4455687433b1eaf46b65a
+# 15c004c155c34b9d9b496c169c951a43
 msgid "Load an external resource"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.Parser.parse:1
-# 04359cf189e248779f1b39c1e99fdc92
+# 0f3d95197ae54c3f9f1c7a75bd9b1d40
 msgid "Parse the contents of a Parser file and return a list of root objects."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.Parser.parse_level:1
-# 14c4e7ac28bc4189808b1d0f735723df
+# 45fe57bc29e345e0b4c246a83a494943
 msgid "Parse the current level (level * 4) indentation."
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.Parser.parse_version:1
-# 5752ced1ac284548b076dcd78ddb7eba
+# 479638024c874a07a1345b2c19d8457b
 msgid "Parse the version line. The version line is always the first line, unindented and has the format: #:kivy <version>"
 msgstr ""
 
 #: ../../../kivy/lang.py:docstring of kivy.lang.Parser.strip_comments:1
-# a64f380a326349eea44b6ddb308b2b87
+# 4235b362c72c4ed79e5a97ca075d5624
 msgid "Remove all comments from all lines in-place. Comments need to be on a single line and not at the end of a line. I.e., a comment line's first non-whitespace character must be a #."
 msgstr ""
 

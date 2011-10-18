@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-18 09:05\n"
+"POT-Creation-Date: 2011-10-18 09:08\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,147 +17,147 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.network.urlrequest.rst:3
-# 8e6e9fece37849fdba0dfff81d2544fc
+# a462eea6376646458d84abf4c49f6350
 msgid "Url Request"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest:4
-# 1bd8b80960844acf83168aa17a6e24bc
+# 8e80ea7001754faca144ae62c60fd89d
 msgid "You can use the :class:`UrlRequest` to make asynchronous request on the web, and get the result when the request is completed. The spirit is the same as XHR object in Javascript."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest:8
-# b47eaa92daee444cab9f3ab8537797d9
+# 73d3501809484ac2b086fb2ee7504a2f
 msgid "The content is also decoded, aka for now, if the Content-Type is application/json, the result will be automatically passed through json.loads."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest:12
-# 7abd43884b114be9a05c8b114cb0ccab
+# 03c0e74209ee4bdba19e285713ca5e93
 msgid "The syntax to create a request::"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest:18
-# b6bc1a36845241a0838d2f3b911f927a
+# a72e8f9a22e142a985b0e6aea1c30130
 msgid "Only the first argument is mandatory, all the rest is optional. By default, a \"GET\" request will be done. If :data:`UrlRequest.req_body` is not None, a \"POST\" request will be done. It's up to you to adjust :data:`UrlRequest.req_headers` if necessary."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest:24
-# a20e6bed47cd450bb6ccf42629a74dc9
+# 261b757bbc05402eb5ba4e2367bd8bfd
 msgid "Example of fetching twitter trends::"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest:36
-# e7956cb292e94464bdc3d386eb84af9f
+# 45e82f80d6e249cb96655d6dac6b62f9
 msgid "Example of Posting data (adapted from httplib example)::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 79bd748acb9a4968a9999e56fc7cbf22
+# 9648a2173fa34d9bbafdff43179719b2
 msgid "Bases: :class:`threading.Thread`"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:1
-# 6efe45596443465bbb2e775bf541d12c
+# a41c36a25cd64273ab119c41a1e828d0
 msgid "Url request. See module documentation for usage."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:5
-# 25f9e79cb6fa4ff5b93aa3590dc439bb
+# 4faa1998400543c4b9346b32f651e25b
 msgid "Complete url string to call."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:7
-# 9344f9c6198048ec8ea9dfa1fa21ade1
+# ac357ca6deb74cd39fabf7ea079760dd
 msgid "Callback function to call when the result have been fetched"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:9
-# 2931e5f9e9574b0bb9d2243d69a809c9
+# f4712af88dbf42dfa643a9060b65e68e
 msgid "Callback function to call when an error happen"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:11
-# bd04938a9b9648129da11483ee3d0349
+# 10dab2e22efd4b9ba293673cacefa220
 msgid "Callback function that will be called to report progression of the download. `total_size` might be -1 if no Content-Length have been reported in the http response. This callback will be called after each `chunk_size` read."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:16
-# cec0a108b5624fc3adf569912a16b438
+# d9f8d1da344246d090817ecde337d82a
 msgid "Data to sent in the request. If it's not None, a POST will be done instead of a GET"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:19
-# 934c0f7ab7aa4414975a51525df6f3eb
+# 2dca3972eeee4a2f84a2371d25a4ab41
 msgid "Custom headers to add for the request"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:21
-# 8041a448c5e14a84bc6144325d2772f4
+# 886fddfb2c2d4355aeaa2b780653c644
 msgid "Size of each chunk to read, used only when `on_progress` callback have been set. If you decrease it too much, a lot of on_progress will be fired, and will slow down your download. If you want to have the maximum download speed, increase chunk_size, or don't use on_progress."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest:27
-# 0e943edaf49947d3a9f97fe917cedf82
+# 26fcea6938de446d89feed618d55c2e3
 msgid "If set, blocking operations will timeout after that many seconds."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.chunk_size:1
-# d9db72ec617b4481ada90359ec1e48c8
+# ee586246815541c0aebe5f8c0a544f15
 msgid "Return the size of a chunk, used only in \"progress\" mode (when on_progress callback is set.)"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.decode_result:1
-# e6a9ff34fde240f886a54e66fd94d1a3
+# 3c8badc7234c436d836125e2e57795a5
 msgid "Decode the result fetched from url according to his Content-Type. Actually, only decode application/json."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.error:1
-# 30fdb9a08f754efdab24f31d33a5b0ca
+# 00c3336940124cba9daf0e50a77e997e
 msgid "Return the error of the request. This value is not undeterminate until the request is finished."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.get_connection_for_scheme:1
-# 6ae77c741e3b4be7831486b6ce200948
+# 259f3a472dad4ae195710c54a46885d3
 msgid "Return the Connection class from a particular scheme. This is an internal that can be expanded to support custom scheme."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.get_connection_for_scheme:4
-# d2d4de5e642e4ae09dc4b68e75a4df80
+# a7c8dffdbf90479389ca10c05fcbeb98
 msgid "Actual supported schemes: http, https."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.is_finished:1
-# 9310b62aaa064c8aa673069dcabdc0ac
+# 523044a3aa364cb3b519731e4891aec0
 msgid "Return True if the request have finished, whatever is if it's a success or a failure."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.req_body:1
-# c52bf9666183485cad70bdbd12b87411
+# 1e4cd27ec0bc42079ac4a14771f7bf10
 msgid "Request body passed in __init__"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.req_headers:1
-# 2b6516d950f545219be6731a9a9842a1
+# b93c6eed73c94ea890293a44280142bb
 msgid "Request headers passed in __init__"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.resp_headers:1
-# 7849b6c559f943adad02a58340b6c8be
+# 787d42a8bd4745818db1d414bc9d497d
 msgid "If the request have been done, return a dictionnary containing the headers of the response. Otherwise, it will return None"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.resp_status:1
-# 2d70e8b59aca47d8b2a4449af0c394c9
+# 6386e91566244e13b396affb76835056
 msgid "Return the status code of the response if the request have been done, otherwise, return None"
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.result:1
-# 24643305816346198280bc889cab7b76
+# 9792f4b4d71d4a559f3ad2ce99b9fe02
 msgid "Return the result of the request. This value is not undeterminate until the request is finished."
 msgstr ""
 
 #: ../../../kivy/network/urlrequest.py:docstring of kivy.network.urlrequest.UrlRequest.url:1
-# 2e860312d9c14b61b10b16376698d31a
+# edd60d1973814128b36a1f86fbba66a3
 msgid "Url of the request"
 msgstr ""
 
