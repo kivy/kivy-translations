@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-17 22:29\n"
+"POT-Creation-Date: 2011-10-18 09:05\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,22 +17,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.graphics.instructions.rst:3
-# 8b5e41d3ace2425bb5bdce822d8da8b3
+# cee9a10bb107467cae7e76579bdd35de
 msgid "Canvas"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions:2
-# 0e61d4e3267c416284bcba6269a54646
+# fe7023912362487cb9bb566a2e630b76
 msgid "The :class:`Canvas` is the root object used for drawing by a :class:`~kivy.uix.widget.Widget`. Check the class documentation for more information about the usage of Canvas."
 msgstr ""
 
 #: ../../<autodoc>:1
-# fade21fb26264c5a9b808a3d20b0266c
+# 3f7ba2422fc04e76a43607c86c3ac5d5
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Instruction:1
-# cad15e20759b41b89987106b98dee121
+# d2ac52ce059f4df8b685fe6df412dbd9
 msgid "Represents the smallest instruction available. This class is for internal usage only, don't use it directly."
 msgstr ""
 
@@ -40,185 +40,185 @@ msgstr ""
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
-# 3cae3561eae749078bfe53d4954d39d4
-# 681ee6cb0f3e48b797195bcac3efbae9
-# a0686e8cca934024bfdafd16575deff8
-# 56a5286b05004dd4a749f683fe1c64ed
+# d2f0b061aa6f4c4db114c313710d27c9
+# 606c1517878844fda7c3e3dea31a7a71
+# 1203b44529954745885d0eca50b83123
+# 7ffe8945250c4c8cbbb023c3f4f72325
 msgid "Bases: :class:`kivy.graphics.instructions.Instruction`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.InstructionGroup:1
-# e6864fd34bd64b54a5ef2227304fc2d8
+# f4d51d106254445cb61f50c64ccf49fd
 msgid "Group of :class:`Instruction`. Adds the possibility of adding and removing graphics instruction."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.InstructionGroup.get_group:1
-# 845914665bc9430f88d5259f85cdf6da
+# 2c9e04668c0d4689b0050a154c4d14c1
 msgid "group name."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.ContextInstruction:1
-# ab06a50a2c204b87937231fc8c1970c6
+# 6433e86a4fb94da8b3e837510af387e3
 msgid "The ContextInstruction class is the base for the creation of instructions that don't have a direct visual representation, but instead modify the current Canvas' state, e.g. texture binding, setting color parameters, matrix manipulation and so on."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction:1
-# 7b3194e04a9044a59cfb516c568b4072
+# 34ea6afa8a374fbb833abe4eeb068289
 msgid "The VertexInstruction class is the base for all graphics instructions that have a direct visual representation on the canvas, such as Rectangles, Triangles, Lines, Ellipse and so on."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.source:1
-# fc1bc7617d7b4b7fb126432ca6760fd4
+# 43a97c7fd0fb414aa29d1dcf7f295796
 msgid "This property represents the filename to load the texture from. If you want to use an image as source, do it like this::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.source:7
-# 8323933ad3a741eba35357a782a92615
+# 4a90fb072ad8453e9d7b1e8a056f90ef
 msgid "Here's the equivalent in Kivy language::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.source:18
-# 13d5b2481be74188afd843c5934fa4de
+# 714f17a3cbad4cf787263e87f126e6b8
 msgid "The filename will be searched with the :func:`kivy.resources.resource_find` function."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.tex_coords:1
-# 82f9c8af14b94b1c8fc04bf5b29a2911
+# 4a9a274789ee451d854ebec33bedb955
 msgid "This property represents the texture coordinates used for drawing the vertex instruction. The value must be a list of 8 values."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.tex_coords:4
-# 06afed83287440eab4e84f751227c7dc
+# 022d02570d2045e7b178a660881afb14
 msgid "A texture coordinate has a position (u, v), and a size (w, h). The size can be negative, and would represent the 'flipped' texture. By default, the tex_coords are::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.tex_coords:10
-# 24e3d89ddb9445338b05008ca59beb69
+# d1c8e9c790374efd92b099f89b380d57
 msgid "You can pass your own texture coordinates, if you want to achieve fancy effects."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.tex_coords:15
-# 465a354d227948599dd7a69655add3ac
+# 48849a4dbbdb485181fe18f2dafb333e
 msgid "The default value as mentioned before can be negative. Depending on the image and label providers, the coordinates are flipped vertically, because of the order in which the image is internally stored. Instead of flipping the image data, we are just flipping the texture coordinates to be faster."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.texture:1
-# b8053ab9b9404c7383f1a72b0df984f5
+# 301fc8154e904731b25d13b5bba7fcfa
 msgid "Property that represents the texture used for drawing this Instruction. You can set a new texture like this::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.VertexInstruction.texture:10
-# e76bde19db0945909143083cc04ea56b
+# b231df66e0da4227847ef787c874b455
 msgid "Usually, you will use the :data:`source` attribute instead of the texture."
 msgstr ""
 
 #: ../../<autodoc>:1
-# 7e8853d492db432c9b6d6bee55fa87c0
+# 231fcf5bb5ce42c6953752e8182cb635
 msgid "Bases: :class:`kivy.graphics.instructions.CanvasBase`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Canvas:1
-# 857f2561bf10427b840c5192c1eec565
+# e766284d2df14d2f99141be59eec3a93
 msgid "The important Canvas class. Use this class to add graphics or context instructions that you want to be used for drawing."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Canvas:6
-# 74917c21521549e3a11106f1874774c6
+# eb1b0354986945dfa1539dbdba1f9b07
 msgid "The Canvas supports Python's ``with`` statement and its enter & exit semantics."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Canvas:9
-# becf48218bec4fe681014f459b374a95
+# 6445a705df9644f7ab4d6a9a75322b0a
 msgid "Usage of a canvas without the ``with`` statement::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Canvas:14
-# d873a530765b4eb4817022c65e14f0cb
+# 5f976ef46b9d4f0e9aacd146b67172f3
 msgid "Usage of a canvas with Python's ``with`` statement::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Canvas.after:1
-# a9761428751649f886c1ba9a893d5182
+# ecb7c63803de4f61b9b450528a8dc563
 msgid "Property for getting the 'after' group."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Canvas.ask_update:1
-# b076c5cac93f45ebb55152dfee34ba18
+# 57eea6ef42c84b1cbd3b05a261973844
 msgid "This is useful when you need to trigger a redraw due to some value having changed for example."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Canvas.before:1
-# b416f21b87d34601ba713eda045877b2
+# 53513b1da6b746d6a0cb433f46f4549f
 msgid "Property for getting the 'before' group."
 msgstr ""
 
 #: ../../<autodoc>:1
-# a5f7d3f206a04b23b34cff464de92c70
+# 574ad430d9b54743b62c69eb0e6013c5
 msgid "Bases: :class:`kivy.graphics.instructions.Canvas`"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.RenderContext:1
-# b58918c5dde640c5a277ed1c4f0696be
+# c9213cff264c49ac9f0beedfd47898d8
 msgid "The render context stores all the necessary information for drawing, i.e.:"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.RenderContext:3
-# 034820506e1a463b9a056b34a769c944
+# a7c0bb08d2914a09b26cfe97e9d37099
 msgid "The vertex shader"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.RenderContext:4
-# 0455d08627e94b5e9a034b5be6d499e5
+# 35491ac0e96d4091be2061037e737de5
 msgid "The fragment shader"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.RenderContext:5
-# 034b2d47e42b4d1b85ecf42544986a6d
+# ff83f5c68bcb4783b740063a8691df7b
 msgid "The default texture"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.RenderContext:6
-# 2525b9f596aa4f40912f160ddd29833b
+# 3db29d3b20e54a3cb4354a5314beed14
 msgid "The state stack (color, texture, matrix...)"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback:3
-# 722ffeac43784aaabf5f85d4d2efddb0
+# 594de773926345828991b7f1adeb2344
 msgid "A Callback is an instruction that will be called when the drawing operation is performed. When adding instructions to a canvas, you can do this::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback:12
-# ee48a30d60eb4aa994dc87e6b7361cda
+# 38187b93f65e427d9b8eca68a6e25ae7
 msgid "The definition of the callback must be::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback:19
-# 3be9a2de56fe4584b35d2890b7ffe323
+# 3f970ec722824b6ebf356ea77dca3a3c
 msgid "Note that if you perform many and/or costly calls to callbacks, you might potentially slow down the rendering performance significantly."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback:22
-# 16374dc94bf24dbd89b9fc5951387702
+# 453606b144514ee6a18cb13862e041a1
 msgid "The drawing of your canvas can not happen until something new happens. From your callback, you can ask for an update::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback:30
-# 164bf705f9e449a08c448dfc202e41d1
+# 948df6b951b84d2aa737a42b0a8e60f5
 msgid "If you use the Callback class to call rendering methods of another toolkit, you will have issues with the OpenGL context. The OpenGL state may have been manipulated by the other toolkit, and as soon as program flow returns to Kivy, it will just break. You can have glitches, crashes, black holes might occur, etc. To avoid that, you can activate the :data:`reset_context` option. It will reset the OpenGL context state to make Kivy's rendering correct, after the call to your callback."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback:41
-# b95c7cc42c2649ca85f5c3cd88c973c2
+# 2ec0bb7ec95848f093710bc4e31d1057
 msgid "The :data:`reset_context` is not a full OpenGL reset. If you have issues regarding that, please contact us."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback.ask_update:1
-# 912f744238c64af6961b3a95b6fce94e
+# dd4ec25e546445e3aeda5f20c45c59ff
 msgid "frame. This is useful when you need to trigger a redraw due to some value having changed for example."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.instructions.Callback.reset_context:1
-# 61f877346e3e4fe8887a08f3c3eaec97
+# 00dd50902f514791a2205c960f3d99e6
 msgid "Set this to True if you want to reset the OpenGL context for Kivy after the callback has been called."
 msgstr ""
 
