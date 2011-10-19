@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-18 21:58\n"
+"POT-Creation-Date: 2011-10-19 15:09\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,556 +17,556 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.uix.widget.rst:3
-# 4a968b2fa847440fb8cb08d7185d0b72
+# 4b4d42068e6b48f9943abe9a2cf89b3d
 msgid "Widget class"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:2
-# df5b2991845f45568816dd34a486ec84
+# ccd27a952c6244ac957e6fbe9aa48e19
 msgid "The :class:`Widget` class is the base class required to create a Widget. Our widget class is designed with a couple of principles in mind:"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:6
-# 4bb798f1fccb494e8ff7bf47fe065745
+# b894547104d541c58674e69b5c725cd5
 msgid "The widget interaction is build on top of events that occur. If a property changes, the widget can do something. If nothing changes in the widget, nothing will be done. That's the main goal of the :class:`~kivy.properties.Property` class."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:12
-# dd77c6f611c348f5bb7c6b15df810ec4
+# 14bf16ec43864a28b0beb0411bf279d9
 msgid "Widgets don't have a `draw()` method. This is done on purpose: The idea is to allow you to create your own graphical representation outside the widget class. Obviously you can still use all the available properties to do that, so that your representation properly reflects the widget's current state. Every widget has its own :class:`~kivy.graphics.Canvas` that you can use to draw. This separation allows Kivy to run your application in a very efficient manner."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:22
-# 8e82c95446374f5588d0291062bbdbff
+# 7de44655baa64084a53505462d3796b7
 msgid "Often you want to know if a certain point is within the bounds of your widget. An example would be a button widget where you want to only trigger an action when the button itself is actually touched. For this, you can use the :func:`Widget.collide_point` method, which will return True if the point you pass it is inside the axis-aligned bounding box defined by the widgets position and size. If a simple AABB is not sufficient, you can override the method to perform the collision checks with more complex shapes (e.g. a polygon). You can also check if a widget collides with another widget with :func:`Widget.collide_widget`."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:34
-# 068b44ff5e5944ac9723d0c91b337b15
+# 1366f85ba9ea4d1eaee8759f6c2db59d
 msgid "Using Properties"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:36
-# 5f0f205320ce4178a76344845c10817b
+# a1dbf913d9944b00a7c3fe4897b945d3
 msgid "When you read the documentation, all properties are described in the format::"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:40
-# 17cab3b825d74bb7a8fb16466cfeb2d4
+# 500ca3e1918645df9d9f8791a392df32
 msgid "For example::"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget:45
-# a4772bb4febe497bbb2cda562e34ac90
+# 2307516b44f245cc9686dd770a919bb7
 msgid "If you want to be notified when the pos attribute changes (i.e. when the widget moves), you can bind your own function (callback) like this::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 2041ba8a252f4e7d8c617d3d526d2361
+# 0bcd4c0977f0415fb4680f254badbadf
 msgid "Bases: :class:`kivy.event.EventDispatcher`"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget:1
-# 73cd4945753545f1aa60f63b5fb33efc
+# b489cb1da74a4d35961b1162a1d3de28
 msgid "Widget class. See module documentation for more information."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget:5
-# e952d9775cd14584acf49dbcd388dab9
+# f559fd1c608a41d689161112529620fa
 msgid "Fired when a new touch appear"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget:7
-# 6061c9ea116a4c75b2b1fbe5c63ebc7f
+# 804c3e01e500410ab5213e1ed6ff3ed6
 msgid "Fired when an existing touch is moved"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget:9
-# 517f4beb27d14fdd8bc86a2183954c2b
+# d422ebdc21864fcf92c15d3a3cfb4ff8
 msgid "Fired when an existing touch disappears"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.add_widget:1
-# 3e1be203de2840a7a75b16025257cd91
+# ec8961d464c44269a88993d902a67e8c
 msgid "Add a new widget as a child of this widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.add_widget:5
-# e88d62bafa594d03a4e55f5b04121549
+# 3e64097b37754a0e81440e3c12f95e21
 msgid "Widget to add to our list of children."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.add_widget:7
-# 83f89c54d9fb45ddba5148ddfabdc5ba
+# e74162c8a37c40809a3c84b2e0682a26
 msgid "*(this attribute have been added in 1.0.5)* Index to insert the widget in the list"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.bind:1
-# 6793cbc7417a42f18e87b24d162af00c
+# 97229b20fef247e284ed8ff78dd09958
 msgid "Bind properties or events to a handler."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.bind:3
-# bec6279d0fc644f8afbae97c46dbdf41
+# 3a67bdfdc4a84eb2aaaf42908e2e68d2
 msgid "Example usage::"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.canvas:1
-# a16f54ace9f143059bf8f374dda80e0d
+# b68a3ccb97dc44889216cbd337e7d807
 msgid "Canvas of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.canvas:3
-# 0d2db6153ba643b3a5fc8aa69db1cef7
+# ece2624c71d9484788ec2edf3547d4ee
 msgid "The canvas is a graphics object that contains all the drawing instructions for the graphical representation of the widget. Check :class:`~kivy.graphics.Canvas` for more information about the usage."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.center:1
-# 8a7851c11a9f40978faf4e61a832f680
+# 02e87492a4de44cd8a5cf588560224ff
 msgid "Center position of the widget"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.center:3
-# b3dd8c03faa441e69d0275a327d92e62
+# 4eabd8e284c04e25b100d7548bcdb5f6
 msgid ":data:`center` is a :class:`~kivy.properties.ReferenceListProperty` of (:data:`center_x`, :data:`center_y`)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.center_x:1
-# f40f326b98074f4fb31dab7141c0dd8e
+# 474cbb0994ac4dc9be50e482df98f8e4
 msgid "X center position of the widget"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.center_x:3
-# 123b96b1c8754bc0b8d0a3f529db44d7
+# f821abae5c18484e813cb03621bb1ee5
 msgid ":data:`center_x` is a :class:`~kivy.properties.AliasProperty` of (:data:`x` + :data:`width` / 2.)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.center_y:1
-# f29c96a29514445085b07aa3aaf67f3b
+# 6abaee48ec844e0da10684bc4c2e50a6
 msgid "Y center position of the widget"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.center_y:3
-# 6b1dfc30b13646199d12515c5aebaa3c
+# 08c8ec957e714f5ca82f5d62997a68c3
 msgid ":data:`center_y` is a :class:`~kivy.properties.AliasProperty` of (:data:`y` + :data:`height` / 2.)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.children:1
-# 7a480f842d404664a8cb87f9b60eaa32
+# bdbcb53ce9494a37b8845e6b2edf3ac2
 msgid "List of children of this widget"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.children:3
-# c06d23c0b3ac4d529e9c57963ed2f5a5
+# bc00f6505c5c4c8a863287902a7ad71b
 msgid ":data:`children` is a :class:`~kivy.properties.ListProperty` instance, default to an empty list."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.children:6
-# 8794c5b0dc2c47fb92dc23ef2cf73fdd
+# d54a2b4918da4c239d26cd0d1ff39ff7
 msgid "Use :func:`add_widget` and :func:`remove_widget` for manipulate children list. Don't manipulate children list directly until you know what you are doing."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.clear_widgets:1
-# 19f799effa6e4c5ba85d1da1fa26df84
+# a7e1729f097740ea94073b0c938145d1
 msgid "Remove all widgets added to this widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.cls:1
-# 2a3c5f0e5ae6454e92b49ec28bac7944
+# 5f449bf5b6144134aa7d9de29c0d7b1b
 msgid "Class of the widget, used for styling."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.collide_point:1
-# e365507bf85e43d5886d18455eddb58c
+# 2c4b206062ad4cbf9fa3c8f0f4a2f95d
 msgid "Check if a point (x, y) is inside the widget's axis aligned bounding box."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.collide_point:6
-# 613cea1253494d78a3de370aac9f72e4
+# 56b6d868aff348b2a69fb1bf56573776
 msgid "X position of the point (in window coordinates)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.collide_point:8
-# 31767dacc4e04f928d2bd2291fa770e0
+# 0f2e607e221a4f6c85e630139bb114c4
 msgid "Y position of the point (in window coordinates)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.collide_point:11
-# 49183cf9b41a41e3a46ff8a4da5a3a22
+# 72c1ab56ab5140f8af29b8c6132f08eb
 msgid "bool, True if the point is inside the bounding box."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.collide_widget:1
-# 381804d28b514669958d8558fdd2cf0e
+# 48e32ade7a2c4b2ebd6978c87030b930
 msgid "Check if the other widget collides with this widget. Performs an axis-aligned bounding box intersection test by default."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.collide_widget:6
-# f118caa9b9a64bc9ac34edf6b5ef6d9b
+# 6724b956f57a47dd89c14d5c7f187bbc
 msgid "Widget to collide with."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.collide_widget:9
-# b09a6568a0c74151b9f1dd816fb7d273
+# 53ce822ee4f0427685244ce848fd6f2c
 msgid "bool, True if the other widget collides with this widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.create_property:1
-# d9f0fa45795b45f684499d88b2530bdf
+# 331d104c26124523b38bd5da89cdc366
 msgid "Create a new property at runtime."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.create_property:5
-# 19efbe82747f46618c2f8a835060c30b
+# ab1242c721fb4f75bf5139d534b098f8
 msgid "This function is designed for the Kivy language, don't use it in your code. You should declare the property in your class instead of using this method."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.create_property:11
-# 02ad7da77fcf45b3ae7627df3da676fe
+# f5f8e9bb5f3e46b8a3066d100f3f6ce4
 msgid "Name of the property"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.create_property:13
-# 1cb71b44dedf4da88c792974896573e2
+# 3d9b5bc76b6548d78bc29a0d98d88aae
 msgid "The class of the property cannot be specified, it will always be an :class:`~kivy.properties.ObjectProperty` class. The default value of the property will be None, until you set a new value."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.get_parent_window:1
-# 2b4af7ed8ac84f9e93704fa21faa0d94
+# 39ad61970da74fc5ba9b38f2d6691737
 msgid "Return the parent window."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.get_parent_window:4
-# 663d5519129b424fb4f77081f4df6a0d
+# bb7c559e4c434f9cbfc50e096a0da1c1
 msgid "Instance of the parent window. Can be :class:`~kivy.core.window.WindowBase` or :class:`Widget`"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.get_root_window:1
-# 34761d620de2430ea8f9724de825a7c9
+# 92dc3eeca0b345c4a6177c09d752e8d0
 msgid "Return the root window."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.get_root_window:4
-# 1696500bcd0a4d34b9b1eae60f3548a9
+# 897371ab432b4fdebc4b0ced9ef46f61
 msgid "Instance of the root window. Can be :class:`~kivy.core.window.WindowBase` or :class:`Widget`"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.getter:1
-# e689329d31e8451eba6597559181a90c
+# 73cbaf1af6ed4a4a91646e7f5c68dc7b
 msgid "Return the getter of a property."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.height:1
-# 6c7420332b324359a6e3ab4a7024f860
+# 3b954ca202c74c0091086ff91109815f
 msgid "Height of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.height:3
-# 20377c3295664ae0b84fee84ef59a743
+# 294ddac40805456c9d00a6b93b1b410c
 msgid ":data:`height` is a :class:`~kivy.properties.NumericProperty`, default to 100."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.id:1
-# aa040bce51dc403594e50457da9e1222
+# 89fac9fd7e47412f8dba7ca7ffa5b5fe
 msgid "Unique identifier of the widget in the tree."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.id:3
-# 4bfc5f6c407443eca5e194f5818f9d1a
+# 5de3c39529a64744b61039c962327338
 msgid ":data:`id` is a :class:`~kivy.properties.StringProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.id:7
-# 212920e5b71c4b6e910ad98ace63d526
+# ace2a1d79e1d40cf8e824c043789f0ae
 msgid "If the :data:`id` is already used in the tree, an exception will be raised."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.on_touch_down:1
-# 5f3b9e137e8e493e81a888fc11ba7a83
+# 3e836664747d48e0b432bdc730d1acd1
 msgid "Receive a touch down event."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.on_touch_down:5
-# 56c0b604fea44360a0551d42e6a651b3
+# 866a30d22bc94b368e4cfadf0cddff36
 msgid "Touch received"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.on_touch_down:8
-# 93d5edbcb1f342fa9dc16ce8ce8f55e2
+# c130ea78d4564791817906c73eca0d92
 msgid "bool. If True, the dispatching of the touch will stop."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.on_touch_move:1
-# ef796aa04d124eab9ead4887d3032bc0
+# e808eedd01274edb95bcdf86c6b67f2c
 msgid "Receive a touch move event."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.on_touch_move:3
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.on_touch_up:3
-# d1baa92ff54b4419af54416cf44d2dc4
-# d1065c85bb774641852c885eb481914a
+# 4233609e0cf14a9d931ae6ad88dd0e08
+# 09cde685f5b547198c4b0033877060d7
 msgid "See :func:`on_touch_down` for more information"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.on_touch_up:1
-# bb76bd63802740699e57989744db0054
+# 8e4835f3eed948d3a5ac29d8e829d3b2
 msgid "Receive a touch up event."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.parent:1
-# 1532ef37a97341998b37ab06f030e086
+# ceda1d3cd06749918f7b6da9b471b714
 msgid "Parent of this widget"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.parent:3
-# 2ec7cca7dd374dd4b7888b298d9b9531
+# 134871d99729497facf4728cdd90f354
 msgid ":data:`parent` is a :class:`~kivy.properties.ObjectProperty` instance, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.parent:6
-# ab8abbc6003a451093ce98437325d30f
+# bc1c9cf9561e4187b595efefe61b6a50
 msgid "The parent of a widget is set when the widget is added to another one, and unset when the widget is removed from his parent."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos:1
-# e3fb7839c25e4b52b20e76a5a96ac8ae
+# d83da41ce857420193909c103efe7b75
 msgid "Position of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos:3
-# 003dd724f1ae44cfa0dd00d6d57150b8
+# 6701b8743cc34323b730f3f5375ce551
 msgid ":data:`pos` is a :class:`~kivy.properties.ReferenceListProperty` of (:data:`x`, :data:`y`) properties."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos_hint:1
-# a1c2287bfa1148dca30f8dd597088e13
+# 2596e45cc00f48c3bfb801aa401ce07d
 msgid "Position hint. This property allows you to set the position of the widget inside its parent layout, in percent (similar to size_hint)."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos_hint:4
-# 563026cc81e54c29879ddf661783f8e8
+# 06ed18c47ecc4f9887e7f791dfd0eb32
 msgid "For example, if you want to set the top of the widget to be at 90% height of its parent layout, you can write:"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos_hint:7
-# 201f1c385f1f42378419d94a6833d01d
+# e22e32fbd9254b1596f1bdb6b1e8580a
 msgid "widget = Widget(pos_hint={'top': 0.9})"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos_hint:9
-# e5283e46eb544daeb703bc3cb92ebaa4
+# 9495dd6e92194f71908c191173e3f4e7
 msgid "The keys 'x', 'right', 'center_x', will use the parent width. The keys 'y', 'top', 'center_y', will use the parent height."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos_hint:12
-# da7e9bc0ae144a30a9d6cbf14c0a947c
+# 17eb2693a82842f89b80ba2b4e32f473
 msgid "Check :doc:`api-kivy.uix.floatlayout` for further reference."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos_hint:14
-# be600c3fde5a462bb351bcc43f4f65ad
+# a364c8257e954d2e8eff33e749691671
 msgid "Position hint is only used in :class:`~kivy.uix.floatlayout.FloatLayout` and :class:`~kivy.core.window.Window`."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.pos_hint:17
-# 7855cb4a8de840c59c3d4c825e859d18
+# da85ea28934b45c387191eaa1b5b853c
 msgid ":data:`pos_hint` is a :class:`~kivy.properties.ObjectProperty` containing a dict."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.properties:1
-# fd5985bf7afa4205924b5fab739ab835
+# 3b95080a67684048b9979475c2ddce86
 msgid "Return all the properties in that class in a dictionnary of key/property class. Can be used for introspection."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.property:1
-# e7f1c35302f64dd1862febc367dfece7
+# e59c872b3fc74a039d8269e8cdca1fc7
 msgid "Get a property instance from the name."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.property:6
-# 1085c6f53dfa4ed586a03e3649407500
+# 1969d8de80bf49ed92aaee815c00b996
 msgid "the name."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.remove_widget:1
-# 150aec7c1f254a13982903b80f36bb9b
+# abb3f84650d24a13a5902c765d8b7399
 msgid "Remove a widget from the children of this widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.remove_widget:5
-# bab39be86e9e42938a6aea0a194ba2a1
+# b3010fb4de0541ea82450e2787116427
 msgid "Widget to remove from our children list."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.right:1
-# 4888612c3e394f85a43ebb2c97de86f7
+# 41c9d94aba8b4347904a23207f0b8861
 msgid "Right position of the widget"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.right:3
-# 318dc5757dea41549d65e946441b29eb
+# 7b4232cba77040f9b48e466d9f3fa2d9
 msgid ":data:`right` is a :class:`~kivy.properties.AliasProperty` of (:data:`x` + :data:`width`)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.setter:1
-# 6ca8788dbca84094bd14e259e1f6886c
+# 82ee98204e9e4ead8bd020064caf58a3
 msgid "Return the setter of a property. Useful if you want to directly bind a property to another."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.setter:4
-# da90f24f1cf34484afe783bf8a15394d
+# 97bb70bad6c14546b4e01b1d02aa2542
 msgid "For example, if you want to position one widget next to you ::"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size:1
-# f61e4f597ba04bf38acf0a2e43ab091b
+# b0fc372636e14bbfb2a97cb8c8e1ded6
 msgid "Size of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size:3
-# dc7685740bce462bbfc3e2666830be0e
+# 5b2eede9a01541688014dbe2b85a64c9
 msgid ":data:`size` is a :class:`~kivy.properties.ReferenceListProperty` of (:data:`width`, :data:`height`) properties."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint:1
-# f17196062e3244218fbf742d24f585bb
+# a629e005be334dce8203b5be7cb6f434
 msgid "Size hint."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint:3
-# 8421393dc88446bca769c4156380e509
+# a2ca564d3bb64654ad2eb07e2a9df5cf
 msgid ":data:`size_hint` is a :class:`~kivy.properties.ReferenceListProperty` of (:data:`size_hint_x`, :data:`size_hint_y`)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint:6
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint_y:6
-# 16140770c04749aba75e09816705f99f
-# 43bd0e6fd3284db0b941ec14e8c43bfb
+# 9272a60635ba48f89e486d2172c9a033
+# 87e0c8cf56e245c789fbbb2b063377f1
 msgid "See :data:`size_hint_x` for more information"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint_x:1
-# c371e970e9204f8597fb59fc0402b620
+# 3a8696c5d5184eda8c961f69ed3c5283
 msgid "X size hint. It represents how much space the widget should use in the direction of the X axis, relative to its parent's width. Only :class:`~kivy.uix.layout.Layout` and :class:`~kivy.core.window.Window` make use of the hint."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint_x:6
-# c98d244244d1482da946ac475f6236dd
+# bd08f834fc994b608a7d3f8215ea5782
 msgid "The value is in percent as a float from 0. to 1., where 1. means the full size of his parent, i.e. 100%. 0.5 represents 50%."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint_x:9
-# 23ab0f9ea8f044b294417229d8409c65
+# 61e305a85f7b4fe8aae2973033cec038
 msgid ":data:`size_hint_x` is a :class:`~kivy.properties.NumericProperty`, default to 1."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint_y:1
-# db5a85f8849a4387ab4083cb5b3954f5
+# 0928e649b7954acb9c00f84f62772bd7
 msgid "Y size hint."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.size_hint_y:3
-# 12321dd480d54b54a3aa93562d621add
+# 70d91083ce654af986fd9cf12b9faa1d
 msgid ":data:`size_hint_y` is a :class:`~kivy.properties.NumericProperty`, default to 1."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.to_local:1
-# b036d9f2a5a0414a89f22c74afa5ad93
+# ce84d3e86a3647d5bf79b1ab4126589d
 msgid "Transform parent coordinates to local coordinates."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.to_local:5
-# 288dff7f417a4693a11edcdf7d5eb770
+# 2360bfe284274324b2c6e317bf314bb9
 msgid "Change to True if you want to translate coordinates to relative widget coordinates."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.to_parent:1
-# a3be72fe4f714250866790deaedb6a35
+# 5d571a8571e6487b86ba44b5d8183b7a
 msgid "Transform local coordinates to parent coordinates."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.to_parent:5
-# 5317cbd310fb443fbaa626f643241bba
+# 15331fe76adc4a6eb34dd3fa8ed00694
 msgid "Change to True if you want to translate relative positions from widget to its parent."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.to_widget:1
-# 2f0b51c8d9b045d8ad6c1dc9abd45143
+# 518199ad2d6a4572bcfe82cd2da8c77a
 msgid "Convert the given coordinate from window to local widget coordinates."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.to_window:1
-# ca61720fa5504805b4dcaa4589279ef7
+# 81da83e4465e4e1eb2fec35ea3c27dc6
 msgid "Transform local coordinates to window coordinates."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.top:1
-# 4272eb2e9bed4998bc125befe9adc953
+# 95f985d3f13e433ba1070e605dbe052c
 msgid "Top position of the widget"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.top:3
-# f8147dbe501f4b5b9281e0068d1bf626
+# ea405c8f57564f768df34777bf3babb1
 msgid ":data:`top` is a :class:`~kivy.properties.AliasProperty` of (:data:`y` + :data:`height`)"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.uid:1
-# 4ab3cf4a5fbb4e6d9fb66ab24d290220
+# 8b5374d827874ae79d12b2c0dae30a91
 msgid "Unique identifier of the widget in the whole Kivy instance."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.uid:5
-# 5fd3f093f2f3418994c7bea660a28f2a
+# e3c3c76b198949bc9fda6740af375ae8
 msgid ":data:`uid` is a :class:`~kivy.properties.AliasProperty`, read-only."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.unbind:1
-# a71d1b37b884414d8a44dc5683169de7
+# c3aa73870dcf4319890599c2cab081a4
 msgid "Unbind properties or events from their handler."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.unbind:3
-# 1ede8df0166640fdaee88f09580ee098
+# f02658133d5e4addb16872dc368bd89e
 msgid "See :func:`bind()` for more information."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.width:1
-# d480730d17fd4c2eb2c3e56904367ee8
+# bbd007a566c847cd9a4d131294c505e0
 msgid "Width of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.width:3
-# 2b8e7ac172a04f90a9fc21548be3a88a
+# 285ed1a3e6d5495e81cda58d077d430c
 msgid ":data:`width` is a :class:`~kivy.properties.NumericProperty`, default to 100."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.x:1
-# 2d7bb2625d8b416ab4efa4e26ba29624
+# eb1c685b5b664acf8c8efd18a4faef04
 msgid "X position of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.x:3
-# 35c613f0352a4c81b963749fb15521b8
+# 6ccdf97380434ccc9f4d1632deb2af35
 msgid ":data:`x` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.y:1
-# 5ff1adf6c549408ab8cd1b8bbed305d0
+# ebb08823f0c14ec38991669cfd91b91c
 msgid "Y position of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.Widget.y:3
-# 7c7bc544062d4286a6c15a754191e122
+# 846a4ebe959643a7a58365f07254efe0
 msgid ":data:`y` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../<autodoc>:1
-# a100214190e64972a41cc7d9b14e0d64
+# 2b187df34b6b4d5f8cdcc384b4bbb867
 msgid "Bases: :class:`exceptions.Exception`"
 msgstr ""
 
 #: ../../../kivy/uix/widget.py:docstring of kivy.uix.widget.WidgetException:1
-# b232713d61a14534bb5b51301c1a3de5
+# 90ef34a751bb4a1293695264b9449fb2
 msgid "Fired when the widget got an exception"
 msgstr ""
 
