@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-21 18:23\n"
+"POT-Creation-Date: 2011-10-21 21:19\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,157 +17,157 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/contribute-unittest.rst:2
-# 57404c610088466db6d2467b939a2eb2
+# 59001b78d3e5488aa9f08f5bb66ce56c
 msgid "Unit tests"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:4
-# 99836adf40ea4632b960a056cf6f22bf
+# 3bd992affd9d410093dc243f9a21d1dd
 msgid "Unit tests are seperated in two cases:"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:6
-# e597f09e4b3643e5828002998f1a4217
+# 49f35e8e23f9497d869c48a03286f120
 msgid "Non graphics unit tests: theses are standard unit tests that can run in console"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:7
-# e772d2d5ab4c41519d7ef1afa661d296
+# 8a951f44e52a41bd9f26d7572c786bdc
 msgid "Graphics unit tests: theses need a GL context, and work with image comparaison"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:9
-# dc0f2e1743e1471488495aa9acf44a4a
+# 956ef6b838804f6fbea9222db90938af
 msgid "To be able to run unit test, you need to install nose (http://code.google.com/p/python-nose/), and coverage (http://nedbatchelder.com/code/coverage/). You can use easy_install for that::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:15
-# 768bb67326c547e5bb6bbd4b46f562d5
+# 9321701ab9f3422387a88b5b5c5ed875
 msgid "Then, in the kivy directory::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:20
-# 2ba625e827ff4448947d5197d3bcfffc
+# ff2a778a7e7845bf91bf964861c2fe8b
 msgid "How it's working"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:22
-# eaad1cae938d4bde89f80a356b4abfe2
+# 8399cad91a4d40a195d264d98ed66ddc
 msgid "All the tests are located in `kivy/tests`, and the filename start with `test_<name>.py`. Nose will automatically get all theses files and class inside it, and use it as a test case."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:26
-# 3a8764e853f44deda6fce55332f968bd
+# 1e41d7bf6e2d46b5a8eff633c960ff2a
 msgid "To write a test, create a file that respect the previous naming, then you can start with that template::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:42
-# 9ce90f6edc6349349940a3678173a7c0
+# 409c3731cb5e4280ae0b56f0b6c85b46
 msgid "Replace `XXX` with an appropriate name that cover your tests cases, then replace YYY by the name of your test. If you have some doubt, check how others files are done."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:46
-# 4418221dd1d44744b329c0fcbbe1540d
+# 6efd2c8bf777452c829e5d867201af87
 msgid "Then, to execute them, just run::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:50
-# 76a3d6ef9fca48228664d4c55fe7f6b8
+# 0ba339b20eb8415c9e6616231aa63f0b
 msgid "If you want to execute that file only, you can run::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:56
-# 6592976249ee4fedb31e57766cf75ff7
+# a70a2d422df44b81b6e38b16e97a5387
 msgid "GL unit tests"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:58
-# 9081ab0b37bf49319adbf596561077c5
+# 0d92aea95c034a758a90e6624b589141
 msgid "GL unit test are more difficult. You must know that even if OpenGL is a standard, the output/rendering is not. It depends on your GPU and the driver used. For theses tests, the goal is to save the output of the rendering at frame X, and compare it to a reference image."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:63
-# 1d8ed6ed414044b5a5393e75612a61a6
+# 3814948c813e477a8c5cfb8661cc359a
 msgid "Currently, images are generated in 320x240, png."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:67
-# cb0feb50ec4d43988fff63de059b79f9
+# 0cb00b98a76d4e71870eaa56001b8ba5
 msgid "Currently, the image comparaison is done per pixel. That mean the reference image that you will generate will be only correct for your GPU/driver. If somebody can implement a image comparaison with \"delta\" support, patches welcome :)"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:72
-# 81898762d43a413886a2453f5ababf23
+# 236a9f6f8c664a53bcdd60111d4e409c
 msgid "To execute gl unit test, you need to create a directory::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:77
-# b187735403ff445d973d3de1baa623d1
+# 8ce5d636a1a940cf8b9441c7896f9057
 msgid "The results directory will contain all the reference images, and the current generated images. At the first execution, if the results directory is empty, no comparaison will be done. It will use the generated images as reference. The second time, all the images will be compared to the reference image."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:82
-# 180b1832965d40e89b5c1cfb57db8076
+# 02471f7cce9d4922be81f0534e36c388
 msgid "A html file is available to show the comparaison before/after the test, and a snippet of the associated unit test. It will be generated at:"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:85
-# 2d5d510f6f8649d48aac9dec7ea07422
+# 6bbb1708025e4a189c1ff836ab3589ce
 msgid "kivy/tests/build/index.html"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:89
-# bbdcc73667cc44bfbc364f07fbe3f5d8
+# 7986490e754449f8a1d872b4db0e80a3
 msgid "The build directory is cleaned after each call to `make test`. If you don't want that, just use nosetests command."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:93
-# 7020d7fdc68f4234b8a962956f6577ec
+# 16f22097d3e54517805478533d07824f
 msgid "Writing GL Unit tests"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:95
-# 2a012781fe1e4a36aa527a4bf5308a41
+# aad959c2244c41b8ba057a395119f5fb
 msgid "The idea is to create a root widget, as you would do in :meth:`~kivy.app.App.build()`, or for :func:`kivy.base.runTouchApp()`. You'll give that root widget to a rendering function, that will capture the output in X frames."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:100
-# ff9b32c1b7f0497e8a5e25ae5015d74b
+# cc6ca33e28c1480dbf2af8ef4d246674
 msgid "Here is an example::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:128
-# 893763f9dc4e402fb19f060bc0a973c4
+# 55696cd6f01d4c2c8425588d26358c91
 msgid "Each call to `self.render` (or `r` in our example) will generate image named like this::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:133
-# 1c594b88a2744a87ad5cb62089e1eb22
+# 629bc48894784877ba6c2d42b7b0e0e0
 msgid "`r-call-count` represent the number of time that `self.render` is called inside the test function."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:136
-# 6a0003e2972d49c796a1b44fca20e0eb
+# cc61bee4add848c9b0af10ab132ea331
 msgid "The reference images are named::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:140
-# 168c856f502f4a0dbefdaf3f946a22e2
+# 139d3e60547f45fb983db210f257a953
 msgid "You can replace the reference image with a new one easilly."
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:144
-# f263bb858c7144ccb4970456aaf8912e
+# 85a61ce558c243a2ab64a6d370ae4c12
 msgid "Coverage reports"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:146
-# b1162dd8dfa24f51bcfe87ef987ae113
+# 7e4ec5f1a735468a8e02fb1fd9bd9a41
 msgid "Coverage are based on the execution of the previous tests. Statistics on code coverage are automatically grabbed during execution. You can generate an html report of the coverage with the command::"
 msgstr ""
 
 #: ../../sources/contribute-unittest.rst:152
-# 051bba0cda61413ea2e1a0941cf10761
+# c8059b6367e14c54b5136c38eda3efc3
 msgid "Then, open `kivy/htmlcov/index.html` with your favorite web browser."
 msgstr ""
 
