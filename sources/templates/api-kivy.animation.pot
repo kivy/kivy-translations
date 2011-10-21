@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-20 17:49\n"
+"POT-Creation-Date: 2011-10-21 16:56\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,162 +17,162 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.animation.rst:3
-# b082b2bfaa624e849c0730d88ad17b4d
+# 00a79a228294482da23fcac092f52f61
 msgid "Animation"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:2
-# a35643c47a144bb593128e41b285b5ef
+# 3f8abb2712874d1d857c2cf9eb271664
 msgid ":class:`Animation` and :class:`AnimationTransition` are used to animate  :class:`~kivy.uix.widget.Widget` properties. You must specify (minimum) a property name and target value. To use Animation, follow these steps:"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:6
-# 6b5bce50353f42cfb163c0aaadc17f04
+# 0962aa1bc2f44d709768907bc4e6042f
 msgid "Setup an Animation object"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:7
-# 0064285cdcea400fa2c40cd37c49a771
+# 395e7bb97527448fa05253e760ea0ba9
 msgid "Use the Animation object on a Widget"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:10
-# 0cff67eeeb074c018dd6dfe01f077858
+# df49ccab50c64ee0a659dcc862ccbd7f
 msgid "Simple animation"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:12
-# f9903bfd02704292b91bc415c0d8aa06
+# 0513cd5954274c058274f10a8343d131
 msgid "To animate a Widget's x or y position, simply specify the target x/y values where you want the widget positioned at the end of the animation::"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:18
-# cbc37ba2a5164a2f8a0a07fb645d241f
+# 2e313f8bebdd473ca7e6a1e8642baf38
 msgid "The animation will last for 1 second unless :data:`duration` is specified.  When anim.start() is called, the Widget will move smoothly from the current  x/y position to (100, 100)."
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:23
-# 6b1227b7a952490aa0b82f412863348f
+# e08bd69adca04ccf910f8b76415fdb84
 msgid "Multiple properties and transitions"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:25
-# 8ea50dfb62ef4acb8f89e292560d9652
+# b6de73fb88cc4f61a132833ca1daad03
 msgid "You can animate multiple properties and use built-in or custom transition functions using :data:`transition` (or `t=` shortcut). For example, to animate the position and size using the 'in_quad' transition::"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:32
-# 1cb4be0af64647ec81328f007448db68
+# 5a87e71c2cf94fd386a5fab48f7a104c
 msgid "Note that the `t=` parameter can be the string name of a method in the :class:`AnimationTransition` class, or your own animation function."
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:36
-# 4f94fb2c503c4d1fa21d719769426ee4
+# 270bd0fa362549b4bcae27654d8ad194
 msgid "Sequential animation"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:38
-# fab62ecd22dd4ee99810a36bb9cf3d6e
+# ba2476c3f695424a8242bc53c4bf058d
 msgid "To join animations sequentially, use the '+' operator. The following example will animate to x=50 over 1 second, then animate size to (80, 80) over the  next two seconds::"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:46
-# db8b7b72804e447eb18cfdba2fc65e20
+# b19d5ac7040f46099bb39b7c77ca4d28
 msgid "Parallel animation"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation:48
-# 6e2a2c2f15fc4cb8b92d2807bdeb5dff
+# 25dd491f05d640b2b9888d1e4d8573af
 msgid "To join animations in parallel, use the '&' operator. The following example will animate position to (80, 10) over 1 second, while in parallel animating the first half of size=(800, 800)::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# da45665ec0bf4a1ba22374d43e8279a1
+# cac54cc3eeeb49aab0c40f2d8e57a8d7
 msgid "Bases: :class:`kivy.event.EventDispatcher`"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation:1
-# 80eb66df1f4245fe94ac3f407634149f
+# 20b26cc996e040d49db20ba8898be392
 msgid "Create an animation definition that can be used to animate a Widget"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation:5
-# 71f94e8b1f04434895501dc93952f6cb
+# a1645fd18a4e4690ba27b5c820891357
 msgid "Duration of the animation, in seconds"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation:7
-# 62d0c46ab9c34963a32fb542b9ffb609
+# 0a13d6ed371848efa8f7d079fd7e325f
 msgid "Transition function for animate properties. It can be the name of a method from :class:`AnimationTransition`"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation:12
-# e53b5a6e9d874c7a86e5ce2ef52a4044
+# e2dc589018404bae92b19da26cac1e76
 msgid "Fired when the animation is started on a widget"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation:14
-# 14cdb14d3f064de6aab38dba8de82a93
+# 563a5989a9e84192995e1da15ff505f4
 msgid "Fired when the animation is completed or stopped on a widget"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation:16
-# 20ae9fee1f264fbdb8c6fa422e45eb29
+# 008152a3fe1a4bdeb08125605461abda
 msgid "Fired when the progression of the animation is changing"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.duration:1
-# 9497385044814a53acab7fdee87dca27
+# d3c6045b1fe147a191d6a1f76ae90064
 msgid "Return the duration of the animation"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.properties:1
-# 557bbfd403324a4696c96a6287f1ae7a
+# 6e8a77ec83c24e1a9519629ff5b700e1
 msgid "Return the properties used to animate"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.start:1
-# e1450398a3f1470f955aae137b77780d
+# 1a6de410f5e84cb8ada628bef017f7a7
 msgid "Start the animation on a widget"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.stop:1
-# 5696d43157494b509171c07e94f8a3a8
+# a8e493184ab4404ca5ef2080b7b4d1c7
 msgid "Stop the animation previously applied on a widget"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.stop_all:1
-# fc53063ee58a42d2804a144b50c5deef
+# 21c1c3939dd345b78a0d42a22cea44e7
 msgid "Stop all animations that concern a specific widget / list of properties."
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.stop_all:4
-# 2dba4b3e39cd4e68b1fd8e6941be6e49
+# 07c75a954b8646609fa4d2b20145b8ab
 msgid "Example ::"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.stop_property:1
-# e934719c8a424812b167e873448e89d7
+# d977a4d3a5224f899d625c34fdffd6f2
 msgid "Even if an animation is running, remove a property. It will not be animated further."
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.Animation.transition:1
-# 2bfe716acfc84f6ca4cdb9b7f057c800
+# 680b5b11a8b04ff880d7ddf947067efa
 msgid "Return the transition of the animation"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 539a384de9ec4d0299c9eaf72f7c219c
+# fef27e3b0ec44d1dbda46eb750805a10
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.AnimationTransition:1
-# a354c72032524ba7af125fb64da89568
+# 129a86aef010421897a83997f3379711
 msgid "Collection of animation function, to be used with Animation object. Easing Functions ported into Kivy from Clutter Project http://www.clutter-project.org/docs/clutter/stable/ClutterAlpha.html"
 msgstr ""
 
 #: ../../../kivy/animation.py:docstring of kivy.animation.AnimationTransition:5
-# 75054882e25840a89b453c57b5d97a09
+# 2df66cf9760048f8a73c4ab58145d38f
 msgid "`progress` parameter in each animation functions is between 0-1 range."
 msgstr ""
 
