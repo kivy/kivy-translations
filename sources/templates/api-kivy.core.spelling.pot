@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-21 16:56\n"
+"POT-Creation-Date: 2011-10-21 18:23\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,74 +17,74 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.core.spelling.rst:3
-# 8dd5aef0a2ca462988fa0a44e0cd8d8e
+# b1463c12e67d409e8a829b70ff2a04fc
 msgid "Spelling"
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling:2
-# 3c836ae8813647b08e494c119ca8874c
+# db4eb1aa348c41b1898d11cd64506f45
 msgid "Provide abstracted access to a range of spellchecking backends.  Also provides word suggestions. The API is inspired by enchant, but other backends can be added that implement the same API."
 msgstr ""
 
 #: ../../<autodoc>:1
-# 8545980f50dd4300ad761c7f9fc73e5f
+# 1b363363386344b1b9052d7302a48c79
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase:1
-# 9d27c7261dfd442a9584f61fb4958bdf
+# e876cda2341344628ba79607706d2f7d
 msgid "Base class for all spelling providers. Supports some abstract methods for checking words and getting suggestions."
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.check:1
-# 8d4eb3adb8de49cca37dcc51dc8e1403
+# 9cd3b5c03a504aa5b7096005cf5c4561
 msgid "If `word` is a valid word in `self._language`, return True."
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.check:5
-# 3bda962b1cd04b77a389612b6ed96d36
+# 7d532a6e79cd46c183acac37159df3eb
 msgid "The word to check. If the word is a valid word in the currently active language, True is returned. If the word shouldn't be checked, return None (e.g. for '')."
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.list_languages:1
-# ba48eff2b15d43afa508e23ecee2ae73
+# f8877bb925244b2f8801869a5a8df622
 msgid "Return a list of all languages supported by the registered languages. E.g.: ['en', 'en_GB', 'en_US', 'de', ...]"
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.select_language:1
-# 2a83640fbd3a467c8a3070bd9faa79a0
+# 16d98fd3cbc94f64975281215cedefba
 msgid "From the set of registered languages, select the first language for `language`."
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.select_language:6
-# d27845db17c742f298ec80c76e87c3e3
+# b6d239a3fd8445fc8a9b03c716a60d55
 msgid "Language identifier. Needs to be one of the options returned by list_languages(). Sets the language used for spell checking and word suggestions."
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.suggest:1
-# bfaa696ca10c4351809967b2f4cc39f9
+# 753784aaf3b9465cae1d73ca86b5e799
 msgid "For a given `fragment` (i.e., part of a word or a word by itself), provide corrections (`fragment` may be misspelled) or completions as a list of strings."
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.SpellingBase.suggest:7
-# c5bee933e216422dbd8be07de77a9285
+# ced324cf5d234921ab7f3bad6c27bdda
 msgid "The word fragment to get suggestions/corrections for. E.g.: 'foo' might become 'of', 'food' or 'foot'."
 msgstr ""
 
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
-# 216cfe74e0b04cb4b574f9420a293fd0
-# 37c99bb6ae6f42178acf2353f297d947
+# 6fcdf6a378e24a76a27b81cbda0ae6b6
+# 6bab2673d48646c0bbfda985b26152e5
 msgid "Bases: :class:`exceptions.Exception`"
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.NoSuchLangError:1
-# 5eb1c5ee2225488582acf5e108626e7d
+# f4d232798d6d43c090ab17b6f485c7ff
 msgid "Exception to be raised when a specific language could not be found."
 msgstr ""
 
 #: ../../../kivy/core/spelling/__init__.py:docstring of kivy.core.spelling.NoLanguageSelectedError:1
-# 41941353ccfa4161aea5eacb19f8c104
+# 948ff47089a24bdf9d2d88988824faa3
 msgid "Exception to be raised when a language-using method is called but no language was selected prior to the call."
 msgstr ""
 

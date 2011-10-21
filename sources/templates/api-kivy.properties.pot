@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-21 16:56\n"
+"POT-Creation-Date: 2011-10-21 18:23\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,107 +17,107 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.properties.rst:3
-# d886b554b5094b9b94c29fc8b16b6fb0
+# 9a89392bc0494874b20663df75f4fd85
 msgid "Properties"
 msgstr ""
 
 #: ../../docstring of kivy.properties:2
-# 6a7b51510060435aa97c011a8a5239c4
+# d2e68b32b725497e8f8de12fbdee6c02
 msgid "The *Properties* classes are used when you create a :class:`~kivy.uix.widget.Widget`."
 msgstr ""
 
 #: ../../docstring of kivy.properties:6
-# 5a78ec54217a40ab9cd79bc80460b677
+# 4997e3e42b104d38bd31e29381fa9c16
 msgid "Kivy's Properties are **not to be confused** with Python's properties (i.e. the ``@property`` decorator and the <property> type)."
 msgstr ""
 
 #: ../../docstring of kivy.properties:9
-# be6bc989763d49028ddb488d2881c50a
+# 77d6476714c34fc9b8d8f1d17b931313
 msgid "Kivy's property classes support:"
 msgstr ""
 
 #: ../../docstring of kivy.properties:12
-# 2386c12bd43740cf95bcd093dcb042c4
+# af31c7a0a0424857b2e08d01e5f23f12
 msgid "When you assign a new value to a property, the value is checked to pass some constraints implemented in the class. I.e., validation is performed. For example, an :class:`OptionProperty` will make sure that the value is in a predefined list of possibilities. A :class:`NumericProperty` will check that your value is a numeric type, i.e. int, float, etc. This prevents many errors early on."
 msgstr ""
 
 #: ../../docstring of kivy.properties:21
-# cf9b8051aa584739bbd191457033bdfd
+# 519c6c8002ab4d3d8cdb54c261720bca
 msgid "You can specify what should happen when a property's value changes. You can bind your own function as a callback to changes of a :class:`Property`. If, for example, you want a piece of code to be called when a widget's :class:`~kivy.uix.widget.Widget.pos` property changes, you can :class:`~kivy.uix.widget.Widget.bind` a function to it."
 msgstr ""
 
 #: ../../docstring of kivy.properties:28
-# b2106617e5c0444bb55e3c1862838361
+# 52487b45969c44218e3d023866f74b56
 msgid "The same instance of a property is shared across multiple widget instances."
 msgstr ""
 
 #: ../../<autodoc>:1
-# ab625218a12d4c039a3e6a4c76fc947d
+# e97117ffec27448faa0186ded76d6e27
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property:1
-# 840726d8de6b483187e0c200d9a1d9a0
+# 3d760e451b5e4669bdb6df0ce57e7f88
 msgid "Base class for building more complex properties."
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property:3
-# d7cca05e29e146b7b6f2a4fc90eef330
+# d35c550f224a46538e018688b9da8085
 msgid "This class handles all the basic setters and getters, None type handling, the observer list and storage initialisation. This class should not be directly instantiated."
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property:7
-# a74196b2fb2b40b583aa361c2dd5d805
+# d01e7c310ec74234b54fe75d0d39f2ba
 msgid "By default, a :class:`Property` always take a default value::"
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property:13
-# bf35e1ddcff44bf0848b9ff7e3eaaee6
+# d69169692264416dabc6bac618c9f9e4
 msgid "The default value must be a value that agreed about the Property type. For example, you can't set a list to a :class:`StringProperty`, because the StringProperty will check the default value."
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property:17
-# 28c7c37d0b604f228ea7f131f1127184
+# ac5c0620bad8476d9bc81f874e462ff1
 msgid "None is a special case: you can set the default value of a Property to None, but you can't set None to a property afterwise. If you really want to do that, you must declare the Property with `allownone=True`::"
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.bind:1
-# cf084b03629644a8b285d22b7c295b7f
+# a2d4039d99674b6b8fdcfbb4199a0ca1
 msgid "Add a new observer to be called only when the value is changed"
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.get:1
-# 515f199002f5452e9dff7b1a88121b57
+# 759252814b134c2c9950c2998b3a84cc
 msgid "Return the value of the property"
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.link:1
-# 69b9575111e745d6903a8a6811902fe6
+# 1b77f0d3128b40b58e7a6afc3da6d143
 msgid "Link the instance with its real name."
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.link:5
-# 9cb1556b6b7240cb80af95548f0416e6
+# 1acbb66506da4818be4cb51e5542a133
 msgid "Internal usage only."
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.link:7
-# d0acc2e3f6b64657b61774bb69783792
+# 60c2f7bfec1142c494b0607b9eccfcc8
 msgid "When a widget is defined and uses a :class:`Property` class, the creation of the property object happens, but the instance doesn't know anything about its name in the widget class::"
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.link:14
-# 493f384ea7b34294950caa83db9131e0
+# dbb5b94b63fe45c999d328929a4a3f51
 msgid "In this example, the uid will be a NumericProperty() instance, but the property instance doesn't know its name. That's why :func:`link` is used in Widget.__new__. The link function is also used to create the storage space of the property for this specific widget instance."
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.set:1
-# 453707da93ee4d608c6cda2ffc35461b
+# a0a54e782796419eb95bd1d8b023d0d9
 msgid "Set a new value for the property"
 msgstr ""
 
 #: ../../docstring of kivy.properties.Property.unbind:1
-# 3249495b7db74f27be699433748a1f2b
+# cf77de13e9ef4f8f8c48a88a152fa960
 msgid "Remove the observer from our widget observer list"
 msgstr ""
 
@@ -131,141 +131,141 @@ msgstr ""
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
-# a71abac00042499ba6b6f7af2e55ac7d
-# 193b4f0720e744558ae7548c487353ea
-# 8718116e25fe4b70a02b6f5c63265df1
-# 5cdb257582a24c2a85644621263cf429
-# 2a4324336675457da69b44773c48a4bf
-# be3bd3558b5241d0a28334ebcbefb42e
-# 7c93def183c44355bc7935dc967fe814
-# f03d6fcea24641fc87233e9c3800b876
-# 03d04b51515348359db4621a34fc66a6
-# 5e0de9c79d8c4f88a9f1c33a355e3a4c
+# dd74e97abcf1457da92f2a904ff48e47
+# 0e079f6414da4cfab6694de59f78a1ad
+# 901f15bbf2974b8f87f378d9d8361b87
+# 910ca369996446d48278990a8749ee9b
+# fc220d5e6a284618a72eb3f6dbf630f2
+# 6dc5d35f42834acea746702fe62bd8bb
+# e3d245640ec04a449d6a74267e17df9e
+# c9108353971c4956bca921d56b52f5a4
+# fe6e65ac22104b80a8dc344f5879f6cc
+# 71cc39db00e74724991a3a9dcd52c12b
 msgid "Bases: :class:`kivy.properties.Property`"
 msgstr ""
 
 #: ../../docstring of kivy.properties.NumericProperty:1
-# b9fee5b4107043d19147f4d2c472d0b6
+# 3bdb12434db14033a7d224256ebeac39
 msgid "Property that represents a numeric value"
 msgstr ""
 
 #: ../../docstring of kivy.properties.NumericProperty:3
-# 9769567437334c95884587d879dcace2
+# 35a4872ac4504d40bf3498fe302f415e
 msgid "The NumericProperty accepts only int or float."
 msgstr ""
 
 #: ../../docstring of kivy.properties.StringProperty:1
-# 73b7e4d4140a435198ac07ecb3d84e15
+# c571c60de26e488ab3cc1129349c4b96
 msgid "Property that represents a string value."
 msgstr ""
 
 #: ../../docstring of kivy.properties.StringProperty:3
-# fa5266024d3446a08c9cbd0148a093d3
+# 063bb965f79945cca27462f253e89d50
 msgid "Only string or unicode are accepted."
 msgstr ""
 
 #: ../../docstring of kivy.properties.ListProperty:1
-# f8d168a50f4f47678b704614c349dc22
+# 0d00b3b517884aa8a066a948a91f10cd
 msgid "Property that represents a list."
 msgstr ""
 
 #: ../../docstring of kivy.properties.ListProperty:3
-# 983e1af8779b488593674fc3ca1826a1
+# 58582abe9d984694a33304c69760e18c
 msgid "Only lists are allowed, tuple or any other classes are forbidden."
 msgstr ""
 
 #: ../../docstring of kivy.properties.ObjectProperty:1
-# a583cc2aabd84544a89f8b4b827ee0d3
+# b5c5f444f44c4b14a2bfd81c058c6e91
 msgid "Property that represents a Python object."
 msgstr ""
 
 #: ../../docstring of kivy.properties.ObjectProperty:5
-# e98abab0d6fa42ada6698c910dcb95bd
+# 443060993c734c298e16267d6e0e5528
 msgid "To mark the property as changed, you must reassign a new python object."
 msgstr ""
 
 #: ../../docstring of kivy.properties.BooleanProperty:1
-# 9bc0f64b0f6a42ab88ccea93d8f075f1
+# 3ad7db10e7af4028a690dca7e30e94cf
 msgid "Property that represents only boolean"
 msgstr ""
 
 #: ../../docstring of kivy.properties.BoundedNumericProperty:1
-# 243fa69d8a9f4592bcfa9bd94159a8db
+# 65e597421ea34522bba8858682767c44
 msgid "Property that represents a numeric value within a minimum bound and/or maximum bound (i.e. a numeric range)."
 msgstr ""
 
 #: ../../docstring of kivy.properties.BoundedNumericProperty:6
-# 1aea3738064b4819b02bc5227cd034c2
+# 1701998219ae41a8a3d2298a69f3cabb
 msgid "If set, minimum bound will be used, with the value of min"
 msgstr ""
 
 #: ../../docstring of kivy.properties.BoundedNumericProperty:8
-# 9cd71a52c1544db18bf91f85f7bf6b1a
+# 849c435f592a4497b41d94195be9632b
 msgid "If set, maximum bound will be used, with the value of max"
 msgstr ""
 
 #: ../../docstring of kivy.properties.OptionProperty:1
-# ee9ca0d423be4df785bd682a6cc40c98
+# aa9a367e3a7c471b898f58ee1af11278
 msgid "Property that represents a string from a predefined list of valid options."
 msgstr ""
 
 #: ../../docstring of kivy.properties.OptionProperty:4
-# 2fefccc2202a46b69e58e882925b3233
+# 810830194838430993a539503122c162
 msgid "If the string set in the property is not in the list of valid options (passed at property creation time), a ValueError exception will be raised."
 msgstr ""
 
 #: ../../docstring of kivy.properties.OptionProperty:9
-# 95487c914ecb47288b84bda5ee309b4a
+# 7c87e47b6e7342709588eae2c62b0156
 msgid "List of valid options"
 msgstr ""
 
 #: ../../docstring of kivy.properties.ReferenceListProperty:1
-# 43b7de917748423da64bb7651d60aab3
+# 0121e8cfdf354561a4d72f544d59fc4d
 msgid "Property that allows to create a tuple of other properties."
 msgstr ""
 
 #: ../../docstring of kivy.properties.ReferenceListProperty:3
-# 6e38a1c5792b44f685b27f5607a892bd
+# 8b224b323af64193b3d39a76e7dbef45
 msgid "For example, if `x` and `y` are :class:`NumericProperty`s, we can create a :class:`ReferenceListProperty` for the `pos`. If you change the value of `pos`, it will automatically change the values of `x` and `y` accordingly. If you read the value of `pos`, it will return a tuple with the values of `x` and `y`."
 msgstr ""
 
 #: ../../docstring of kivy.properties.AliasProperty:1
-# 462ba0241b294ea08425fb47188d478b
+# e36ea763c88f4f7b98b40f4f2331a462
 msgid "Create a property with a custom getter and setter."
 msgstr ""
 
 #: ../../docstring of kivy.properties.AliasProperty:3
-# 4f69012243d24c69af172eeea78f5059
+# 663a6d253f7c4f94a3728df265e54246
 msgid "If you didn't find a Property class that fits to your needs, you can still create Python getters and setters and create a property with both of them."
 msgstr ""
 
 #: ../../docstring of kivy.properties.AliasProperty:6
-# 6918450671634962b810571941aabe4a
+# 2580edfd21bf4fd4adbe218a7f8e99fc
 msgid "Example from kivy/uix/widget.py ::"
 msgstr ""
 
 #: ../../docstring of kivy.properties.AliasProperty:16
-# dee785bab1df4ca8acd0cae5a65e6362
+# 9a73f8ba64174ddb8c2428749a4306d9
 msgid "Function to use as a property getter"
 msgstr ""
 
 #: ../../docstring of kivy.properties.AliasProperty:18
-# 856712f5e458418f9d8df96fe2a0d43c
+# e58b1971ca18496c83647106a38bfedb
 msgid "Function to use as a property setter"
 msgstr ""
 
 #: ../../docstring of kivy.properties.AliasProperty:20
-# 14615998c508414e89ebf148b43b2a18
+# 0a2643287e4d434fb656de1dcc0b2742
 msgid "List of properties to observe for changes"
 msgstr ""
 
 #: ../../docstring of kivy.properties.DictProperty:1
-# 2031cac3e52f447c9352b1bd265ec055
+# 861e3da16cd140fcb4d52c7d1b8d72e0
 msgid "Property that represents a dict."
 msgstr ""
 
 #: ../../docstring of kivy.properties.DictProperty:3
-# 821de23e1acd43cead148425a13027ac
+# e54af982d12c4cb08fc407218c739422
 msgid "Only dict are allowed, any other classes are forbidden."
 msgstr ""
 
