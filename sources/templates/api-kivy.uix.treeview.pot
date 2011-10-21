@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-21 21:22\n"
+"POT-Creation-Date: 2011-10-22 01:34\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,396 +17,396 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.uix.treeview.rst:3
-# 4a148ab04510416aaef6627799089c9a
+# 67488f1a347b4f828f4402b8a91fe5e6
 msgid "Tree View"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:6
-# 84b73687ce884fbfaa31ea0ddb14c031
+# 31055cb156b84e34b5708f8ca489fcb9
 msgid "This widget is still experimental, and his API is subject to change in a future version."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:9
-# a36ef394b09c4b69bc6cc3c1d9925042
+# 53a0211fa36c434f96bf46cfd54d629b
 msgid ":class:`TreeView` is a widget to represent tree list. It's currently very basic, but support the minimal features set to be usable."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:13
-# 82c34107fe7b4d8d934521afe299897a
+# db0ec70f719d4408866db78d6215e431
 msgid "Introduction to the TreeView"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:15
-# 3aaa95e47bb741e69cb90553577e4ee6
+# a7b474bb55114d6aa8a25772f64d3516
 msgid "A :class:`TreeView` is populated with :class:`TreeViewNode`, but you cannot use directly a :class:`TreeViewNode`. You must combine it with another widget, such as :class:`~kivy.uix.label.Label`, :class:`~kivy.uix.button.Button`... or even your own widget. The TreeView always create a default root node, based on :class:`TreeViewLabel`."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:21
-# 652e82362b98499d857d298ab04296b1
+# 928ec93bde234dd1b2b489fafc319733
 msgid "The :class:`TreeViewNode` is just an class object that hold the needed property to successful use the other class as a node for the Tree. You can read the next section about how to create custom node to be used in the :class:`TreeView`."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:25
-# 82f22c84ee7446f0b2dfede793cfdc9c
+# 3d6e711a85f5462eb995674e8ac93e4c
 msgid "For you, we have combine Label + TreeViewNode: the result is a :class:`TreeViewLabel`, that you can directly use as a node in the Tree."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:28
-# 224798199af4406da13555673b4d397f
+# aa6ad6127a8c41a8aedce3f96daf1a05
 msgid "For example, you can create 2 nodes, directly attached to root::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:34
-# 514c5fafe31545b3bc3bc83820200895
+# 5a61b95d1a494a1992ef2ed4d5450b10
 msgid "If you want to create 2 nodes attached to another one, you can do::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:41
-# 835319c2d9d14bd490390233d35cbf02
+# 09879a019a3a44acb014edcfbb07c677
 msgid "The default root widget is always opened, and have a default text 'Root'. If you want to change that, you can use :data:`TreeView.root_options` property. This will pass options to the root widget::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:49
-# 2c1e4a15a84c4f8eab10e7264efbdb08
+# 03f9802ac69f4673ac418fbe30e881bf
 msgid "Create your own node widget"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:51
-# 80cd96b9113849169b1261123ea3e71d
+# 24ce9d964e3349c1bf17b473a4549d60
 msgid "If you want to create a button node for example, you can just combine :class:`~kivy.uix.button.Button` + :class:`TreeViewNode` like this::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:57
-# d9694a232b2146e4a6683ca959a47141
+# 26f0702bbc604fabb1796c397c0e1a18
 msgid "You must know that only the :data:`~kivy.uix.widget.Widget.size_hint_x` will be honored. The allocated width will depend of the current width of the TreeView and the level of the node. For example, if your node is at level 4, the width allocated will be:"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:62
-# 77ebfa1cff4b4211850092abf69570ad
+# 65cd2f5511bb40aa8364ec9e6f471502
 msgid "treeview.width - treeview.indent_start - treeview.indent_level * node.level"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview:64
-# 96ef644747fc4187b679e72762600f9e
+# 6d4ab0c29d1741d6b82aa8f9bb876297
 msgid "You might have some trouble with that, it's on your side to correctly handle that case, and adapt the graphical representation of your node if needed"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 1e1e6f0b2dd345ee9db73193c56f1ff0
+# 73313e9805264e259825cce864822378
 msgid "Bases: :class:`kivy.uix.widget.Widget`"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView:1
-# bef9686e2f29481fbbce4ee2688a0a00
+# edee85ae2a9544a0a02b621669ca1668
 msgid "TreeView class. See module documentation for more information."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView:5
-# ff81e7cc1f4e419b881f1a0d32ea75ff
+# d97ee668a5c74c41a6fd582287494878
 msgid "Fired when a node is being expended"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView:7
-# 325966435c3a46fcbb34bb71619fdc2e
+# de5bc26609984fa99f2c21c55bade465
 msgid "Fired when a node is being collapsed"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.add_node:1
-# 88d310e29549442a93fa20510edf91b4
+# c90dcae6f3c145a7b37541519ae5fad0
 msgid "Add a new node in the tree."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.add_node:5
-# 823c93185f1f4224a4cd061b1cec6a5c
+# 60ddcf041bb442be9f93a3a72f707930
 msgid "Node to add into the tree"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.add_node:7
-# 979110f1fdd0475883ff9062fd775795
+# cdf53f664fda4414ab051ba3ba7acbb9
 msgid "Parent node to attach the new node"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.get_node_at_pos:1
-# 14a37d8b66dd4ef5b73eef1787665848
+# 8d3555781200405a8441412dd389e70d
 msgid "Get a node a at the position (x, y)."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.hide_root:1
-# 5c66de1c70384c6e9fac62af763585af
+# d0c09de72966443585825c3618baf54b
 msgid "Use this property to show/hide the initial root node. If True, the root node will be always considerate as an open node"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.hide_root:4
-# 9196728637b04a97b495f6b926ce2b7b
+# 652f012cfac946079018c33506fcec9b
 msgid ":data:`hide_root` is a :class:`~kivy.properties.BooleanProperty`, default to False."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.indent_level:1
-# 19fed9b49f194d7480ce9a0c0c76d266
+# e0cd91caa94d40dea14900f1457cb09c
 msgid "Width used for identation of each level, except the first level."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.indent_level:3
-# a927126f3ab8426282b448ea7f021d45
+# cea92c87c2ca41dfa55511e66dd12412
 msgid "Computation of spacing for eaching level of tree is::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.indent_level:7
-# 09e9cf2bf4d14a319a8cf734e4bf5641
+# 2f82c078bc3949b6891e946d32e31888
 msgid ":data:`indent_level` is a :class:`~kivy.properties.NumericProperty`, default to 16."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.indent_start:1
-# 3c55c4b08568449e82400383cb8e6ddb
+# a93463bba7b64b15873aad7b89270ab9
 msgid "Indentation width of the level 0 / root node. This is mostly the initial size to put an tree icon (collapsed / expanded). See :data:`indent_level` for more information about the computation of level indentation."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.indent_start:5
-# 578889a9af7146699a425d1ec9f4d1df
+# 27bb66d4412c4562b10db56da779c6c4
 msgid ":data:`indent_start` is a :class:`~kivy.properties.NumericProperty`, default to 24."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.iterate_all_nodes:1
-# 2c90a4061e4d4c0ab14620451f50d91a
+# 8ace054a6cec4f0a936f3347dcccd09b
 msgid "Generate to iterate over all nodes, expanded or not."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.iterate_open_nodes:1
-# d90b96e4ddb845089d56d8a94da48d30
+# 3b91f86804f142a99405ca0de09da3fc
 msgid "Generator to iterate over expanded nodes. Example for get all the node opened: ::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.load_func:1
-# 5410c27347554902b900c086d4b9f0a4
+# 53eec8d5630b4fb5a44b326cf62b4a46
 msgid "Callback to use for asynchronous loading. If set, the asynchronous will be automatically done. The callback must act as a Python generator function : use yield to send data back to the treeview."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.load_func:5
-# d1c7b89752c44edb99c0357276a5c848
+# 1cb1fa76490048b49052f3af6312b53b
 msgid "The callback should be in the format::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.load_func:11
-# 2d33d653ce9b4da9a8f7327786c54648
+# d47147ecb604462bb11828c6eb422d28
 msgid ":data:`load_func` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.remove_node:1
-# b1bbf35a0065437cadf62dc41860f8e3
+# 791c4eb9cc874412a6d2345e53d25cfb
 msgid "Remove a node in a tree."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.remove_node:7
-# 92dfd0c9ee5744669cbcc1d496691d15
+# 719b7fe50e6a4c6fb5bc605f73087911
 msgid "Node to remove from the tree"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.root:1
-# 36f454dfa68b4dc1b06d16bd12fa91df
+# e9fc342f4bb04893b23db1c5cf336052
 msgid "Root node."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.root:3
-# ad0b560cfb2a4d488303d07705af2282
+# 90ba6799eee846c5ad84897ef56bbc01
 msgid "By default, the root node widget is a :class:`TreeViewLabel`, with the label 'Root'. If you want to change the default options passed to the widget creation, you can use :data:`root_options` property::"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.root:11
-# ea6b4d4bbe3f416e8dcfb25800dcc525
+# 74fac128d9844dbf8248ee2dc95e5935
 msgid ":data:`root_options` will change the properties of the :class:`TreeViewLabel` instance. However, you cannot change the class used for root node yet."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.root:15
-# 7f275f9d74534459ae8380fb5403220d
+# a2c4a89f32f3498d8a1b4737f36ca092
 msgid ":data:`root` is a :class:`~kivy.properties.AliasProperty`, default to None, and is read-only. However, the content of the widget can be changed."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.root_options:1
-# 1b40cdbadb934caea4e69f9f3a183b95
+# 5b5456442c504ed18648b3f61fb9f935
 msgid "Default root options to pass for root widget. See :data:`root` property for more information about the usage of root_options."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.root_options:4
-# 6ad4a8e89d554c6c8d5d827870935bfe
+# 48006c952dc244c2adbeda49a92ba409
 msgid ":data:`root_options` is a :class:`~kivy.properties.ObjectProperty`, default to {}."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.select_node:1
-# 4e32c23445dc4cf8a22243a3f39a22d1
+# 585c786070694f2f87fdcfcfc8cb0c14
 msgid "Select a node in the tree"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.selected_node:1
-# aeb82ad1017c46299696b0a916854a7a
+# dc84bfc379b947b2a6746716bed5f893
 msgid "Node selected by :func:`TreeView.select_node`, or by touch."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.selected_node:3
-# feb12decdbd645af9f18069fd6117385
+# 953907fd43664aa39589e007b3d09ab7
 msgid ":data:`selected_node` is a :class:`~kivy.properties.AliasProperty`, default to None, and is read-only."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeView.toggle_node:1
-# ddae9e4d240c419a9f081b891f23c812
+# 4f4aceb3282244a395cc05e194894913
 msgid "Toggle the state of the node (open/collapse)"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 19881074b84f408eac954205c6e8d509
+# afa45a4ebfcd4b98b1e8b7b24479cb69
 msgid "Bases: :class:`exceptions.Exception`"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewException:1
-# 1c9f3e6316e24e37bdd9ff95a440101c
+# 1d4497f553024442af4d09de485c73b2
 msgid "Exception for errors in the :class:`TreeView`"
 msgstr ""
 
 #: ../../<autodoc>:1
-# df08caf117524805a64562e222bd9fc2
+# ebe6e162044a46a0ba3c1e7ae281f035
 msgid "Bases: :class:`kivy.uix.label.Label`, :class:`kivy.uix.treeview.TreeViewNode`"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewLabel:1
-# 5b91867eddf44119b224a3f9949db712
+# a9de580219c74df3a6ef29fae4e78222
 msgid "Combine :class:`~kivy.uix.label.Label` and :class:`TreeViewNode` to create a :class:`TreeViewLabel`, that can be used as a text node in the tree."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewLabel:5
-# f03e52aea441480da06f2d9f1158a857
+# 67d14d3455c440bcac224e670ea6859a
 msgid "See module documentation for more information."
 msgstr ""
 
 #: ../../<autodoc>:1
-# 6267fc44deb84bcd9e3073e68d93df00
+# 8b484b1ae5934143bbc75c5a2c75af9f
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode:1
-# a841c642f2f54135b984377011abaacb
+# 7cc9d9eb8311405aa0a82e7d250433f4
 msgid "TreeViewNode class, used to build node class for TreeView object."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.color_selected:1
-# 0aa64b900f7f44889a9b961ca4c5f328
+# efb964142fac4e8083373bfa532e5c70
 msgid "Background color of the node when the node is selected."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.color_selected:3
-# f1bb0fd04380477196de6cacab9520bf
+# 8b372a97ab894fd7821b52da35247dbd
 msgid ":data:`color_selected` is a :class:`~kivy.properties.ListProperty`, defaults to [.1, .1, .1, 1]"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.even_color:1
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.odd_color:1
-# eff49c5224844aa499a429b79c7fb5f2
-# a223b093610642859c5daa4e82fb828a
+# 785fc68edb07428a83caf51d3cbbe654
+# cee73eb41bf84d7e8af8bc269210a30b
 msgid "Background color of odd nodes when the node is not selected."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.even_color:3
-# ec9bc2cce18a441995d9c021f3677868
+# d0c56da0949a47ada1f0b912793cac48
 msgid ":data:`bg_color` is a :class:`~kivy.properties.ListProperty`, default to [.5, .5, .5, .1]."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_leaf:1
-# 67bac03dc67e4f84b9815bcbe9fe418a
+# 74742fab6bb0493ca4b0c6004d1f4112
 msgid "Boolean to indicate if this node is a leaf or not, used to adjust graphical representation."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_leaf:4
-# 3d570ce99ae8423bb4264154f8a5dea8
+# ff16c5197c4e44bfbdcc376ce8c97ae4
 msgid ":data:`is_leaf` is a :class:`~kivy.properties.BooleanProperty`, default to True, and automatically set to False when child is added."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_loaded:1
-# 960ceb17ef1141eaad8743b7ce5e06f4
+# 80797310e88844bfbca9a8a244053b99
 msgid "Boolean to indicate if this node is already loaded or not. This property is used only if the :class:`TreeView` use asynchronous loading."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_loaded:4
-# 5cec98add0d24cb2afd4fbfc73038d51
+# d6f11e9fa86c48a1acd4f77eed6a42b9
 msgid ":data:`is_loaded` is a :class:`~kivy.properties.BooleanProperty`, default to False"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_open:1
-# bdbc102668b54d7084284f7e2227b960
+# 60f39f0ba0fb45e5a7d0e08a944b623f
 msgid "Boolean to indicate if this node is opened or not, in case if he contain children nodes. This is used for graphical representation."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_open:6
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_selected:6
-# f47d3f5f79ec4ddd85b915777a9b6550
-# 18f6241030784cc7bcd656a52ac0001e
+# f358967a62234f5f85bb1897768fa294
+# d113e976db4d479784be5e146605d5cc
 msgid "This property is automatically setted by the :class:`TreeView`. You can read it but not write on it."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_open:9
-# cc7c5788843f43ed920092b33139c312
+# e5cd1beeb2a7475d8301b4cbec36c014
 msgid ":data:`is_open` is a :class:`~kivy.properties.BooleanProperty`, default to False."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_selected:1
-# c66df52ec3ac4e8ebf4261c3fbe0abcf
+# 3d6d139ff4b9493ba281f4a4bbc790e5
 msgid "Boolean to indicate if this node is selected or not. This is used for graphical representation."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.is_selected:9
-# c98d6863812f432988e41071030253a0
+# 1f5605ad69274746a27012487f25a1f4
 msgid ":data:`is_selected` is a :class:`~kivy.properties.BooleanProperty`, default to False."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.level:1
-# b3327019e126490f8e07a23133604175
+# f42b4e3b369c462c9b5e4a3bb7d24efb
 msgid "Level of the node."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.level:3
-# 79df657e9f6a4d6080e5bf205882c382
+# d53b6255bff44e05bc05fd17579621cc
 msgid ":data:`level` is a :class:`~kivy.properties.NumericProperty`, default to -1."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.no_selection:1
-# d9831ddab44f4eea93574e0a52646a1c
+# 9be9f139b08d4889ac7d308fc442ce4c
 msgid "Boolean to indicate if we allow selection of the node or not."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.no_selection:3
-# c97f07fade604129a6665791b0667a1c
+# 99187bba51e94f319e90f5c871cfda60
 msgid ":data:`no_selection` is a :class:`~kivy.properties.BooleanProperty`, default to False"
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.nodes:1
-# 23ff4cc5c19948808d8c58f5e3cecca9
+# b30012cba65041e1af40ce2430a29977
 msgid "List of nodes. The nodes list is differents than children. Nodes represent a node on the tree, while children represent the widget associated to the current node."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.nodes:7
-# 072d09b71ef04bb684c97261b706db08
+# d05c757f6f1a40b89951dd99956b3b40
 msgid "This property is automatically setted by the :class:`TreeView`. You can read it, but not write on it."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.nodes:10
-# d6194dbfde734b558f762562a49f9f74
+# 6b9ab623aa004d0ba8d807fea5076c3c
 msgid ":data:`nodes` is a :class:`~kivy.properties.ListProperty`, default to []."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.odd:1
-# 2549ce0dc4e54a1eb88633dcb88ddef6
+# 747c4961a494424aa5c10405cdb00060
 msgid "This property is set by the TreeView widget automatically. Read-only. :data:`odd` is a :class:`~kivy.properties.BooleanProperty`, defaults to False."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.odd_color:3
-# 6381b064955042999bd70a7425c09b8a
+# 4f5de8eb6dac4ed5aafb9bf6dc5755b9
 msgid ":data:`bg_color` is a :class:`~kivy.properties.ListProperty`, default to [1., 1., 1., 0.]."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.parent_node:1
-# 2876e3d23ae4446892fb7b4789bdc50e
+# d362736342d64673a2a6c06edbeb5999
 msgid "Parent node. This attribute is needed because :data:`parent` can be None when the node is not displayed."
 msgstr ""
 
 #: ../../../kivy/uix/treeview.py:docstring of kivy.uix.treeview.TreeViewNode.parent_node:6
-# b47aa2e69bff4baf9ba491fd3c451015
+# 14c565de659c4cb4a6526aea0267257e
 msgid ":data:`parent_node` is a :class:`~kivy.properties.ObjectProperty`, default to None."
 msgstr ""
 
