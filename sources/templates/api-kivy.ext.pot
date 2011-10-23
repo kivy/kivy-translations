@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-22 01:34\n"
+"POT-Creation-Date: 2011-10-23 11:41\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,112 +17,112 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.ext.rst:3
-# 18b75ac4bbce49968f97f7242ad57558
+# 9af1b26c3a3a4c12b2edc3a6fb85b29e
 msgid "Extension Support"
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext:2
-# 79d993f18d5f420fad84b466ff03c865
+# 27754ef692d94b86afa5482109d82f23
 msgid "Sometimes your application requires functionality that is beyond the scope of what Kivy can deliver. In those cases it is necessary to resort to external software libraries. Given the richness of the Python ecosystem, there is already a great number of software libraries that you can simply import and use right away."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext:8
-# 741cc5b847e94a819453ac7291f80291
+# f47bae07ccda44e4b1c881583c7f7171
 msgid "For some third-party libraries, it's not as easy as that though. Some libraries require special *wrappers* being written for them to be compatible with Kivy. Some libraries might even need to be patched so that they can be used (e.g. if they open their own OpenGL context to draw in and don't support proper offscreen rendering). In those occasions it is often possible to patch the library in question and to provide a Python wrapper around it that is compatible with Kivy. Sticking with this example, you can't just use the wrapper with a 'normal' installation of the library because the patch would be missing."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext:17
-# 1ba0696226ac4e68a6950660fadd9c44
+# fa1528b408c646b190fa579c85f99eaa
 msgid "That is where Kivy extensions come in handy. A Kivy extension represents a single third-party library that is provided in a way so that it can simply be downloaded as a single file, put in a special directory and then offers the functionality of the wrapped library to Kivy applications. These extensions will not pollute the global Python environment (as they might be unusable on their own after potential patches have been applied) because they reside in special directories for Kivy that are not accessed by Python by default."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext:26
-# aa80430078f44d878bac38fa748060fe
+# 91ed9992251e4673a1ef1bfaf474ae90
 msgid "Kivy extensions are provided as ``*.kex`` files. They are really just zip files, but you must not unzip them yourself. Kivy will do that for you as soon as it's appropriate to do so."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext:32
-# fc3b4cb345a442fe8186479bd6c10f61
+# 21102b12e2d944aa8c7779aa42ddaefb
 msgid "Again, do not try to unzip ``*.kex`` files on your own. While unzipping will work, Kivy will not be able to load the extension and will simply ignore it."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext:35
-# 05942875571f4cf9b443334a8400f8b0
+# 87f1e6d012c74f4683a1a84bfcb72d24
 msgid "With Kivy's extension system, your application can use specially packaged third-party libraries in a backwards compatible way (by specifying the version that you require) even if the actual third-party library does not guarantee backwards-compatibility. There will be no breakage if newer versions are installed (as a properly suited old version will still be used). For more information about that behaviour, consider the documentation of the :func:`~kivy.ext.load` function."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext:43
-# 5b87eb87676a4fbf945de8b2d49a4bd4
+# 5f4921415d9044919c850a7b408d83f4
 msgid "If you want to provide an extension on your own, there is a helper script that sets up the initial extension folder structure that Kivy requires for extensions. It can be found at kivy/tools/extensions/make-kivyext.py"
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.load:1
-# 8f48cdb0d0ab48b79aa1ec89dbe4c817
+# 428cb09fe0ba4ad3bcd9edc37f93f55e
 msgid "Use this function to tell Kivy to load a specific version of the given Extension. This is different from kivy's require() in that it will always use the exact same major version you specify, even if a newer (major) version is available. This is because we cannot make the same backwards-compatibility guarantee that we make with Kivy for third-party extensions. You will still get fixes and optimizations that don't break backwards compatibility via minor version upgrades of the extension."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.load:9
-# 09576aadf3ec4d089f41f23111fb7364
+# 71fa4ea920f44a4a8917290843c6f39b
 msgid "The function will then return the loaded module as a Python module object and you can bind it to a name of your choosing. This prevents clashes with modules with the same name that might be installed in a system directory."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.load:13
-# 96e62afa5cda47ebbedf54b1e38737fc
+# 1a55be8ab3cc4b84879c84293802e8b5
 msgid "Usage example for this function::"
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.load:22
-# ed8daeabf9cb4f808e679a204366d0ca
+# 47693fcbe1554eafbf9ae395d639f248
 msgid "The exact name of the extension that you want to use."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.load:24
-# 751db66c24f84299a886bf46ad6c9640
+# bcdfb014403f4fb78d1a9dd72f10e98c
 msgid "A tuple of the form (major, minor), where major and minor are ints that specify the major and minor version number for the extension, e.g. (1, 2) would be akin to 1.2. It is important to note that between minor versions, backwards compatibility is guaranteed, but between major versions it is not. I.e. if you change your extension in a backwards incompatible way, increase the major version number (and reset the minor to 0). If you just do a bug fix or add an optional, backwards-compatible feature, you can just increase the minor version number. If the application then requires version (1, 2), every version starting with that version number will be ok and by default the latest version will be choosen. The two ints major and minor can both be in range(0, infinity)."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:1
-# 6d86553df82d41bdbea0fe9dd9d84dc3
+# fd5ee918090241d0b07a7fc5e09772d5
 msgid "Unzips Kivy extensions. Internal usage only; Don't use it yourself unless you know what you're doing and really want to trigger installation of new extensions."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:5
-# 1729c874e6c94d8b86937ae636e4a926
+# 2f0f20ee73e7425eab978a060efd22df
 msgid "For your file to be recognized as an extension, it has to fulfil a few requirements:"
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:8
-# 867d91d7d74b4896859abac585215033
+# e0adadb8a90e43eebd42c11cb660a838
 msgid "We require that the file has the ``*.kex`` extension to make the distinction between a Kivy extension and an ordinary zip file clear."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:11
-# 2964d2b7b1d04ab1a2e49de7d39c5523
+# 0e8b3254d2b34dd692e061acea4356ad
 msgid "We require that the ``*.kex`` extension files be put into any of the directories listed in EXTENSION_PATHS which is normally ~/.kivy/extensions and extensions/ inside kivy's base dirextory. We do not look for extensions on sys.path or elsewhere in the system."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:16
-# d200b50087de487981dd5571b28f27dc
+# 2c3c1e9a88b947198d0c61d9e473d163
 msgid "We require that the Kivy extension is zipped in a way so that Python's zipfile module can extract it properly."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:19
-# ccde8ce59aef4ed9b9852a36d08e9aaa
+# ac600c5829c34eb89342799f6477efeb
 msgid "We require that the extension internally obeys the common Kivy extension format, which looks like this::"
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:26
-# 2a280cf1738b41ce91a1358a8e320945
+# 52a20eb4265a4c85b2ed183dd2eb7ed5
 msgid "The ``__init__.py`` file is the main entrypoint to the extension. All names that should be usable when the extension is loaded need to be exported (i.e. made available) in the namespace of that file."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:30
-# 41c5a95034d34fb695b441fb2bf127ae
+# 0399e00b608a452e9d93c32dacc9ce35
 msgid "How the extension accesses the code of the library that it wraps (be it pure Python or binary code) is up to the extension. For example there could be another Python module adjacent to the ``__init__.py`` file from which the ``__init__.py`` file imports the usable names that it wants to expose."
 msgstr ""
 
 #: ../../../kivy/ext/__init__.py:docstring of kivy.ext.unzip_extensions:36
-# f1c7731b0ac94d15934a4b754cd89d0f
+# f63dfcdf4dd743a1a386da544e4c572d
 msgid "We require that the version of the extension be specified in the ``setup.py`` file that is created by the Kivy extension wizard and that the version specification format as explained in :func:`~kivy.ext.load` be used."
 msgstr ""
 
