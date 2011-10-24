@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-24 10:21\n"
+"POT-Creation-Date: 2011-10-24 11:50\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,306 +17,306 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.uix.vkeyboard.rst:3
-# ae5c0f87d0ed4644bd231af6ae029b3b
+# 7334fc9574e1459f943c1ba101103c02
 msgid "VKeyboard"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:9
-# 368cf30b0fc94c239d583bb7e3842f9e
+# 322d1b5421424407a06d2610ad803b0b
 msgid "This is experimental and subject to change as long as this warning notice is present."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:12
-# 1f1639725df044198ef9c9a72238bf6f
+# c7a6369b368b4a09805a32e82623a080
 msgid "VKeyboard is a onscreen keyboard for Kivy. It's made to be transparent to the user. Using that widget directly is highly not recommanded. Read the section `Request keyboard`_ first."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:17
-# 4481861ab0e84e298c5d6b74b2960f36
+# b0b7cd6672e94f9fb9115098bf0cdf5b
 msgid "Modes"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:19
-# 2e78fd0991ef43989c6e558acd7161be
+# e9d28bbfcbb84718872addd5cbb1ff7b
 msgid "This virtual keyboard have a dock and free mode:"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:21
-# a1a488c356a049d59ef7324797d1024e
+# 4d0d3b95e4e146bbac1f14cd0430e665
 msgid "dock mode (:data:`VKeyboard.docked` = True) Generally used when only one person is using the computer, like tablet, personal computer etc."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:24
-# 404b628c9fef4767aefa9f46957a7f25
+# 0c228b97f8284657a5b89b13b100560a
 msgid "free mode: (:data:`VKeyboard.docked` = False) Mostly for multitouch table. This mode allow to have more than one virtual keyboard on the screen."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:28
-# 1bf1dd4d32464ddd95a1e88527d6dc24
+# 62d46dabc91649909f5cd23e35ebc63d
 msgid "If you change the docked mode, you need to manually call :meth:`VKeyboard.setup_mode`, otherwise the change will have no impact. During that call, the VKeyboard, implemented in top of scatter, will change the behavior of the scatter, and position the keyboard near the target (if target and dock mode is set.)"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:36
-# 7d7f126e3c7a4010b8e64d1efa307ce9
+# 41fdfbe93b9540c0ba82c017fec561b2
 msgid "Layouts"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:38
-# fcb9b915ef814d2cac314d6e283e80a5
+# 1faf8b469085432cb1ffa71a0045a4a0
 msgid "Virtual keyboard are able to load custom layouts. If you create a new layout, put the json in :file:`<kivy_data_dir>/keyboards/<layoutid>.json`. Then you can load it by setting :data:`VKeyboard.layout` to your layoutid."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:42
-# d44837f3cd65463c9249bedb263da207
+# 329ff6915c7e445fa749d843d4ba699e
 msgid "The JSON must be structured like this::"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:53
-# 4cfce7cda4ac4a35ba14881ecdcf93a7
+# 89ff79fcd1544df29e4b01dd8e96d7a6
 msgid "Then, you need to describe keys in each rows, for a \"normal\" mode, and \"shift\" mode. The keys must be named `normal_<row>` and `shift_<row>`. Replace `row` with the row number. Inside each row, you will describe the key. A key is a 4 element list in the format::"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:62
-# 755d30ca502a4e2d91c9473903034aef
+# d1a557c547b34959896fdfd327a5b0d7
 msgid "Here is some example of keys::"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:69
-# 944673d89e174a18863c5b602e3c278b
+# 4dc4c85a9d42496cb4352db9062b3659
 msgid "At the end, you can complete the json::"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:88
-# b96699c88d114473873e68c239cd294a
+# be41e391caa7440daeeb6f37aed85875
 msgid "Request keyboard"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:90
-# c9c3286005d64325b06751bb37ae2151
+# 0af9d340661a45e19eaaa9b1e9ea9c27
 msgid "The instanciation of the Virtual Keyboard is controlled by the configuration. Check `keyboard_mode` and `keyboard_layout` in the :doc:`api-kivy.config`."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard:93
-# c17a83425ebb4db988f06a3261619b72
+# 59852c82d7f0427fb108dc4275e06524
 msgid "If you intend to create a widget that require a keyboard, don't use directly the virtual keyboard, but prefer to use the best method available on the user platform. Check :meth:`~kivy.core.window.WindowBase.request_keyboard` method in the :doc:`api-kivy.core.window`."
 msgstr ""
 
 #: ../../<autodoc>:1
-# b41ef653b91f4b0083a57e2dbee440d2
+# c6f52221ec944f0b94024e14b2f52366
 msgid "Bases: :class:`kivy.uix.scatter.Scatter`"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard:1
-# da668fcdf2f345a4a4f51411f8a141f1
+# e119aa563e4f41648f3ccd675d596e21
 msgid "VKeyboard is an onscreen keyboard with multitouch support. Its layout is entirely customizable and you can switch between available layouts using a button in the bottom right of the widget."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.available_layouts:1
-# 2babc7f47453478b9f542dc3677a962b
+# f799cdd72dc1457f8cd8b69e2a80dd48
 msgid "Dictionnary of all available layouts. Keys is the layout ID, and the value is the JSON (translated in Python object)."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.available_layouts:4
-# c1a9bf9a422d4032926d4937a19ce25a
+# c4b432f37ee240d2b27cf81c785ff7bb
 msgid ":data:`available_layouts` is a :class:`~kivy.properties.DictProperty`, default to {}"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.background:1
-# c4afe28e730344ba8a01310ba81e878f
+# 3a246a495f2648ffa5aa237bb6dc9b5a
 msgid "Filename of the background image."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.background:3
-# 4bafa2fa2acf4042838e228dcddedbb3
+# 5c0b5fb76a9346f4b4988adb407539d8
 msgid ":data:`background` a :class:`~kivy.properties.StringProperty`, default to :file:`data/images/vkeyboard_background.png`."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.background_border:1
-# 3071e5b4596748798a92585950652f81
+# 9d556cd073c84736a9eb0dc4d6e4be67
 msgid "Background image border. It's used for controling the :data:`~kivy.graphics.vertex_instructions.BorderImage.border` property of the background."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.background_border:5
-# 24c3120b90ae406896531632518e6295
+# f3a0520c78724ca0bbfa9be88fddf849
 msgid ":data:`background_border` is a :class:`~kivy.properties.ListProperty`, default to [16, 16, 16, 16]"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.background_color:1
-# 42dd2195199d4fc39b3b0b33f43e2a5c
+# 42e7ceade40440ffafc7631e8d7355e3
 msgid "Background color, in the format (r, g, b, a). If a background is set, the color will be multiply with the background texture."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.background_color:4
-# ff37d2bf78764ff3952336c54a615a7d
+# c88d6ddd10f7493ba74245c15bf70109
 msgid ":data:`background_color` is a :class:`~kivy.properties.ListProperty`, default to [1, 1, 1, 1]."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.callback:1
-# b0eb81dfc17b4ad6a0980a276da107dd
+# 8ae8fba2f26c4739a6544c44014672ef
 msgid "Callback can be set to a function that will be called if the VKeyboard is closed by user."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.callback:4
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.target:5
-# 9edea04aa9f546baba41ba96d19edc00
-# 0830ac769dcf4c42b8a8f81419e1dded
+# d354875d0be44f1ba816fdb4226c14c6
+# 75ccdb19bff44b67a335f49620e9aedd
 msgid ":data:`target` is a :class:`~kivy.properties.ObjectProperty` instance, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.collide_margin:1
-# aec1306033af4bc5b78bb73906f74064
+# c9d3f16430a24ab3b3ec2027d47f1194
 msgid "Do a collision test, and return True if the (x, y) is inside the vkeyboard margin."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.docked:1
-# edf39b6042bf4e58a368c6468dc2632b
+# 8f98d21117df4601ac419d4c55a20f03
 msgid "Indicate if the VKeyboard is docked on the screen or not. If you change it, you must call manually :meth:`setup_mode`. Otherwise, it will have no impact. If the VKeyboard is created by the Window, the dock mode will be automatically set by the configuration, with `keyboard_mode` token in `[kivy]` section."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.docked:7
-# 777a04eed2b14cc389b992a04ab94266
+# 98b44f23214546b0b2920170b734e936
 msgid ":data:`docked` is a :class:`~kivy.properties.BooleanProperty`, default to False."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_background_color:1
-# 01f1748fd39c45adab4635974bc0c3f4
+# 470323f90e844850ae114d7b5ff57417
 msgid "Key background color, in the format (r, g, b, a). If a key background is set, the color will be multiply with the key background texture."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_background_color:4
-# f0bb1d3e68f94af680f39b1fb8d5a4e8
+# 87bff1dcfd7d416f86687df9de45fe26
 msgid ":data:`key_background_color` is a :class:`~kivy.properties.ListProperty`, default to [1, 1, 1, 1]."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_background_down:1
-# 697ed0d989824436a3d0e7513178757f
+# 32423858ed264220b9c9682eabb88c47
 msgid "Filename of the key background image one touch is on it."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_background_down:3
-# 645efe65eadf470983f75de90b5e4d95
+# c4a3b7949af448ee89a3b58f069767a3
 msgid ":data:`key_background_down` a :class:`~kivy.properties.StringProperty`, default to :file:`data/images/vkeyboard_key_down.png`."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_background_normal:1
-# 88af8e4792de4e9eb043c50145224988
+# 18bbbe7ca11b415ab7471d2e928dc9e9
 msgid "Filename of the key background image when no touch are on it."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_background_normal:3
-# cbc67aafb4a9480286a57861f3a9bcd1
+# 2062c1c9086e4f96bdc4cc2ca237fa21
 msgid ":data:`key_background_normal` a :class:`~kivy.properties.StringProperty`, default to :file:`data/images/vkeyboard_key_normal.png`."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_border:1
-# d42bb1af461b40329df3a3045ed942ff
+# cdedf1fa818047b6971a5636fb3b50ca
 msgid "Key image border. It's used for controling the :data:`~kivy.graphics.vertex_instructions.BorderImage.border` property of the key."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_border:5
-# f9c89b7c696c4698aee2e36458b5f6e7
+# 504095f97d0d4082a2de982dd96f83e9
 msgid ":data:`key_border` is a :class:`~kivy.properties.ListProperty`, default to [16, 16, 16, 16]"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_margin:1
-# 28eb24babf9543d59082919282fdb6c3
+# bf0b1afcb0184f9c8bfa5500810d374d
 msgid "Key margin, used to create space between keys. The margin is composed of 4 values, in pixels::"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.key_margin:6
-# 7c812224a7f64b45887fe9550d1fab28
+# 316eb8ad40c04c97ad2121c06e508c9a
 msgid ":data:`key_margin` is a :class:`~kivy.properties.ListProperty`, default to [2, 2, 2, 2]"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.layout:1
-# 21608ffc82014cf9bdde99c15eb798af
+# 9c549109f89b447da0c9798bbb9c252b
 msgid "Layout to use for the VKeyboard. By default, it will be the layout set in the configuration, according to the `keyboard_layout` in `[kivy]` section."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.layout:4
-# 104f75a7d9fb461bb7337fd5a53a3774
+# e4bdec6211ae490a86238d5fd9f3c64c
 msgid ":data:`layout` is a :class:`~kivy.properties.StringProperty`, default to None."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.layout_path:1
-# 1b7ff7844a2e496f9f71f7d2e2035933
+# 4a9e63f0c1bf4c31a2ac6629930a8905
 msgid "Path to read layouts from."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.layout_path:3
-# 497502008e5146fb9958b57051f7a513
+# a469bce3e863449195773029d3fe5eac
 msgid ":data:`layout` is a :class:`~kivy.properties.StringProperty`, default to :file:`<kivy_data_dir>/keyboards/`"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.margin_hint:1
-# 03cc29dc4e8444d9aa49ec73af49c773
+# 40d16c5dfa6d4dc0a25a4e3e90122195
 msgid "Margin hint, used as spacing between keyboard background and keys content. The margin is composed of 4 values, between 0 and 1::"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.margin_hint:6
-# 114bc9a063fe486987b3375d4e86c28d
+# ef03b289dfb446738c39e21eaa7bad7e
 msgid "The margin hints will be multiplied by width and height, according to their position."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.margin_hint:9
-# 4108264fd8304fe2bb98285f12dba133
+# 58f0aa0e2aed45ff91e0009ff0c0335c
 msgid ":data:`margin_hint` is a :class:`~kivy.properties.ListProperty`, default to [.05, .06, .05, .06]"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.refresh:1
-# 4563155c6046409f8340fc2529769bff
+# 5a5318c530a8404fab1e2d69c76ec11e
 msgid "(internal) Recreate the whole widgets and graphics according to the selected layout."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode:1
-# 0405ffed9e7e4bed9694d57281a0b638
+# 468a4e4c5b284cabace48c61baefcfa9
 msgid "Call this method when you want to reajust the keyboard according to his options: :data:`docked` or not, with attached :data:`target` or not:"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode:4
-# 8a3a50cbadbe4fe2acc461cec4bc67b5
+# f70110a61ba94072b8b626c4760426d5
 msgid "If :data:`docked` is True, it will call :meth:`setup_mode_dock`"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode:5
-# 40c671795f564a99b672d9f933ae5f7c
+# e494d8429e644d8094481865b9180db9
 msgid "If :data:`docked` is False, it will call :meth:`setup_mode_free`"
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode:7
-# 6ef1b00a77ca40e69839c45ae12aca23
+# 56e0abc98b3446a9af53377b35c23df9
 msgid "Fell free to overload theses methods in order to create a new positioning behavior."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode_dock:1
-# a6f8cbaccfff42b9806923f0a2a50114
+# f6c8779c8a29405fb79b2aa670fa6ac4
 msgid "Setup the keyboard in dock mode."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode_dock:3
-# 714940375f8245f49997798dd5b6fbe2
+# 5d5ef7418b114bb48f1b719c9f9a99df
 msgid "Dock mode will reset the rotation, disable translation, rotation and scale. Scale and position will be automatically adjusted to attach the keyboard in the bottom of the screen."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode_dock:8
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode_free:10
-# 7bcaff096ac24436863ffe09840bc70e
-# dac524b31b904d4db5b9d07fd82dd4fd
+# 48326e2d3e9e47f49a84a1f722dac9ba
+# c6e8b6a5b4ca492ab0c73f48f0cd7c47
 msgid "Don't call this method directly, use :meth:`setup_mode` instead."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode_free:1
-# ca248383850a413bba9f2242182f44a5
+# 74ee022b7801425885ba99df19f5f4fd
 msgid "Setup the keyboard in free mode."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.setup_mode_free:3
-# 120e7b907a8141aeb9d60f2f7725d186
+# cddcbea34d1c475998afd2b4d4f028dd
 msgid "Free mode is designed to let the user control the position and orientation of the keyboard. The only real usage is for multi users environment, but you might found others ways to use it. If a :data:`target` is set, it will place the vkeyboard under the target."
 msgstr ""
 
 #: ../../../kivy/uix/vkeyboard.py:docstring of kivy.uix.vkeyboard.VKeyboard.target:1
-# 1b2d39240c8d40b9b36b23f7c9e428ba
+# a9633aaf703a4e4eb4e6aa1469dbb03f
 msgid "Target widget associated to VKeyboard. If set, it will be used to send keys events, and if the VKeyboard mode is \"free\", it will be also used to set the initial position."
 msgstr ""
 

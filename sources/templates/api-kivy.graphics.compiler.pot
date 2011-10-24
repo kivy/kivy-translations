@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-24 10:21\n"
+"POT-Creation-Date: 2011-10-24 11:50\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,62 +17,62 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.graphics.compiler.rst:3
-# f746ff2066014fdaa875f3a8b31d6078
+# 8e3139d13fc4461584ce2f5c7a4b47f5
 msgid "Graphics compiler"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:2
-# 53b1b2793669404b9caca3216d5cd953
+# 83ef422b1a114ab6ab3a76300165ffb4
 msgid "Before rendering an :class:`~kivy.graphics.instructions.InstructionGroup`, we are compiling the group, in order to reduce the number of instructions executed at rendering time."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:7
-# 19975e02da5c4a72b46a30da3efc7adf
+# 9d97c62d5a96454195c2aeff6aedb813
 msgid "Reducing the context instructions"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:9
-# 32fccde542d44e19bba11e8bc05ed5f3
+# 5d7c99a9bad04d959f9baa87cc815d25
 msgid "Imagine that you have a scheme like this ::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:18
-# eb32eeaba98d450e8fe3dee5f92e09f2
+# 5cae7053faeb4d548fbcefafac939704
 msgid "The real instruction seen by the graphics canvas would be ::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:30
-# ab7833eb3e3846d684d3cc8b41d21704
+# dfe20804cac449a69bba596dcb7cafb2
 msgid "Only the first :class:`~kivy.graphics.context_instructions.Color` and :class:`~kivy.graphics.context_instructions.BindTexture` are useful, and really change the context.  We can reduce them to ::"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:40
-# 990c7c5703fd430897de4f3bbfa30d95
+# 318910cdb1f04da0b03c1d46378cdba9
 msgid "This is what the compiler does in the first place, by flagging all the unused instruction with GI_IGNORE flag. As soon as a Color content change, the whole InstructionGroup will be recompiled, and maybe a previous unused Color will be used at the next compilation."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:46
-# 8dd09b1f733c46e0b7067efb55188987
+# f590a82549294fafbfc2e6bc28ced1ac
 msgid "Note to any Kivy contributor / internal developer:"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:48
-# 25a5d39f8bbe413e98defa9947b040f0
+# 320ffbd681bd40e08a2a27b3ac053b06
 msgid "All context instructions are checked if they are changing anything on the cache"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:50
-# 8cc48e813c0a4f9d874e8b3761244469
+# 18a6521131be47e8b1cae6856b1a5842
 msgid "We must ensure that a context instruction are needed into our current Canvas."
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:51
-# beddff06dd384d939f5e26bf07fefb92
+# fb79786d6f0143029363f392914cd3b4
 msgid "We must ensure that we don't depend of any other canvas"
 msgstr ""
 
 #: ../../docstring of kivy.graphics.compiler:52
-# 962458f896d145f18bad47d25ea4b521
+# a18e9b737f33495aa2b80246dd420f59
 msgid "We must reset our cache if one of our children is another instruction group, because we don't know if they are doing weird things or not."
 msgstr ""
 

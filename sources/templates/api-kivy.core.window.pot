@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-24 10:21\n"
+"POT-Creation-Date: 2011-10-24 11:50\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,378 +17,378 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.core.window.rst:3
-# f43dfe5841b243fd8d86a86102a88536
+# 194d676f35344eb8b2410bd0ad516ac6
 msgid "Window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window:2
-# 2ddb0393abff49d6b3172f9c690d5382
+# 7634edfef8e4432ebc42ad01ef412c77
 msgid "Core class for create the default Kivy window. Kivy support only one window creation. Don't try to create more than one."
 msgstr ""
 
 #: ../../<autodoc>:1
 #: ../../<autodoc>:1
-# ade923b156394dd28c9ec0badacbd3cc
-# 1d1d43fa396f43f28eed755aa1fc0cf8
+# 7bd6b2e3c648424c92786b685cf83887
+# e93196ed351249f29c99a7b7e374b885
 msgid "Bases: :class:`kivy.event.EventDispatcher`"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard:1
-# 353f7eee8f104e1fa4dc182708d93ecb
+# b71d8cb24c4545978efca2daca7d9b00
 msgid "Keyboard interface, that is returned by :meth:`WindowBase.request_keyboard`. When you request a keyboard, you'll get an instance of this class. Whatever is the keyboard input (system or virtual keyboard), you'll receive event though this instance."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard:8
-# 030ada57e2584deba622f0c31fbb409b
+# 616d7d573888430d8cdf3502dbc789c0
 msgid "Fired when a new key is down"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard:10
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:35
-# b9b389f1c07b4130848e2d50a6ccca24
-# 65f98e9254414469b1ab01c127d08c56
+# ba8021ac880d4d6688e01998aed2a9ae
+# 244eb798172d4bdd83db6dacfc507ba5
 msgid "Fired when a key is up"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard:12
-# 8d933f19d9b846ad95290c71bf89fbbd
+# be7749cea28e475580c93463066d46c7
 msgid "Here is an example about how to request a Keyboard, according to the current configuration:"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.callback:1
-# 816b0fdded724aa18478f6c607f995dc
+# fc70d1ee1b2b474ab5f4679e5e7cbd1c
 msgid "Callback that will be called when the keyboard is released"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.keycode_to_string:1
-# 544244d0e99b4949a02b695ef52fcd34
+# 6b7d5ead2bf94f7aa8eb02cdebac55f9
 msgid "Convert a keycode number to a string, according to the :data:`Keyboard.keycodes`. If the value is not found inside the keycodes, it will return ''."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.keycodes:1
-# a25f27da7d5e4f688da13b8f4bca709a
+# b283971a3daa48feb61dc59d08fbe921
 msgid "Keycodes mapping, between str <-> int. Theses keycode are currently taken from pygame.key. But when a new provider will be used, it must do the translation to theses keycodes too."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.release:1
-# 77e5e4d96c564be59f59f02684852bb1
+# 2559af00b7f043bda2929edfb378059f
 msgid "Call this method to release the current keyboard. This will ensure that keyboard is not attached to you anymore."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.string_to_keycode:1
-# 98462c21de1947b790d77ebf598e90aa
+# ef32ebd0083a48f79526937aebd63b52
 msgid "Convert a string to a keycode number, according to the :data:`Keyboard.keycodes`. If the value is not found in the keycodes, it will return -1."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.target:1
-# 6de93d8c1ad140fea7c3349b8e5fa98e
+# d2f072f14434484b84d08a8b4fbc269e
 msgid "Target that have requested the keyboard"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.widget:1
-# 19158f85e37d4587b62e1473872408d4
+# b98631ea84d04ff2ba2f08fbc8e95838
 msgid "VKeyboard widget, if allowed by the configuration"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Keyboard.window:1
-# 1caa290a931148c8923c815b2899bc66
+# 802317880ba94f40868d30884e41bb60
 msgid "Window which the keyboard is attached too"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:1
-# b817dcfe21a84dad9b629a77f97d3977
+# 4cac5b0ea91040469ebd512abab59374
 msgid "WindowBase is a abstract window widget, for any window implementation."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:5
-# 8d11680d207f423bae18cf7b1bc940e0
+# 5049b8e8164c4a7aacf3e6dcd4ab3012
 msgid "Make window as fullscreen, check config documentation for more explaination about the values."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:8
-# c4e913a2f3dc4ccd88b9e21e4ef65744
+# d4196555cc664d1d8c6fd4ee28eabea5
 msgid "Width of window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:10
-# 6f6fcef58fa3478eae64f7855a4183aa
+# 17bbfa408a7648d683bb34c4d218608b
 msgid "Height of window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:14
-# c1c75c9f8229401c874fbf11983a926f
+# 9611c9268dba4c6da8e447c236a9f7cc
 msgid "Fired when a new :class:`~kivy.input.motionevent.MotionEvent` is dispatched"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:17
-# 0c03fcf07d2b47619a226c03041887a6
+# 79cebc5ff7a84ccd9017a014b114f1e9
 msgid "Fired when a new touch appear"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:19
-# e8e533b37469437493f038238d53e701
+# 735dd1d3ad214fb8bfd6e8aaa506e5b1
 msgid "Fired when an existing touch is moved"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:21
-# 16bb4edce38f4afb84fa441c379732cf
+# 6154dd947a8746bf9c4e25d9c5250bc7
 msgid "Fired when an existing touch disapear"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:23
-# 1b3239ec369b4edaaa3932c3ecd57c5d
+# 5c46cf8280ae4683b9d47d9b78fcbc9e
 msgid "Fired when the :class:`Window` is beeing drawed"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:25
-# 18a68b6c7a1b40888604eee5f6020316
+# aaa8bf3017b445bd89d7328559b40425
 msgid "Fired when the :class:`Window` GL surface is beeing flipped"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:27
-# e30583624883452ba0f0aaf02a9f518b
+# 3b0b5f6e6cc44ae886576259346b66e6
 msgid "Fired when the :class:`Window` is beeing rotated"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:29
-# a644098c3d7541a282336188bf05da64
+# a30a8f001ba54636ad5a03f8412b1ca0
 msgid "Fired when the :class:`Window` is closed"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:31
-# 7ea0a6795ecf4cb197c01aa828e45ffd
+# 60df217a1d8d49bab08cbdc09f12f8c6
 msgid "Fired when the keyboard is in action"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase:33
-# 5264e44eaa524e99b13afa589cb994b7
+# 8a26548546304d03a9f530c15961613d
 msgid "Fired when a key is down"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.add_widget:1
-# 13183bdac03e48569a739d3bdd3f35dd
+# 6c8d7f8e23744f48b21be209b817fc17
 msgid "Add a widget on window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.center:1
-# 7f0b061b2c45479480172231ef711a5e
+# 8573515cb1214937ab1fada90ac947dc
 msgid "Rotated window center"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.clear:1
-# 707493d4534048029a3e59be33decae1
+# a9d4c3578c9d4471b1716cf6afa29862
 msgid "Clear the window with background color"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.clearcolor:1
-# 50494285b16f402eb96d4b7ab65d0b4f
+# f8d7ba760827453eb5276b61dc8e7f83
 msgid "Color used to clear window::"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.close:1
-# 4427341651ca4cc68f0e8f41dbe4c2ec
+# 7db356154a094c96b5d12c97192f2547
 msgid "Close the window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.create_window:1
-# 417e3022af3c43139ed07a8701261b07
+# c6917904f6274d46914385de402c5db4
 msgid "Will create the main window and configure it."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.create_window:4
-# b9e7234bff024fddb97538d7b6218ac5
+# 406bd380ed034d2e834fe5001b9e0226
 msgid "This method is called automatically at runtime. If you call it, it will recreate a RenderContext and Canvas. This mean you'll have a new graphics tree, and the old one will be unusable."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.create_window:8
-# c68000e5bb604492abc59a36e5564994
+# 5b5031ea38464ed9ad5487d5def352ac
 msgid "This method exist to permit the creation of a new OpenGL context AFTER closing the first one. (Like using runTouchApp() and stopTouchApp())."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.create_window:12
-# 48435ebec0814aa9a802f36e8c314910
+# 943961e3b65444319ca55dae7202e665
 msgid "This method have been only tested in unittest environment, and will be not suitable for Applications."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.create_window:15
-# 8bc534ffca864ff4a8dab25ff705eb42
+# 8a47c4d7a33d4202897eefbdc16279c2
 msgid "Again, don't use this method unless you know exactly what you are doing !"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.flip:1
-# 9b570ac0dbe042c091f98dd64122ed4a
+# ef832dabc5dc42d1ade911b5d3ed49d6
 msgid "Flip between buffers"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.height:1
-# 41d8700d97df41418cd8be74352d65d8
+# 213e847dffd94958810cce3fe5443b5b
 msgid "Rotated window height"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_close:1
-# f0e91066cb5e4ba2a3bfb6942c592e3f
+# 0cda20698dbf426cba161e676a169eb9
 msgid "Event called when the window is closed"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_flip:1
-# f2ddf2aa79f24e46bae10893b448293e
+# fbbc4b43e40643e2b84a3941ee6d4626
 msgid "Flip between buffers (event)"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_key_down:1
-# ff1d1ec0068941e1af72c36ac048b081
+# fe4b703f339a4edaabeb6586f206bd32
 msgid "Event called when a key is down (same arguments as on_keyboard)"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_key_up:1
-# 7ceb31a6ad6c4e04a353d2dda4e88214
+# fdb01617b26c4d6d95a068ccd2c48e76
 msgid "Event called when a key is up (same arguments as on_keyboard)"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_keyboard:1
-# c392aa2ae3ea4a74ad91dfb56fcdd550
+# e6b6af428d4c43f88ff952db7c7e4b33
 msgid "Event called when keyboard is in action"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_keyboard:4
-# 4ed4042c750d43a1b7f3139e87f60ee0
+# 5f92d6ee5edd4a2da48c61179addbec8
 msgid "Some providers may omit `scancode`, `unicode` and/or `modifier`!"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_motion:1
-# 7e15f1ace4404d549aeb22dd38bed682
+# 4a4ee44af9354ea69b5c7c612758615c
 msgid "Event called when a Motion Event is received."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_motion:5
-# 7bd311761586421dbba90928d6875725
+# 8c65bda59fa74e119a216138081ab2c4
 msgid "One of 'begin', 'update', 'end'"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_motion:7
-# 9ca34c5f83994634a6f33f7f71b04c29
+# 46714c5fa7a64b7e8362f5550457e8b1
 msgid "Motion Event currently dispatched"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_mouse_down:1
-# 18c5b02444f64b20ae86466db86bd8a1
+# 4ebd554a099544eb8b30922db6a2a859
 msgid "Event called when mouse is in action (press/release)"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_mouse_move:1
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_mouse_up:1
-# 55267aee917e482e919ac0744a67126d
-# 2ea81a6a1cd346d8b5753c5d978e3ae2
+# db4e5a5e84e0446581e235850abc5666
+# e5c3987c65354e239e5a85ee73bf6cfc
 msgid "Event called when mouse is moving, with buttons pressed"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_resize:1
-# f9fc6e1c1cd24322a9da18886e07753c
+# d8e51f0302724c4f86584c77ec10d50b
 msgid "Event called when the window is resized"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_rotate:1
-# d767e4b5271c4f1282ad005ae697f0ec
+# f5e42d54f1fe41d783c06af605613cf1
 msgid "Event called when the screen have been rotated"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_touch_down:1
-# 893cc1ae7eef408c87498ec6efc4c5cb
+# 40ad30c30ddd42da81939f7fd354b79d
 msgid "Event called when a touch is down"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_touch_move:1
-# cf64550fac0c4bee97c09998595a8f80
+# 15ec4137aef34554a42ba7c4f1f7a501
 msgid "Event called when a touch move"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.on_touch_up:1
-# ea7bc54cbe3f48399d2cdebedd166db6
+# bfc6bb3e191544a0a0440618c487fdd4
 msgid "Event called when a touch up"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.release_all_keyboards:3
-# ea9c064108304f48ac61bc055f51a826
+# c11f85f7f92c4a7a9afd21c7dcfe6150
 msgid "This will ensure that no virtual keyboard / system keyboard are actually requested. All will be closed."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.release_keyboard:3
-# f10d5ccbdcd84acf8d2de2ef8e502421
+# cc938cc10c074b509bbdde7b398e56b4
 msgid "Internal method for widget, to release the real-keyboard. Check :func:`request_keyboard` to understand how it works."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.remove_widget:1
-# 2f94eeb1c7ff4b3abf87920d4c8aed97
+# 9a0063ba7a6d42abaaf2a61ced5b3778
 msgid "Remove a widget from window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.request_keyboard:3
-# ee247e50b4c341ec968f5a1f9230e2bf
+# 49468529af96478e96acdfc88dc7b481
 msgid "Internal method for widget, to request the keyboard. This method is not intented to be used by end-user, however, if you want to use the real-keyboard (not virtual keyboard), you don't want to share it with another widget."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.request_keyboard:8
-# e026dcc8953140babb3fad419e0ff47b
+# b71d2f837aeb4fccbc6f1c63e818eabe
 msgid "A widget can request the keyboard, indicating a callback to call when the keyboard will be released (or taken by another widget)."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.request_keyboard:13
-# b673729f73d74c888fda985554209d10
+# c763f7c4778d4a3b8571525e73931651
 msgid "Callback that will be called when the keyboard is closed. It can be because somebody else requested the keyboard, or if the user itself closed it."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.request_keyboard:17
-# 4aed2cca9c734fe0bb67571064ffd66c
+# f0f1571d22014cbf85696d820441eb78
 msgid "Attach the keyboard to the specified target. Ensure you have a target attached if you're using the keyboard in a multi users mode."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.request_keyboard:22
-# 74d93c09c62449bd8b0eccc331c49f38
+# c47b6b596ef340deaf00cee3c360a229
 msgid "An instance of :class:`Keyboard`, containing the callback, target, and if configuration allowed it, a VKeyboard instance."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.screenshot:1
-# 030a69b9d0e045f3841991845e5d184e
+# 198c271432054907a5249c91a56f1bc7
 msgid "Save the actual displayed image in a file"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.set_icon:1
-# 6edfdc3a7c4544338e7a6d548a8a4382
+# dc1864c900674e648345418a8c19e418
 msgid "Set the icon of the window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.set_title:1
-# f1496e463a0e4b008a45020d1cf1c2d9
+# bac2dccd33b34cc2b50b6ca201afe3ef
 msgid "Set the window title."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.set_vkeyboard_class:3
-# aa44729d04814b898a7441247c289563
+# 95c651770b4c44bdb0d678a12762e47f
 msgid "Set the VKeyboard class to use. If None set, it will use the :class:`kivy.uix.vkeyboard.VKeyboard`."
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.size:1
-# 5fb64319ec5f44899577e61bf6ee1362
+# 918128e8cd374150afdec79f8332676f
 msgid "Rotated size of the window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.system_size:1
-# 3a9c42446cc74cf8bd34843fc583f184
+# da72491aa4b5476db094556cad2f3b84
 msgid "Real size of the window, without taking care of the rotation"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.toggle_fullscreen:1
-# 88fd2a3443e84ee197ab8114318dd1e3
+# f2ba67c68c10488b8c1820ff0432b0c1
 msgid "Toggle fullscreen on window"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.WindowBase.width:1
-# 1df55961511b40448461a7e68433759e
+# 4e662e6f26bb43918d959628073a7be8
 msgid "Rotated window width"
 msgstr ""
 
 #: ../../../kivy/core/window/__init__.py:docstring of kivy.core.window.Window:1
-# c8d1e5e97f954ab3aafb833b3a4eb661
+# a8c6f9bf368e4f0ea6c67c4d8b201092
 msgid "Instance of a :class:`WindowBase` implementation"
 msgstr ""
 
