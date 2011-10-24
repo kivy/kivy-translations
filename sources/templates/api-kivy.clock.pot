@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 1.0.8-dev\n"
+"Project-Id-Version: 1.0.9-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-24 11:50\n"
+"POT-Creation-Date: 2011-10-24 12:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,147 +17,147 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.clock.rst:3
-# 14319d455959435380de24c0fa9a3f49
+# 21a38d64d9994b13bebd04a812c2c59f
 msgid "Clock object"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:2
-# e29f90cf192344c5b8489e0e6cc70459
+# e674a0a1a2b5456bb980d0d6a7417bf2
 msgid "The :class:`Clock` object allows you to schedule a function call in the future; once or on interval. ::"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:19
-# a135d1b588d74d6c8da08ad2651f8634
+# a7c673f25a0640c7a8b52bbbf8fb3de2
 msgid "If the callback returns False, the schedule will be removed."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:22
-# 2d21fd23c94d4174ba7893431da11d3d
+# eb084150029f4e448fbf793bda735754
 msgid "Schedule before frame"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:26
-# 7678c569b6d8425aa4c4859ef6f1220e
+# 7e6a38df473c41588a88844b4c254f94
 msgid "Sometimes you need to schedule a callback BEFORE the next frame. Starting  from 1.0.5, you can use a timeout of -1::"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:32
-# 18ca4f31f1314935b1073de6fa8cc258
+# c2d2db07db084a3abaddfdbe83e808c3
 msgid "The Clock will execute all the callbacks with a timeout of -1 before the next frame, even if you add a new callback with -1 from a running callback.  However, :class:`Clock` has an iteration limit for these callbacks, it defaults  to 10."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:37
-# 69b8c95793814a6eb840835773a27ea4
+# 514686720eb84485a1997d12e24ce876
 msgid "If you schedule a callback that schedules a callback that schedules a .. etc more than 10 times, it will leave the loop and send a warning to the console, then continue after the next frame. This is implemented to prevent bugs from  hanging or crashing the application."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:42
-# 03a7fa7545034f6d8efe879c8a0a2375
+# 2bf92de02a97451b905d543e11c3bc68
 msgid "If you need to increase the limit, set the :data:`max_iteration` property::"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:48
-# ac4bdddb9edc42f482eabf243e6a3118
+# 0691281ad1bf4ec28e38d706809dfef3
 msgid "Triggered Events"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:52
-# 62e379bbfa5842bba15a9ffdcbb349df
+# a592ae2e73974b0aaeeea604af65f746
 msgid "A triggered event is a way to defer a callback exactly like schedule_once(), but with some added convenience. The callback will only be scheduled once per  frame, even if you call the trigger twice (or more). This is not the case  with :func:`Clock.schedule_once` ::"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:66
-# 259df4e778614986902e51b485f50137
+# 3e02a442c1d944bfacdb1d7445a7426d
 msgid "Before triggered events, you may have used this approach in a widget ::"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:72
-# d122f0ca65434146af704ddfdf8e50d4
+# 5a2a46c609424dc7a76ae1aa3b9a465d
 msgid "As soon as you call `trigger_callback()`, it will correctly schedule the callback once in the next frame. It is more convenient to create and bind to  the triggered event than using :func:`Clock.schedule_once` in a function ::"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:88
-# 984a23e07a2a44d69f07152f7add0724
+# f6e02269505b4f179188b9a19141c1b0
 msgid "Even if x and y changes within one frame, the callback is only run once."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock:92
-# 31dd5cdc1fc04612b85aa7d484bf7c31
+# 844ec16b83514f8eb7c130778e0c2ed4
 msgid ":func:`Clock.create_trigger` also has a timeout parameter that behaves  exactly like :func:`Clock.schedule_once`."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.Clock:1
-# 19f8239313ea40a58f7873e6713e79dc
+# 316785a027d6499eb78bcc499898de40
 msgid "Instance of the ClockBase, available for everybody"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 78656997ccd044c3bb72336b85abc453
+# 50e3fa3e0bf14dae82f099f757a3e715
 msgid "Bases: :class:`object`"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase:1
-# 43c7dcd90cf74eeba8d915b7fbc9c7d5
+# 48dad125fac841cbb3f2b97153d8ca82
 msgid "A clock object with event support"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.create_trigger:1
-# 824a174e252145deb5b74b567c837de6
+# 64cf51a6c2744a4e88eb1e88ea08bd7b
 msgid "Create a Trigger event. Check module documentation for more information."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.frametime:1
-# e6cf993a2d734f339fde73aea5e8e502
+# bd9b40f8a0ec413ea48bd888a5d8fcbc
 msgid "Time spent between last frame and current frame (in seconds)"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.get_boottime:1
-# f133e37833f64ee1a9f44124ab202235
+# 69142f08ffd54030bb54bad406895044
 msgid "Get time in seconds from the application start"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.get_fps:1
-# e71520a86fb441919213cf1045e33430
+# b2a0940f5adb4c8d8993cd6ccedc046c
 msgid "Get the current average FPS calculated by the clock"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.get_rfps:1
-# d315fe1b306b43f09d564124af270a79
+# 30f8cbd6632a4236bc92de14959c6888
 msgid "Get the current \"real\" FPS calculated by the clock. This counter reflects the real framerate displayed on the screen."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.get_rfps:4
-# aa200c5aa54143dbb45b3adc5af3ba80
+# 80587dc0fa694bc1bb730fc0a6c0bf73
 msgid "In contrast to get_fps(), this function returns a counter of the number of frames, not an average of frames per second"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.get_time:1
-# af62f7a8dc93487498184ca911f93955
+# 39d4a15198994052a498007f1f5b0352
 msgid "Get the last tick made by the clock"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.schedule_interval:1
-# ed02d122436b4169a708ed73eb892673
+# 249375279ef8485c9913d2c38b1a3b3f
 msgid "Schedule an event to be called every <timeout> seconds"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.schedule_once:1
-# a88877cca174454b9b887da32907d088
+# 2150d95965ac40d088de351dde5376e8
 msgid "Schedule an event in <timeout> seconds."
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.tick:1
-# 354c5e9e496b48d799c6fb5df6282c56
+# 37d26053478046feb080160c14c1d618
 msgid "Advance clock to the next step. Must be called every frame. The default clock have the tick() function called by Kivy"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.tick_draw:1
-# 4756728dc68d4e469168a8902cee690e
+# b17749d30ead4f89b5e65c3a4ceb5669
 msgid "Tick the drawing counter"
 msgstr ""
 
 #: ../../../kivy/clock.py:docstring of kivy.clock.ClockBase.unschedule:1
-# 8d8ad4884e654dc5927483992176c82f
+# f7b44f586b7f43d387f2b846ab22cc8d
 msgid "Remove a previously scheduled event."
 msgstr ""
 
