@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-24 09:42\n"
+"POT-Creation-Date: 2011-10-24 09:59\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,322 +17,322 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.app.rst:3
-# 9f40cc56bc3e41b7887bc94d02b32b38
+# 843bda1ee2e94437b4208ab9aef82620
 msgid "Application"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:2
-# e9d03749c1314877a70b69c6858e3f14
+# 4cbc36c11f6a411dba42addb060740e1
 msgid "The :class:`App` class is the base for creating Kivy applications. Think of it as your main entry point into the Kivy run loop.  In most cases, you subclass this class and make your own app. You create an instance of your specific app class and then, when you are ready to start the application's life cycle, you call your instance's :func:`App.run` method."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:10
-# e84522dc5d3e460991266e3f5c17a286
+# ebd259cc5cb24d17aa237d876f084ba1
 msgid "Creating an Application"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:13
-# 294dd3af2afe459aa3da9fa16f03e4cf
+# b4416cf6aa67432da98a0a62688934e5
 msgid "Method using build() override"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:15
-# b6a0f79969944507ae6220ee7c3c75cf
+# 23d2c3966b7c4095a6ee8f961ec8cd1e
 msgid "To initialize your app with a widget tree, override the build() method in your app class and return the widget tree you constructed."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:18
-# 045a22b2d79346418c6b3192f033d570
+# c3ac56e43b944c12b948c02462d6781a
 msgid "Here's an example of very simple application that just shows a button:"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:23
-# 3d3e8eeae9184632b67213ec445d9b9e
+# e7f484c30e1741f8910d4047db9f8917
 msgid "The file is also available in the examples folder at :file:`kivy/examples/application/app_with_build.py`."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:26
-# bd03f9def8e6444a992420d0f4a42260
+# 30cf0e735aca4118a44b4e840bbc649d
 msgid "Here, no widget tree was constructed (or if you will, a tree with only the root node)."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:31
-# 44b15a917d35453e91f9e14f40a380a1
+# 050daa76bc4c4cd98ec98fa47c4ff6d2
 msgid "Method using kv file"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:33
-# 4f3b73f5c023401394eb4e42e1efd84d
+# e0d43b00e4644c4fb083ef4637385c0c
 msgid "You can also use the :doc:`api-kivy.lang` for creating application. The .kv can contain rules and root widget definitions at the same time. Here is the same example as the Button one in a kv file."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:37
-# 4a566e344758449abafdd7e904f55ef4
+# 231473b1afa449d79f59394b1ff66b7b
 msgid "Contents of 'test.kv':"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:42
-# f1f2cc58bc5746b284cd09339ef92c8e
+# a8760dedb11248caa508d2a763ad9028
 msgid "Contents of 'main.py':"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:47
-# fa309405ff4f4af5aafcea86da92aec7
+# 53454ed5bb5f4fbb9a90b9f66f99b1b0
 msgid "See :file:`kivy/examples/application/app_with_kv.py`."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:49
-# c5d51870ca5a40f3923b1ad22c5b3ef4
+# c42fa760b0854a93874f9f5a5fce9940
 msgid "The relation between main.py and test.kv is explained in :func:`App.load_kv`."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:53
-# ab5ba7bab9d94d78b4c836e8857ca872
+# b65f552a292742c5b5be955813b2c62c
 msgid "Application configuration"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:58
-# deeeffec19534727a9157804d1b2b903
+# f59b380b203e48758bf215873d572863
 msgid "Use the configuration file"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:60
-# 9d39b5f9fd704541b2548d19fe313c9b
+# ba3bda6089934691aa92c6e6dee9756b
 msgid "Your application might want to have his own configuration file. The :class:`App` is able to handle a INI file automatically. You add your section/key/value in the :meth:`App.build_config` method by using the `config` parameters (instance of :class:`~kivy.config.ConfigParser`::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:72
-# 6aefc94185774b47b7099dfbed599138
+# 135ab86112254bcdb0ae7a9f2370e102
 msgid "As soon as you will add one section in the config, a file will be created on the disk, and be named from the mangled name of your class: \"TestApp\" will give a config filename \"test.ini\" with the content::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:80
-# b3187ff96967482180beb461e04de0ae
+# 2586a6b757f84c779852a4d805b1ef31
 msgid "The \"test.ini\" will be automatically loaded at runtime, and you can access to the configuration in your :meth:`App.build` method::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:97
-# 5f2b65900fc34f458a1d05e484733900
+# 9597913bebb843deb55373ede188ed4c
 msgid "Create a settings panel"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:99
-# 43b194cff4cd4876b75690e93322acd5
+# fbd473445b00471b89bf35dbc9cfd93f
 msgid "Your application can have a settings panel to let your user configure some of your config tokens. Here is an example done in the KinectViewer example (available in the examples directory):"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:106
-# e4beed9fd6f0475c9289cec0099f9995
+# b0a5bc2c8c1748dca807dfab965b4763
 msgid "You have the possibility to extends the default application settings with your own panel by extending the :meth:`App.build_settings` method. Check the :class:`~kivy.uix.settings.Settings` about how to create a panel, because you need a JSON file / data first."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:111
-# 2ad2b8d1c98746ed94f3054049472c80
+# 1392cc566e0b440595b3df5498fc3991
 msgid "Let's take as an example the previous snippet of TestApp with custom config. We could create a JSON like this::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:132
-# 4bc9dbb4bca14b75a2f2b0657b121773
+# 9cddf3230b3441b181e542ed491534aa
 msgid "Then, we can create a panel using this JSON to create automatically all the options, and link them to our :data:`App.config` ConfigParser instance::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:142
-# eb9167e7231848e8acc5435b6b242f3c
+# 0a51917896c04688aab9f46d614cadec
 msgid "That's all ! Now you can press F1 (default keystroke) for toggle the settings panel, or press the \"settings\" key on your android device. You can manually call :meth:`App.open_settings` and :meth:`App.close_settings` if you want. Every changes in the panel are automatically saved in the config file."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:147
-# 73e379c8e62045d08b9f2d836038fc54
+# 69c7086af66344d481cf5e1c0f9bb90e
 msgid "However, you might want to know when a config value have been changed by the user, in order to adapt or reload your UI. You can overload the :meth:`on_config_change` method::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app:161
-# f5861598bf83478c8dc682c04f9be661
+# a478de58edae4782a674f95006b51a5e
 msgid "One last note, the Kivy configuration panel is added by default in the settings instance. If you don't want it, you can declare your Application like this::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 456f78d17894420987bd2eef46e33618
+# c581b4614d9d4ae7b59bb4b9bbd49a8c
 msgid "Bases: :class:`kivy.event.EventDispatcher`"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App:1
-# c427665baeda47a8829f3e94cdb1a379
+# bcd5052bce3e4ed2bbfc45c5972973f0
 msgid "Application class, see module documentation for more information."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App:5
-# 0f4ced3e073344c2922f685a9d3ffa8a
+# 49f9af1457e049589f64daebc4d877d8
 msgid "Fired when the application is being started (before the :func:`~kivy.base.runTouchApp` call."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App:8
-# 9af3697f89de4c9091b3de64c5b8be28
+# 97986c04668246268c52cf06ac78bc2f
 msgid "Fired when the application stops."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App:12
-# 64ba3ee3815d4ee5add66300781a948a
+# d5bf43b191b4419fa754b5da44281f24
 msgid "If a kv_directory is set, it will be used to get the initial kv file. By default, the file is searched in the same directory as the current App definition file."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.build:1
-# 53fd54c0624d4478a298d6b78cfdae97
+# 6c9fa17d59204a5897ec2f4212e54db0
 msgid "Initializes the application; will be called only once. If this method returns a widget (tree), it will be used as the root widget and added to the window."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.build_config:3
-# 56ce959808f849ba855dfb5819e2360c
+# a2f73f99fecd4b7c8ec405ab7ac1f921
 msgid "This method is called before the application is initialized to construct your :class:`~kivy.config.ConfigParser` object. This is where you can put any default section / key / value for your config. If anything is set, the configuration will be automatically saved in the file returned by :meth:`get_application_config`."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.build_settings:3
-# 4d1e67fbba074a72905e4e57d1941f1a
+# f141798ef67746be954afcdb56260900
 msgid "This method is called when the user (or you) want to show the application settings. This will be called only once, the first time when the user will show the settings."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.close_settings:1
-# 6de0222966fa406fb973f15d39bb7816
+# a13416a6e82841c9acf217b24d7dec9a
 msgid "Close the previously opened settings panel."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.config:1
-# 26aae9d8eec94435a20f0dd23203db94
+# c13c75d989ff459fb83006f2cef8fe90
 msgid "Instance to the :class:`~kivy.config.ConfigParser` of the application configuration. Can be used to query some config token in the build()"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.directory:3
-# 4e5f7b89f0104a389c103940400084a5
+# 9128e8bc38a845818c1037f34c971c60
 msgid "Return the directory where the application live"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.get_application_config:3
-# 3563d4d7157f4c5ea9e7976aa1cf3e77
+# 0aca1294b0ba43c88aee8e50c201a1a0
 msgid "Return the filename of your application configuration"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.get_application_icon:1
-# 5f601cea97564c5b98287ef419e75636
+# f13535e97a66437b8dd58caa1dc4bf16
 msgid "Return the icon of the application."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.get_application_name:1
-# 33272d1298784899957f65ab6d504571
+# 5021a414ed204576909fcb6276a076f2
 msgid "Return the name of the application."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.icon:3
-# c64cf10de0b744798046bdcccbf37240
+# ebc8bc8bd63e4c8c8e53e3353199b042
 msgid "Icon of your application. You can set by doing::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.icon:8
-# d4d2ba09db174b519ac50bf5ab450009
+# 748e58fbca5d45a1acd9b1930317556b
 msgid "The icon can be located in the same directory as your main file."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_config:1
-# ef86bb6485fb4b19a5e8923c441ffe53
+# 458bafd99d4245dda33e154ee9d0b052
 msgid "(internal) This function is used for returning a ConfigParser with the application configuration. It's doing 3 things:"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_config:4
-# 3a9c7aad0e564483b257656a075651b8
+# 63b85ee6b6fd4828885d0f524522262e
 msgid "Create an instance of a ConfigParser"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_config:5
-# e387fef6435a4b1ba645b871784500e4
+# 9df74872fbd84a2e9c93936b4635f0f6
 msgid "Load the default configuration by calling :meth:`build_config`, then"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_config:7
-# 05d36872659e406b926c5eff8d40e5c4
+# 6e080ba05a6c45388206e4eea0ddc16e
 msgid "If exist, load the application configuration file, or create it if it's not existing."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_kv:1
-# 0696687e97524059b742ca51fd96cd5c
+# da771ac10d8f4905a90e14b8d64a6909
 msgid "This method is invoked the first time the app is being run if no widget tree has been constructed before for this app. This method then looks for a matching kv file in the same directory as the file that contains the application class."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_kv:6
-# 9eb08c7f98b848f3a20b2defecec2225
+# 0b84cf0b28c84eb0840f7dd9b0ad513b
 msgid "For example, if you have a file named main.py that contains::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_kv:11
-# cb7a82d886964f95a7755f74e8fc7c0f
+# 2baadc113bef4cf69c6730daf4a0d34c
 msgid "This method will search for a file named `showcase.kv` in the directory that contains main.py. The name of the kv file has to be the lowercase name of the class, without the 'App' postfix at the end if it exists."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_kv:16
-# 8a661ca327cf4a0cb443f6ffa06854a7
+# 01b05e3772ae42a3a62bea157127a2ac
 msgid "You can define rules and a root widget in your kv file::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.load_kv:24
-# 4fa9bc7a59ac4dd79c66b08ecd0b9c91
+# 9d591b56e9cd4c119c4e8b529ebd9dc9
 msgid "There must be only one root widget. See the :doc:`api-kivy.lang` documentation for more information on how to create kv files. If your kv file contains a root widget, it will be used as self.root, the root widget for the application."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.name:3
-# a15bb8dc689a49ffbc34c58a6b313d95
+# 6133b481c1da418dab0461013f618aa6
 msgid "Return the name of the application, based on the class name"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.on_config_change:1
-# 36ef293ce29c4bcc9071cd4ae2f1f7c6
+# ed74949b40f44049ac34a14ce779a2d9
 msgid "Event handler fired when one configuration token have been changed by the settings page."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.on_start:1
-# 24ad7006e83a41a6a97674ab4b20ac72
+# aded758568af4f1dab8fca7e9c7e9599
 msgid "Event handler for the on_start event, which is fired after initialization (after build() has been called), and before the application is being run."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.on_stop:1
-# 4c5d5f219b434a5fb4301b9b0b913e30
+# 87b6fc0b216d490785f7e41daa58480a
 msgid "Event handler for the on_stop event, which is fired when the application has finished running (e.g. the window is about to be closed)."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.open_settings:1
-# 1c0d193090cc49d9b0b9606619cef4c0
+# 1ce8c2807b704d65b9654ae1e882dc87
 msgid "Open the application settings panel. It will be created the very first time. Then the settings panel will be added to the Window attached to your application (automatically done by :meth:`run`)"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.options:1
-# 693f285e23724dfcbf4b5f45467b0dd0
+# 2e025faa38be44d383dc87083a23f2b7
 msgid "Options passed to the __init__ of the App"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.root:1
-# 62c40f37f02c4e10bc31e990578950e6
+# e16101cae0904ade9afb45956655db68
 msgid "Root widget set by the :func:`build` method or by the :func:`load_kv` method if the kv file contains a root widget."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.run:1
-# c5558a4ee5534c01b0084a199b687d69
+# 54ac549cfd2543e0b8131924b77b91f6
 msgid "Launches the app in standalone mode."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.stop:1
-# b4cf6db295e64f7ba364f32e80054845
+# a96bc9bbabfd41608fa6fed58467563a
 msgid "Stop the application."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.stop:3
-# dcc3b0e504a04bea9e8927f409a2c90a
+# e705ea0f31454385ae39e09744d03438
 msgid "If you use this method, the whole application will stop by issuing a call to :func:`~kivy.base.stopTouchApp`."
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.title:3
-# 5b72566c6edf4123a49220817cb8faf8
+# 2995cb0bea23429098cd02b943a98b16
 msgid "Title of your application. You can set by doing::"
 msgstr ""
 
 #: ../../../kivy/app.py:docstring of kivy.app.App.use_kivy_settings:3
-# 92799debe85c45f2b81db66e64f1673d
+# e62640fe8c87452cbdfd5c972bb68d28
 msgid "If True, the application settings will include also the Kivy settings. If you don't want the user to change any kivy settings from your settings UI, change this to False."
 msgstr ""
 
