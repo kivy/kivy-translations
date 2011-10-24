@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0.8-dev\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2011-10-24 09:59\n"
+"POT-Creation-Date: 2011-10-24 10:07\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,217 +17,217 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../sources/api-kivy.uix.scrollview.rst:3
-# 775c9c4a68bb42afbf17a6593cb9f351
+# 6f201a6945a9405591c50ea2d25a46ab
 msgid "Scroll View"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:4
-# 7e1840424734492db9fb047798b285cd
+# b303974431284c3b9bd480d5704370c0
 msgid "The :class:`ScrollView` widget provides a scrollable/pannable viewport that is clipped at the ScrollViews bounding box."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:8
-# 0402cf4649404dca8b5802fc027f2556
+# e0c711fa730f4aa8803f44ac590ee771
 msgid "Scrolling behavior"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:10
-# c96dc22947054fae9a3d0f3b0af68875
+# f820679a608b46dabe2d624bbcd6a2f4
 msgid "The ScrollView accepts only one child, and controls a viewport/window to it according to the :data:`scroll_x` and :data:`scroll_y` properties. Touches are analyzed to determine if the user wants to scroll or control the child - you cannot do both at the same time. To determine if interaction is a scrolling gesture, these properties are used:"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:16
-# c9307de12a754ec59774fc881010eaaf
+# 87dd654c2e844903b2cf1561b4d511ef
 msgid ":data:`ScrollView.scroll_distance` a minimum distance to travel, default to 20 pixels."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:18
-# de0069e34128405990dc19fe6b63afe8
+# 44c80a0d14ef4b429ee54acf652ef5f5
 msgid ":data:`ScrollView.scroll_timeout` a maximum time period, default to 250 milliseconds."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:21
-# 6d0f55b3d909404c99e0a2b0d2799d30
+# 6dc8a9454e6c474db396e057cd5d5327
 msgid "If a touch travels :data:`~ScrollView.scroll_distance` pixels within the :data:`~ScrollView.scroll_timeout` period, it is recognized as a scrolling gesture and translatation (scroll/pan) will begin. If the timeout occurs, the touch down event is dispatched to the child instead (no translation)."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:27
-# b4d80fba4c004b32a90184e31ffab4ff
+# a05cd8c89aac4f0a8905b28233f117b7
 msgid "Limiting to X or Y axis"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:29
-# 3e77dd7bbafc4492984328afd3c9780d
+# ea4b948808024fd6942b451d843097ca
 msgid "By default, the ScrollView allows scrolling both the X and Y axis. You can explicitly disable scrolling on one of the axis by setting :data:`ScrollView.do_scroll_x` or :data:`ScrollView.do_scroll_y` to False."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:34
-# f29ae0cdf7694a328b15cbf130811654
+# 9dac2d6625204b11941c16cc0854312f
 msgid "Managing the content size"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:36
-# f127bdf4a8434329afa1fc7ccf3171db
+# 9e6863d1188343f287704f209c546c6e
 msgid "The ScrollView manages the position of the child content, not the size. You must carefully specify the :data:`ScrollView.size_hint` property to get the desired scroll/pan effect."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:40
-# 47ca9c4a92a641fbb02083acac351c89
+# 0a416bc372f644f4b668c7e2ffdc6b2d
 msgid "By default, size_hint is (1, 1), so the content size will fit your ScrollView exactly (you will have nothing to scroll). You must deactivate at least one of the size_hint (x or y) of the child to enable scrolling."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:44
-# 831233f1ebef418989f77c51d1e505ff
+# 7fc91bb11a544388b90cd4e10a4a6488
 msgid "To scroll a :class:`GridLayout` on Y-axis/vertically, set the child's width identical to that of the ScrollView (size_hint_x=1, default), and set the size_hint_y property to None ::"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:56
-# a7bce2bbd32946e48d73f2bcd1850a89
+# a261fdcf11a844518880af73df83d516
 msgid "Controlling timeout, distance and trigger"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:60
-# 61bc029df50e4c58bb8b11ecf34d9bca
+# b5550c7d8dc048d1b60b1321d11fe9ca
 msgid "In your configuration file, you can some default values for this widget::"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview:67
-# 98cd8fb401be4c90b00d611c3dafed3c
+# 44759d432df84e5bad1c694643d2e660
 msgid "If you want to reduce the default timeout, you can set::"
 msgstr ""
 
 #: ../../<autodoc>:1
-# 025edbda43e6430db2c728b6053decf7
+# 03d31ab6dd074bafbde05334a73a77bc
 msgid "Bases: :class:`kivy.uix.stencilview.StencilView`"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView:1
-# cd8016ba3d6d41e2b2d1482b0b9e61e2
+# 5978a5b06f9f4da4a60afb9db871c4a8
 msgid "ScrollView class. See module documentation for more information."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.auto_scroll:1
-# 91791ccc4aa644ce86b1fe82402fdc86
+# bb1835b5a5b54e048c59d5f4e642771e
 msgid "Automatic scrolling is the movement activated after a swipe. When you release a touch, it will start to move the list, according to the lastest touch movement. If you don't want that behavior, just set the auto_scroll to False."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.auto_scroll:6
-# ee9b4e161cea4294b06a904d5bd7e60c
+# d96db98a57684097b0da7829bab68182
 msgid ":data:`auto_scroll` is a :class:`~kivy.properties.BooleanProperty`, default to True"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.convert_distance_to_scroll:1
-# 67990113cc6644739bff0de6146e9871
+# deefa9813aed45fc8ce81f4e15cf2e9b
 msgid "Convert a distance in pixel to a scroll distance, depending of the content size and the scrollview size."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.convert_distance_to_scroll:4
-# 9216940f819b4c0b9b1f1cd266296fee
+# ff9401d96e1247cfaa74fc8f8bdd6f74
 msgid "The result will be a tuple of scroll distance, that can be added to :data:`scroll_x` and :data:`scroll_y`"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.do_scroll:1
-# 177414ff5b274389bcc32be9f6224963
+# a2227e35bda94128b53e522086ea8c3c
 msgid "Allow scroll on X or Y axis"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.do_scroll:3
-# 09965f4b22e24a219f143f39eb86aa20
+# b1641c7886b14cd482496579f4d03764
 msgid ":data:`do_scroll` is a :class:`~kivy.properties.AliasProperty` of (:data:`do_scroll_x` + :data:`do_scroll_y`)"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.do_scroll_x:1
-# 067adbc686f642f28ead54f324df5860
+# bb99c06536b54fc18a69a6c4d225a86d
 msgid "Allow scroll on X axis"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.do_scroll_x:3
-# 11e9fd5e760a4e5aa604943c663216cc
+# 685d7dd485f04eeda1c79c2f212be065
 msgid ":data:`do_scroll_x` is a :class:`~kivy.properties.BooleanProperty`, default to True."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.do_scroll_y:1
-# 2dcb479f265b4f858473ac243ec43066
+# 91d69dd934a346a58f1743005be2b084
 msgid "Allow scroll on Y axis"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.do_scroll_y:3
-# b71cf7a26b2d4ee79d12a6a8c22816db
+# 66e03629d11142b0849dec09f6d8ac3e
 msgid ":data:`do_scroll_y` is a :class:`~kivy.properties.BooleanProperty`, default to True."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_distance:1
-# cee89a0794e44ec8b3cb1d39ce60d77f
+# ed95483fb61c461abf28d58a50d29719
 msgid "Distance to move before scrolling the :class:`ScrollView`, in pixels. As soon as the distance have been traveled, the :class:`ScrollView` will start to scroll, and no touch event will go to children."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_distance:5
-# f13e7b2f19de4e84bc321d09fc36d42e
+# 92654c3f9af947a88bad0cc33624fc34
 msgid ":data:`scroll_distance` is a :class:`~kivy.properties.NumericProperty`, default to 20 (pixels), according to the default value in user configuration."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_friction:1
-# 8991c05615c743a2a2e7e31e71a30961
+# ffbf929fcee543178defba99c9f2fba8
 msgid "Friction is a factor for reducing the scrolling when the list is not moved by a touch. When you do a swipe, the movement speed is calculated, and is used to move automatically the list when you touch up. The speed is reducing from this equation::"
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_friction:10
-# a101e464455c40f596020dbeec5d6b5b
+# 8b0d7423b5bc40a38a097296064bdaad
 msgid "By default, the friction factor is 1, it will reduce the speed by a factor or 2 each seconds. If you set the friction to 0, the list speed will never stop. If you set to a bigger value, the list movement will stop faster."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_friction:14
-# 4b4c4798c1114eb2ba263ef72b4c77f9
+# 3b0ad00808ef45b7a79a43b1bd2c236d
 msgid ":data:`scroll_friction` is a :class:`~kivy.properties.NumericProperty`, default to 1, according to the default value in user configuration."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_timeout:1
-# 7d55910ec2444775b5804e96288cbff1
+# 8f79914ac7f445409e74724dbd86e80b
 msgid "Timeout allowed to trigger the :data:`scroll_distance`, in milliseconds. If the timeout is reach, the scrolling will be disabled, and the touch event will go to the children."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_timeout:5
-# 3f8ae118acb54e62ad4c14f927540b75
+# 47b2ea9b9d874a3f8339fb7abfeef7b0
 msgid ":data:`scroll_timeout` is a :class:`~kivy.properties.NumericProperty`, default to 250 (milliseconds), according to the default value in user configuration."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_x:1
-# c3ab5902aab3437b912666149dfa79dd
+# 6650ebc02be64a0cbad30ce2869c998b
 msgid "X scrolling value, between 0 and 1. If 0, the content's left side will touch the left side of the ScrollView. If 1, the content's right side will touch the right side."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_x:5
-# dad29ab5b26a43b8955e5d0eaf1a6818
+# 48bd7bc3b50d491e80d91636f679932e
 msgid "This property is controled by :class:`ScrollView` only if :data:`do_scroll_x` is True."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_x:8
-# 0c82ac50851540d6abed4d0462491b5f
+# c4ebc54a6e044191bda5424c54b78c7e
 msgid ":data:`scroll_x` is a :class:`~kivy.properties.NumericProperty`, default to 0."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_y:1
-# 82ba206ba35c48da9b9802cb3cc0b99e
+# 8cf7bd09a96a41f594f06911f045a856
 msgid "Y scrolling value, between 0 and 1. If 0, the content's bottom side will touch the bottom side of the ScrollView. If 1, the content's top side will touch the top side."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_y:5
-# da45f34aa6924935a5ea91c386012fd1
+# a6573c528e504569b263c6f31be1fd25
 msgid "This property is controled by :class:`ScrollView` only if :data:`do_scroll_y` is True."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.scroll_y:8
-# 1466f43188994e6281e4b095666489c9
+# df59cfe912d74f0a8ad225658a08bf10
 msgid ":data:`scroll_y` is a :class:`~kivy.properties.NumericProperty`, default to 1."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.update_from_scroll:1
-# 4a1e598651cd42ebafbf8c9033036daa
+# b3ee4725471446d394d8b5bc7eb04121
 msgid "Force the reposition of the content, according to current value of :data:`scroll_x` and :data:`scroll_y`."
 msgstr ""
 
 #: ../../../kivy/uix/scrollview.py:docstring of kivy.uix.scrollview.ScrollView.update_from_scroll:4
-# 2615dc2d9ea34ee297af5f265ebe712b
+# 02e4216e869a4ebfa0789e50161a71f5
 msgid "This method is automatically called when one of the :data:`scroll_x`, :data:`scroll_y`, :data:`pos` or :data:`size` properties change, or if the size of the content changes."
 msgstr ""
 
